@@ -1,0 +1,10 @@
+# local backups and build output contain game data — never commit
+_backup/
+_work/
+*.po
+*.pck
+*.exe
+override.cfg
+override.cfg.bak
+__pycache__/
+*.pyc
