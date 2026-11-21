@@ -1,6 +1,13 @@
 [
  {
   "ctxt": "",
+  "en": "Copy Save String to Clipboard",
+  "zh": "将存档字符串复制到剪贴板",
+  "reason": "漏译：缺少“存档”，与原文 Save String 不符",
+  "reason_en": "Omission: '存档' (Save) missing from the Save String"
+ },
+ {
+  "ctxt": "",
   "en": "{Value:cond:<0?|>=0?+}{Value:intervaltime:} {LocalContext.Recipe.DisplayName} interval",
   "zh": "{Value:cond:<0?|>=0?+}{Value:intervaltime:} {LocalContext.Recipe.DisplayName}间隔",
   "reason": "读不通：「+0.5秒铁矿石的间隔」数值与名称粘连",
@@ -513,9 +520,9 @@
  {
   "ctxt": "",
   "en": "[color=#E9DFC1]Unlocks an extra [color=#FFD16D]Toolbelt Slot[/color] for this Skill[/color]",
-  "zh": "[color=#E9DFC1]为该技能[/color]解锁额外的[color=#FFD16D]工具带栏位[/color]",
-  "reason": "Toolbelt 术语为工具带",
-  "reason_en": "Terminology: Toolbelt is 工具带 (tool belt)."
+  "zh": "[color=#E9DFC1]为该技能解锁一个额外的[color=#FFD16D]工具带栏位[/color][/color]",
+  "reason": "颜色标签嵌套与原文一致；Toolbelt 统一为工具带",
+  "reason_en": "Color tag nesting now matches the English; Toolbelt unified as 工具带 (tool belt)."
  },
  {
   "ctxt": "",
@@ -680,6 +687,13 @@
  },
  {
   "ctxt": "",
+  "en": "Grants entry to Agility Arenas. One is consumed per course start.",
+  "zh": "允许进入灵巧竞技场。每开始一条路线，消耗一张。",
+  "reason": "翻译腔：“课程”不自然，指竞技场路线",
+  "reason_en": "Calque: '课程' (class course) is unnatural for an arena route"
+ },
+ {
+  "ctxt": "",
   "en": "Lemon",
   "zh": "柠檬",
   "reason": "误译：Lemon 是柠檬（与苹果/香蕉等水果并列），非「菜鸟」",
@@ -768,6 +782,13 @@
   "zh": "大哥布林锻造手套",
   "reason": "术语不一致：Hob=大哥布林（Hobgolbin 译大哥布林），「地精」未在别处使用",
   "reason_en": "Inconsistent terminology: Hob = 大哥布林 (Hobgoblin is translated as 大哥布林); 地精 (gnome/goblin) is not used elsewhere."
+ },
+ {
+  "ctxt": "",
+  "en": "Maybe you should repair this in Smithing.",
+  "zh": "也许你该在锻造中修复这个。",
+  "reason": "翻译腔：“在锻造的地方修复”别扭",
+  "reason_en": "Calque: '在锻造的地方' is awkward"
  },
  {
   "ctxt": "",
@@ -925,6 +946,13 @@
  },
  {
   "ctxt": "",
+  "en": "The stars suggest drying your firewood before complaining that it won't burn.",
+  "zh": "群星建议你，先把柴晾干，再来抱怨它点不着。",
+  "reason": "翻译腔：长状语堆在句首，语序不顺",
+  "reason_en": "Calque: long clause stacked up front, awkward order"
+ },
+ {
+  "ctxt": "",
   "en": "Crescent Lake of Iridan",
   "zh": "艾丽丹的月牙湖",
   "reason": "名称不一致：Crescent Lake 官方战斗区域译名为月牙湖",
@@ -1030,6 +1058,41 @@
  },
  {
   "ctxt": "",
+  "en": "Half of Azamire, and a bit from every nearby town, too. If I don't find a way to get some fresh produce, I might have to start turning folks away.",
+  "zh": "阿扎米尔一半的人都来了，附近镇子的人也不少。如果找不到新鲜食材，我恐怕只能闭门谢客了。",
+  "reason": "翻译腔：「不仅仅是…还有…」",
+  "reason_en": "Translationese: 'not only half of Azamire... but also...'"
+ },
+ {
+  "ctxt": "",
+  "en": "Lira has Rowan and a few customers help haul out a large stew pot which has been filled with all sorts of hearty vegetables, meats, and a dizzying blend of spices that begins to make your mouth water as the pot slowly begins to bubble. As you wait, Lira is true to her word, and you rarely find your tankards less than half full.\\n\\nAfter a couple hours of waiting and a few last dashes of several spices, Lira declares her creation finished. Bowls are distributed and a line quickly forms, everyone eagerly waiting to eat their fill. You enjoy yourself as the tavern becomes more rowdy through the night. Before you know it, you find yourself passed out by the fire, and the tavern mostly empty.\\n\\nThat was a good night.",
+  "zh": "在罗文和几位顾客的帮助下，利拉搬出了一口大炖锅。锅里装满了各种蔬菜和肉类，还有各种各样的香料。锅里的汤汁开始慢慢沸腾，让人直流口水。你在等的时候，利拉说话算数，你的酒杯几乎从没低于半杯。\\n\\n经过几个小时的等待，锅里又加了几种香料，利拉宣布说菜做好了。大家拿着分发的碗，快速排起长队，迫不及待地想要大饱口福。夜深了，酒馆变得更加热闹，你尽情享受。不知不觉，你在炉火边昏昏睡去，酒馆也快没人了。\\n\\n真是个美好的夜晚。",
+  "reason": "前后矛盾（始终满又说没少于半杯），原文是 rarely less than half full",
+  "reason_en": "Self-contradictory wording; the original says rarely less than half full (misread, fixed in passing)"
+ },
+ {
+  "ctxt": "",
+  "en": "Gol pats his stomach expectantly as you walk back towards a somewhat relieved Hapren. He gives you a thumbs up and scurries off, leaving you to deal with Gol yourself.",
+  "zh": "戈尔期待地拍着肚子，你转身走回松了一口气的哈普伦身边。他朝你竖起大拇指，然后匆匆溜走，把戈尔留给你一个人应付。",
+  "reason": "语序/主谓不清：谁松了口气、谁拍肚子、谁竖拇指读不清",
+  "reason_en": "Unclear subjects/word order: who relaxed, who patted the belly, who gave the thumbs up"
+ },
+ {
+  "ctxt": "",
+  "en": "Some steel for the heads, and willow logs for the shafts should be plenty strong enough.",
+  "zh": "用钢铁做头，用柳木做柄，应该足够结实了。",
+  "reason": "「都结实了」不通顺",
+  "reason_en": "'都结实了' reads awkwardly (should be strong enough)"
+ },
+ {
+  "ctxt": "",
+  "en": "Sweat pours down your brow as a cart pulled behind a large star-nosed mole the crew has affectionately named 'Moley' swings by.\\nThe crew loads up the rubble you've broken down as you swing your pickaxe once again. But, instead of the typical smack and shock of resistance you're used to when mining, this time, your tool goes THROUGH the rock. A small, unlit cavern lays in front of you. Just as you call out, the clean-up crew crowds around you, yelling about 'rocks and stones,' whatever that means. Shortly after, you're joined by Whudgrath and Morlin, who filter into the cave and immediately start inspecting a large circular door carved into the wall",
+  "zh": "汗水从你的额头流下来，这时一辆大车从你身边经过。拉这辆大车的是一只巨大的星鼻鼹，大家都亲昵地叫它‘莫利’。\\n你凿碎的碎石被装上车，而你再次挥动手中的镐头。但这一次，你没感到平时采矿那种撞上硬物的反震，镐头直接穿透了岩石。一个昏暗的小洞穴出现在你面前。你叫了一声，清理的人都围了上来，嘴里喊着‘岩石和石头’之类的话。不一会儿，伍德格拉斯和莫林也来了。他们进入洞穴，立马开始仔细观察洞壁上的一扇圆形大门。",
+  "reason": "翻译腔：「产生冲击」读不通",
+  "reason_en": "Translationese: '产生冲击' is hard to parse"
+ },
+ {
+  "ctxt": "",
   "en": "Morlin flicks his hands, and a leaf of paper floats out of his pack and hangs in the air. You can see something already written on it... \\\"Blindfold, velvet rope, three wheels of cheese...\\\" But Morlin flicks his hands again and another-blank this time-leaf is produced, while the other immediately combusts. \\n\\nWords form from nothing, and then the paper floats into your hands. You want to ask about the other list, but decide against it.",
   "zh": "莫林挥了挥手，一张纸从他的包裹里飞出来，飘在空中。你可以看到纸上写着……“蒙眼布、天鹅绒绳、三块奶酪……”但莫林又挥了挥手，那张纸瞬间烧成灰烬，出现了另一张空白的纸。\\n\\n纸上的字慢慢浮现，然后飘落到你手里。你想问问那份清单，但最后还是算了。",
   "reason": "恢复原文分段；修正错字“灰经”",
@@ -1038,9 +1101,9 @@
  {
   "ctxt": "",
   "en": "You are guided down into the dimly lit tunnel as dwarves gather around excitedly, seeing what Morlin has in store. The old wizard gladly takes the runes from you and begins focusing very deeply...\\n\\nEveryone holds their breath while he works, moving his hands in esoteric swirls and patterns until suddenly, the man... sneezes. But then! With a crack and a flash that bathes the room in cold blue light, a veil of magic slowly rolls off the door and evaporates into the air. Morlin warns everyone not to breathe in the cursed air, and as folks duck and cover their faces with clothes and pulled up shirts, he laughs and swats the air, exclaiming that there's no such thing.\\n\\nYou hold back the urge to take a pickaxe from the wall and stick it into his back as the door slowly rolls into the side of the wall, revealing... a long, cold hallway lined with suits of armor in remarkable condition. At the feet of these, many offerings were laid out ages ago. Withered flowers and fruits have light stains in the stone, almost completely missed because of the small piles of gems, coins, and other small treasures laid out.\\n\\nEveryone is quite pleased by the discovery, as the immediate payoff is overshadowed by the looming question: What more could lay further below?",
-  "zh": "你被带入一条昏暗的隧道，矮人们兴奋地围过来，想看看莫林准备了什么。老巫师欣然接过你手里的符文，开始全神贯注……\\n\\n在他施法时，大家屏住呼吸，看他的双手划出神秘的轨迹和图案。突然，他……打了个喷嚏。接下来！出现一声爆裂响和一道闪光。清冷的蓝光照着四周，一层魔法屏障从门上慢慢落下，消失在空中。莫林提醒大家不要呼吸被诅咒的空气。当大家纷纷躲避并用衣服遮脸时，他笑了起来，挥手驱散空气，说根本就没有诅咒。\\n\\n你真想取下墙上的镐头，捅进他的后背，但你忍住了。这时，那扇门慢慢滑入墙的一侧，露出了……一条又长又冷的走廊。走廊两边有几套保存完好的盔甲。在盔甲的下面，有许多很久以前留下的祭品。枯萎的花朵和水果在石头上留下了淡淡的痕迹。如果没有那些散落的宝石、钱币和其他小财宝，这些痕迹根本不会被发现。\\n\\n看到这些，大家都很高兴。但比起眼前的这些，大家不禁在想：再往里走，还有什么呢？",
-  "reason": "错字：又长又阴→又长又冷（英文 long, cold hallway）",
-  "reason_en": "Typo: 又长又阴 (long and gloomy) changed to 又长又冷 (long and cold), matching the English \"long, cold hallway\"."
+  "zh": "你被带入一条昏暗的隧道，矮人们兴奋地围过来，想看看莫林准备了什么。老巫师欣然接过你手里的符文，开始全神贯注……\\n\\n在他施法时，大家屏住呼吸，看他的双手划出神秘的轨迹和图案。突然，他……打了个喷嚏。接着！随着一声脆响和一道闪光，冷冷的蓝光洒满整个房间，一层魔法屏障从门上缓缓滑落，消散在空气中。莫林提醒大家不要呼吸被诅咒的空气。当大家纷纷躲避并用衣服遮脸时，他笑了起来，挥手驱散空气，说根本就没有诅咒。\\n\\n你真想取下墙上的镐头，捅进他的后背，但你忍住了。这时，那扇门慢慢滑入墙的一侧，露出了……一条又长又冷的走廊。走廊两边有几套保存完好的盔甲。在盔甲的下面，有许多很久以前留下的祭品。枯萎的花朵和水果在石头上留下了淡淡的痕迹。如果没有那些散落的宝石、钱币和其他小财宝，这些痕迹根本不会被发现。\\n\\n看到这些，大家都很高兴。但比起眼前的这些，大家不禁在想：再往里走，还有什么呢？",
+  "reason": "语句生硬：「出现一声爆裂响」",
+  "reason_en": "Stiff phrasing: '出现一声爆裂响'"
  },
  {
   "ctxt": "",
@@ -1058,10 +1121,38 @@
  },
  {
   "ctxt": "",
+  "en": "You and Magnavous were rushed out of Lira's tavern as you talked and found yourself on the porch. Through the window, Lira continues to give you concerned glances, worried she'll have to fix up the front of her establishment. You usher her away from the building, and ask her to practice in a small glade near town, and that you'll come with some air runes as soon as you can.",
+  "zh": "你和麦格纳沃斯边说边被匆匆赶出利拉的酒馆，来到了门廊上。透过窗户，利拉一直担忧地看着你，担心自己要修缮店面。你示意她离开酒馆，让她去镇子附近的小空地练习，说你会尽快带着大气符文去找她。",
+  "reason": "「被赶出…被赶到」重复，被动句累赘",
+  "reason_en": "Redundant passive: 'driven out... driven to'"
+ },
+ {
+  "ctxt": "",
+  "en": "Hmm... But starting small would take more runes, and I can't just ask you to fetch me some every time I want to cast a spell.",
+  "zh": "嗯……但从小处练起会用掉更多符文，我总不能每次施法都找你要吧。",
+  "reason": "翻译腔，「开始的动静小，就要更多」读不顺",
+  "reason_en": "Translationese; the clause about starting small needing more runes reads clumsily"
+ },
+ {
+  "ctxt": "",
   "en": "He's a master of the arcane, has felled countless beasts and has unearthed some of the most powerful relics ever found...",
   "zh": "他是位奥术大师，打败过无数野兽，还发掘了一些最强大的遗物。",
   "reason": "误译：most powerful relics 译成“最有影响力”→“最强大”",
   "reason_en": "Mistranslation: \"most powerful relics\" was translated as 最有影响力 (most influential); changed to 最强大 (most powerful)."
+ },
+ {
+  "ctxt": "",
+  "en": "Magnavous proves to be an exceptionally quick study, and before long she's creating her own air runes with little issue at all. Her propensity to destroy her surroundings with her magic doesn't seem to extend to runecrafting, to which you're incredibly thankful.",
+  "zh": "麦格纳沃斯学得特别快。没过多久，她就能轻松锻造大气符文了。她一用魔法就毁东西的毛病，似乎没有带到符文锻造上，你对此万分庆幸。",
+  "reason": "误译：propensity 不是「喜欢」；并顺带理顺句子",
+  "reason_en": "Mistranslation: 'propensity' is not 'likes to'; sentence smoothed"
+ },
+ {
+  "ctxt": "",
+  "en": "Surely... Surely, teaching her to arm herself can't go wrong.",
+  "zh": "想必……想必没问题吧。教她武装自己，总不会出什么岔子吧。",
+  "reason": "「没问题吧……不会有什么问题吧」重复",
+  "reason_en": "Repetitive: 'no problem... won't have any problem'"
  },
  {
   "ctxt": "",
@@ -1079,6 +1170,20 @@
  },
  {
   "ctxt": "",
+  "en": "You leave the assembly line behind as they begin to tidy up and return the tavern back to its usual configuration. Hapren calls out several thank yous as you leave, but you don't turn, lest he throw on another task or two should you pay him any further mind.",
+  "zh": "你离开组装现场，这时大家开始打扫收拾，将酒馆恢复原样。你走的时候，哈普伦一直说谢谢，但你没有回头。要是你再搭理他，说不定他又会给你派一两件差事。",
+  "reason": "搭配不当：「给你一两件事」",
+  "reason_en": "Bad collocation: '给你一两件事'"
+ },
+ {
+  "ctxt": "",
+  "en": "Gee, thanks, I feel welcome already.",
+  "zh": "哎呀，多谢，我已经感觉宾至如归了。",
+  "reason": "对白生硬（翻译腔）",
+  "reason_en": "Stiff dialogue (translationese)"
+ },
+ {
+  "ctxt": "",
   "en": "You chuckle at the idea of needing to manage without her, then having her turn around and ask you for help instead. You head out to find some, and as you do, you walk past Petal, who has a dozen or so people in tow, all armed with various tools or carrying lumber. Shockingly efficient, that one.",
   "zh": "她刚说完要你自己应付，结果转头就向你求助，你忍不住笑了。你去找箭，经过佩塔时看到她身后跟着十几个人，大家都拿着各种工具或扛着木头。这效率真高啊。",
   "reason": "误译/主宾颠倒：manage without her 指“你”要在她不在时自己应付，不是“她自己应付”",
@@ -1086,10 +1191,17 @@
  },
  {
   "ctxt": "",
+  "en": "Taking an arrow to the shin, I believe it's called, though hardly anyone still believes in that silly custom.",
+  "zh": "这叫“胫骨中箭”，不过现在几乎没人信这种荒唐的习俗了。",
+  "reason": "对白生硬，翻译腔",
+  "reason_en": "Stiff dialogue, translationese"
+ },
+ {
+  "ctxt": "",
   "en": "As you finish up with the flowers, you catch a whiff of Petal's cooking and let yourself inside. The place isn't 'homey' just yet, but it's far better than the wreck it was just a bit ago, and trust the two of them will give it the final touch-ups it needs.\\n\\nClove sets the table and waves you away when you try to help, so you turn to Petal, who brushes past you with three steaming birds balanced on her arm, with a pitcher of... something in the other. \\nUsing herbs she'd gathered, Petal seasoned the meat to perfection, and Clove produces a few fruits she collected while she was hunting. They pair beautifully with the... concoction that Petal assures you is safe to drink. It's sickly sweet and could be considered tasty, if it weren't for the fact that it leaves you feeling as though you've plunged into an icy lake, but only for a few moments after each sip\\n\\nPetal pushes your chair towards Clove's every once in a while, and slowly but surely she begins to turn bright red, but plays it off casually. Eventually, you all finish your meals, and Petal takes down a few notes as to how you felt while you drink her beverage. They both thank you for your time, and encourage you to come back once they've set up shop.",
-  "zh": "忙完花草的活儿，你闻到了佩塔做饭的香气，于是自己进了屋。虽然这里还不像家，但跟之前的破败相比，已经好多了。相信她们会完成最后的修整工作。\\n\\n克洛夫在摆放餐具。看你想帮忙，她挥手让你休息。你转头看着佩塔。佩塔从你身边经过，一只手端着三只热气腾腾的鸟，另一只手提着一壶……不知道什么东西。\\n佩塔用她采的草药给肉调味，味道特别好。克洛夫拿出她在狩猎时采集的果子。这些果子和那壶……喝的很搭。佩塔向你保证，那喝的绝对安全。它的味道甜得腻人，本来也算可口，只是每喝一口都会让你产生一种坠入冰湖的感觉，不过只持续一小会儿。\\n\\n佩塔时不时地将你的椅子往克洛夫那边挪动。克洛夫的脸慢慢红了，但仍然装作没事的样子。吃完后，佩塔记下你喝那壶饮品的感受。她们感谢你的帮助，欢迎你在开店后再来。",
-  "reason": "逻辑颠倒：英文是“本来还算好喝，只是每口都像掉进冰湖”，原译写成“所以也还算美味”",
-  "reason_en": "Reversed logic: the English says it was drinkable but every sip was like falling into an icy lake; the old translation said \"so it was tasty\"."
+  "zh": "忙完花草的活儿，你闻到了佩塔做饭的香气，于是自己进了屋。虽然这里还不像家，但跟之前的破败相比，已经好多了。相信她们会完成最后的修整工作。\\n\\n克洛夫在摆放餐具。看你想帮忙，她挥手让你休息。你转头看着佩塔。佩塔从你身边经过，一只手端着三只热气腾腾的鸟，另一只手提着一壶……不知道什么东西。\\n佩塔用她采的草药给肉调味，味道特别好。克洛夫拿出她在狩猎时采集的果子。这些果子和那壶……饮料很搭。佩塔向你保证，这东西绝对安全。它的味道甜得腻人，本来也算可口，只是每喝一口都会让你产生一种坠入冰湖的感觉，不过只持续一小会儿。\\n\\n佩塔时不时地将你的椅子往克洛夫那边挪动。克洛夫的脸慢慢红了，但仍然装作没事的样子。吃完后，佩塔记下你喝那壶饮品的感受。她们感谢你的帮助，欢迎你在开店后再来。",
+  "reason": "「喝的」重复且指代别扭",
+  "reason_en": "Awkward repeated nominalised '喝的'"
  },
  {
   "ctxt": "",
@@ -1097,6 +1209,13 @@
   "zh": "那个……说实话，我有点好奇你是怎么想的，不过这没关系。看到你能站稳脚跟，而且穿得也比上次像样些，我就很高兴了。",
   "reason": "错字：站位脚跟→站稳脚跟",
   "reason_en": "Typo: 站位脚跟 (garbled) changed to 站稳脚跟 (gain a firm footing)."
+ },
+ {
+  "ctxt": "",
+  "en": "That it does! It has been tearing through ships like Gol does ale. That's why Gol had this idea in the first place.",
+  "zh": "对！它撕船就跟戈尔灌麦芽酒一样凶。所以戈尔是最先想到这个办法的。",
+  "reason": "翻译腔：「破坏船的时候，就跟…喝麦芽酒一样」比喻别扭",
+  "reason_en": "Translationese: the ale-drinking comparison reads awkwardly; made it a natural simile"
  },
  {
   "ctxt": "",
@@ -1114,10 +1233,38 @@
  },
  {
   "ctxt": "",
+  "en": "You head off in search of enough material to outfit Whudgrath's crew, and then some. No use needing to come back half a dozen times because they needed more tools. Plus, the more useful you make yourself, you could argue in favor of a bigger cut.",
+  "zh": "你出发去找足够的材料，不仅要给伍德格拉斯那帮人做装备，还要留一些。免得他们缺工具，你还得来回跑好几趟。而且，你表现得越有用，就能争取更多的报酬。",
+  "reason": "逻辑不通：「就不用…跑了」缺因果，改成「免得…」",
+  "reason_en": "Illogical connective; rewritten with 免得 (so that you won't have to...)"
+ },
+ {
+  "ctxt": "",
   "en": "Gemstone-tipped bolts in-hand, you slowly work your way around each of the statues. Each fits in the openings nicely, and lock into place with a firm and resonate snap. Magnavous begins to do the same while Whudgrath holds a lantern aloft. Soon enough, the vapor that twisted and curled up towards the ceiling has been stopped. All at once, the statues seem to heave and twist. Where they once hunched and gaunt, sealing them seems to have changed the stone outright, causing the figures to warp into more imposing, able-bodied versions of themselves.",
   "zh": "你拿着镶嵌宝石的弩箭，慢慢绕着雕像走。弩箭正好插进雕像上的孔洞，清脆的一声响，箭头嵌入雕像。麦格纳沃斯也开始这样做，伍德格拉斯高举着提灯。没过多久，之前盘旋上升的雾气就消散了。这时，雕像好像动了，扭曲变形。封印之后，原本佝偻枯瘦的雕像完全变了，它们扭曲变形，变得更威武、更强壮。",
   "reason": "误译：弩箭是用手按进孔洞的，不是射入",
   "reason_en": "Mistranslation: the bolts are pressed into the holes by hand, not shot into them."
+ },
+ {
+  "ctxt": "",
+  "en": "Part of you wishes that Morlin could just come do the spell, but deep down, you know it'll be good for Magnavous to do this for her training. At the very least, it'll help her feel a bit more confident, even if it does mean you have to make... substantially more staves.",
+  "zh": "你有点希望莫林能直接过来做这个咒语，但转念一想，这对麦格纳沃斯是很好的历练。至少，可以让她变得更有自信，尽管这意味着你需要……多做好几根法杖。",
+  "reason": "语句不完整，「让…历练」读着别扭",
+  "reason_en": "Incomplete, awkward phrasing"
+ },
+ {
+  "ctxt": "",
+  "en": "As you hand the staves to Magnavous one by one, they slowly but surely get combined into one. Eventually, they get big enough that Whudgrath and his crew take over in holding them, and then placing them into the statues’ hands. When the four of them are armed, they slam them into the ground and the orb at the end of each begins to glow.\\n\\nMorlin enters, and lets out a low whistle when he sees the progress that has been made.",
+  "zh": "你将法杖一根一根递给麦格纳沃斯。那些法杖慢慢合在一起。最后，它们变得足够大。伍德格拉斯和他的人接过来，把它们放到雕像的手中。当四座雕像都武装完毕，它们将法杖砸向地面，每根法杖顶端的圆球亮了起来。\\n\\n莫林走进来，看到眼前的场景，轻轻吹了一声口哨。",
+  "reason": "指代混乱：此处是雕像，「他们」会被读成伍德格拉斯一伙",
+  "reason_en": "Ambiguous pronoun: the statues, not Whudgrath's crew"
+ },
+ {
+  "ctxt": "",
+  "en": "Morlin throws back his robes to show off a concerning amount of jewelry. Dozens of necklaces, bracelets, and rings adorn his body. They sparkle brilliantly in the low-light, so much so that you worry you'd be blinded if it was any brighter in the cavern. He goes on to talk about how most keep it far too simple, limiting themselves to only a few enchanted pieces of jewelry at a time, but that a master wizard such as himself isn't held back by such limitations. Whudgrath asks if they can just use his jewelry, to which he scoffs. He glances over the statues and produces a list.\\n\\n\\nMuch like last time he tried to make a list, the first page is cryptic, detailing something about an excitable lizard housekeeper and her many cleaning adventures, but he burns it before you can get more than a glance as to its contents. He hands the veritable laundry list of jewelry to you, and assures you that your efforts will be reflected in your cut of... whatever may lie inside.",
+  "zh": "莫林掀开长袍，露出琳琅满目的珠宝。他身上挂了几十条项链、手链和戒指。这些珠宝在昏暗中闪闪发光。如果洞里再亮一点，恐怕你的眼睛都要瞎了。他说，大多数人都太朴素了，每次最多只戴几件附魔珠宝。而像他这样的大巫师，没有这种限制。伍德格拉斯问能不能用一下他身上的珠宝，他轻蔑地笑了。他扫视了那些雕像，掏出了一张清单。\\n\\n跟他上次尝试列清单一样，第一页模糊不清，大概是讲一位兴奋的蜥蜴管家以及她的种种清洁冒险。但还没等你看清上面的内容，他就把它烧了。他把那张长长的珠宝清单递给你，保证你的付出会体现在你分到的那一份……不管门后到底有什么。",
+  "reason": "悬空结构：「会有一份……」没有落脚，改为「体现在你分到的那一份」；补「把它」",
+  "reason_en": "Dangling phrase: 'will have a share...' had no object; rewritten so the cut is clear"
  },
  {
   "ctxt": "",
@@ -1128,10 +1275,24 @@
  },
  {
   "ctxt": "",
+  "en": "On a stroll by what was once the Soothsayer's Grove, you find yourself startled as a blue vine whips out and lashes itself around your ankles. Startled by the intrusion, you barely have the chance to think about how this was meant to be a 'safe path' until you're hoisted up into the air and tossed around. Suddenly, a tall, dark-haired woman jumps out from the darkness and cleaves the vines in two with a single swipe of her sword, sending you back towards the ground, where you land with a thud.",
+  "zh": "当你走过曾经的“预言家之林”，一根蓝色的藤蔓突然冒出来，缠住你的脚踝，你吓了一跳。你还没想这条原本‘安全的路’怎么会有这种东西，整个人就被拖到半空，甩来甩去。突然，一名高个子黑发女人从黑暗里跳出来，一挥剑就把藤蔓砍成两段。砰的一声，你落到地上。",
+  "reason": "用词不完整：「黑发女」读着别扭",
+  "reason_en": "Awkward truncated noun 黑发女"
+ },
+ {
+  "ctxt": "",
   "en": "The bushes and trees are thick, and for every one you chop down, it feels as though three more shoot up in their place. Their rapid growth would be a lot more impressive if it wasn't for its murderous intent. How they stay out of sight is a mystery, but as you cut deeper into the tangle of plants, thunderous bellows and growls sound from nearby creatures you feel lucky not to encounter.\\n\\nYou do your best to make your way inward, and eventually, the outer thicket gives way to a calmer bit of forest. Jass catches her breath and wipes the vegetation from her sword and armor. The two of you stand on a ridgeline surrounding a deep crater, filled with plantlife you've never seen anywhere else. It almost looks like a jungle, with dark trees towering from the pit and threatening to spill out. All manner of dark shadows prowl through the vegetation, and you're very happy to be far above it, at least for now.",
   "zh": "灌木和树木密密麻麻，砍一棵长三棵。如果不是透着杀意，这生长速度确实令人惊叹。它们是如何藏得不见踪影的，谁也不知道。当你走进这片杂乱的林子，附近传来震耳的咆哮声和低吼声。幸运的是，你没有遇到这些东西。\\n\\n你努力向里面走，穿过茂密的丛林，最后来到一片宁静的树林。杰丝喘了口气，擦去剑上和盔甲上的枝叶。你们站在一道山脊上，下面是一个深坑。坑里长满了你们从未见过的植物。整个坑看起来就像一片丛林。坑里的树木阴暗高大，仿佛就快出来了。各种黑影在丛林中穿梭。幸好你们站得高，至少现在是安全的。",
   "reason": "误译：“murderous intent”译成“隐藏杀意”意思不对；他们→它们（指生物）",
   "reason_en": "Mistranslation: \"murderous intent\" was translated as 隐藏杀意 (hidden killing intent), which is not the right meaning; also 他们 (they, people) changed to 它们 (they, creatures)."
+ },
+ {
+  "ctxt": "",
+  "en": "What? No, absolutely not. You can practically see the evil leaking out of the grove.",
+  "zh": "什么？不行，绝对不行。你也看到了，那片林子里都在往外冒邪气。",
+  "reason": "读不通：「丛林有邪恶的东西出来」",
+  "reason_en": "Ungrammatical: 'the jungle has evil things come out'"
  },
  {
   "ctxt": "",
@@ -1146,6 +1307,13 @@
   "zh": "把巨型鱼饵装进你的备用包听起来不错，可当你意识到自己要沿着那片疯狂蔓延的森林边缘走时，就不行了。不知道是奇迹还是运气好，之前遇到的那种野兽差点用血盆大口咬住你的时候，戈尔恰好就在附近。它发出一声恐怖的咆哮，跟在你们身后。戈尔怕你太慢，最后决定把你扛在肩上，向洞边跑去。两边的草木向后退，给戈尔让路。如果不是身后有无数双眼睛盯着你们，这场面或许更加令人沮丧。\\n\\n你们冲出树林，你将那包诱饵甩了出去，滚进了洞里。戈尔迅速闪到一边，继续奔跑。那群野兽跌跌撞撞地翻过洞边，扑向那袋诱饵。直到森林不再晃动，他才把你放下来。对此，你一点也不介意。过了一会儿，你觉得可以安全回营地了，于是便赶快回去了。",
   "reason": "误译：one of the same beasts 是同类野兽中的一头，不是之前那头",
   "reason_en": "Mistranslation: \"one of the same beasts\" means one of the same kind of beast, not the same one as before."
+ },
+ {
+  "ctxt": "",
+  "en": "I was wondering when you might turn up. We just finished up with our part, you were just about late.",
+  "zh": "我还在想你什么时候出现呢。我们刚忙完，你差点就迟到了。",
+  "reason": "误译：英文是「你差点迟到」，原译成了「来得正是时候」，意思反了",
+  "reason_en": "Mistranslation: 'you were just about late' was rendered as 'right on time'"
  },
  {
   "ctxt": "",
@@ -1171,9 +1339,9 @@
  {
   "ctxt": "",
   "en": "[Companion Name] glares at you, but you've known them long enough to know there's no real anger there, just like they know you have no malice in your light banter.\\n\\nThough, you start to think otherwise when the villagers pick up their bows and start trying to hit the targets. You feel as though their arrows pass by you more often than the targets. You get to work quickly, trying to show them how to draw, aim, and fire, before they really hurt someone.",
-  "zh": "[Companion Name]瞪了你一眼。你们认识很久了，你知道他没有真的生气，他也知道你只是开玩笑，没有恶意。\\n\\n不过，当村民们拿起弓，开始尝试射箭的时候，你开始动摇了。你感觉他们朝你射的箭，比朝靶子射的还要多。你赶紧动手，教他们怎么拉弓、瞄准和射击，以免他们真的伤到什么人。",
-  "reason": "语病：「你赶紧起来」→「你赶紧动手」（get to work）",
-  "reason_en": "Grammar: 你赶紧起来 (hurry up and get up) changed to 你赶紧动手 (hurry up and get to work)."
+  "zh": "[Companion Name]瞪了你一眼。你们认识很久了，你知道这不是真生气，就像对方也知道你只是开玩笑，没有恶意。\\n\\n不过，当村民们拿起弓，开始尝试射箭的时候，你开始动摇了。你感觉他们朝你射的箭，比朝靶子射的还要多。你赶紧动手，教他们怎么拉弓、瞄准和射击，以免他们真的伤到什么人。",
+  "reason": "人称：[Companion Name]原文用 they，「他」性别不确定，且读起来绕",
+  "reason_en": "Pronoun: companion is 'they' in the original; avoided gendered 他"
  },
  {
   "ctxt": "",
@@ -1198,10 +1366,45 @@
  },
  {
   "ctxt": "",
+  "en": "They might not have much experience, but the folks that couldn't hit the broad side of a barn - or just otherwise hated trying to use the bows - I've had running drills with sticks and leftover tools.",
+  "zh": "他们虽然没什么经验，但那些连大门都射不中、或者不爱用弓的人，我已经让他们拿木棍和剩下的工具练过了。",
+  "reason": "悬空结构：「对于…的人，我已经让他们…」改顺",
+  "reason_en": "Dangling '对于...' structure smoothed"
+ },
+ {
+  "ctxt": "",
+  "en": "[Companion Name]'s look of anxiety hidden under bravado is quickly replaced with confidence as the woods explode with movement. The militia lets loose a volley of arrows that pepper the unprepared Golbins, scattering them and sending a few more to the ground. What's left of them gather themselves and charge towards you and your friend, or the quickly approaching villagers armed with swords.",
+  "zh": "树林里骤然一阵动静，[Companion Name]刚才还故作镇定、一脸焦虑，现在立马充满了自信。民兵们箭如雨下，让那些毫无防备的哥布林措手不及，四处逃跑，还有几个倒在了地上。剩下的哥布林重整旗鼓，冲向你和你的朋友，冲向手持利剑的村民。",
+  "reason": "误译：此时战斗尚未开始，原文是树林里突然有了动静",
+  "reason_en": "Mistranslation: the woods 'explode with movement', the fight has not started yet"
+ },
+ {
+  "ctxt": "",
   "en": "You look around as the movement begins to settle. The Golbin force was larger than you had anticipated, but your efforts went as well as could be expected. Among the bodies littering the forest floor, from what you could see, only a couple were human, which was better than expected considering their experience.\\n\\nYou rush over as you hear a shout from Jass, who managed to pin a dark green Golbin to ground. The beast would have hardly came up to your hip had it been on its feet, and you could hear it whimpering and begging not to be hurt. It quickly rattles off fragments of information that it thinks could be useful, detailing how its clan was taken over by a rival group led by someone it called the 'Ringleader', its own name - Gloob - and how it really really wants to live. Jass slaps her hand over its mouth and asks it where the girl they kidnapped was, and why they took her. Gloob goes one step further, and says that it'll lead you all there to its nearby camp, and that they were going to try and paint him and sell him off too, whatever that may mean.\\n\\nYou discuss it briefly together, and decide to 'trust' it to do as it says. Surely enough, the camp is close, and the leftover defenders quickly scatter as they see they're vastly outnumbered, leaving their camp behind. You and [Companion Name] quickly find Ana in one of their tents and take her home, while Jass and the militia handle a dozen or so other folks who had been captured from elsewhere throughout the countryside. Ana's mother meets you just outside of Azamire with tears in her eyes, thanking you over and over again for saving her daughter.",
-  "zh": "战斗逐渐平息，你看了看四周。哥布林的数量比你预想的要多，但你们的攻击跟预想的一样好。看着躺在地上的尸体，只有几具是人类的。考虑到大家的战斗经验，这比预想的结果要好。\\n\\n你听到杰丝大喊一声，赶快跑了过去。杰丝把一只深绿色的哥布林死死按在地上。这野兽要是站起来，恐怕还没你的腰高。它低声抽泣，求你们不要伤害它。为了活命，它说了一些信息。它说，它的氏族被一个敌对氏族控制了，领头的叫‘幕后头目’。它还说自己叫格鲁布，非常、非常想活命。杰丝捂住它的嘴，问它被绑架的小女孩在哪儿，为什么要抓小女孩。格鲁布先开口了。它说带你们去它附近的营地，还说它们原本打算把它涂上颜色，然后卖掉。具体什么意思，不知道。\\n\\n你们简单商量了一下，决定‘相信’它的话。果然，营地就在附近。营地的守卫发现自己的人太少，丢下营地，迅速逃走了。你和[Companion Name]很快在一个帐篷里找到了安娜，把她带回家。杰丝和民兵们负责处理从其他地方抓到的另外十几个人。在阿扎米尔的外面，安娜的母亲满眼泪水，一遍又一遍地感谢你们救了她女儿。",
-  "reason": "误译：Ringleader是敌对团体首领、格鲁布是它自己的名字，原译混为一谈；slaps hand over mouth 是捂嘴不是打嘴；a dozen or so 是十几个不是几十个；him 指格鲁布应为「它」",
-  "reason_en": "Mistranslation: Ringleader is the leader of the hostile group and Gloob is its own name, but the old translation mixed them up; \"slaps hand over mouth\" means covering the mouth, not hitting it; \"a dozen or so\" means about a dozen, not dozens; \"him\" refers to Gloob and should be 它 (it)."
+  "zh": "战斗逐渐平息，你看了看四周。哥布林的数量比你预想的要多，但你们的攻击跟预想的一样好。看着躺在地上的尸体，只有几具是人类的。考虑到大家的战斗经验，这比预想的结果要好。\\n\\n你听到杰丝大喊一声，赶快跑了过去。杰丝把一只深绿色的哥布林死死按在地上。这野兽要是站起来，恐怕还没你的腰高。它低声抽泣，求你们不要伤害它。为了活命，它说了一些信息。它说，它的氏族被一个敌对氏族控制了，领头的叫‘幕后头目’。它还说自己叫格鲁布，非常、非常想活命。杰丝捂住它的嘴，问它被绑架的小女孩在哪儿，为什么要抓小女孩。格鲁布更进一步，主动提出带你们去它附近的营地，还说它们原本打算把它涂上颜色，然后卖掉。具体什么意思，不知道。\\n\\n你们简单商量了一下，决定‘相信’它的话。果然，营地就在附近。营地的守卫发现自己的人太少，丢下营地，迅速逃走了。你和[Companion Name]很快在一个帐篷里找到了安娜，把她带回家。杰丝和民兵们负责处理从其他地方抓到的另外十几个人。在阿扎米尔的外面，安娜的母亲满眼泪水，一遍又一遍地感谢你们救了她女儿。",
+  "reason": "误译：「one step further」被译成了「先开口」",
+  "reason_en": "Mistranslation: 'goes one step further' rendered as 'spoke first'"
+ },
+ {
+  "ctxt": "",
+  "en": "A little cleanup could go a long way to making things feel a bit more put together.",
+  "zh": "稍微清理一下，应该就能让一切看起来整齐不少。",
+  "reason": "缺主语，读着别扭",
+  "reason_en": "Missing subject; reads awkwardly"
+ },
+ {
+  "ctxt": "",
+  "en": "Exactly... There's no easy way to put such a tragedy, huh?",
+  "zh": "没错……这样的悲剧，真不知道该怎么说才好，对吧？",
+  "reason": "语序别扭",
+  "reason_en": "Awkward phrasing of 'no easy way to put such a tragedy'"
+ },
+ {
+  "ctxt": "",
+  "en": "Don't suppose either of you would be willing to take over, would you?",
+  "zh": "你们俩该不会有人愿意接手吧？",
+  "reason": "「接受」搭配不当，应为接手",
+  "reason_en": "'接受' is the wrong verb here; '接手' (take over) fits"
  },
  {
   "ctxt": "",
@@ -1223,6 +1426,13 @@
   "zh": "有你和[Companion Name]帮忙，垃圾很快就清理了。哈普伦下令将还能用的材料收起来，日后重建可以用。至于那些不能用的坏木材，就留在广场上生篝火。\\n\\n就在你们放下工具时，几个人走进了镇中心。他们看起来很累，手里拿着钓鱼工具。",
   "reason": "恢复原文分段",
   "reason_en": "Restored the original paragraph break."
+ },
+ {
+  "ctxt": "",
+  "en": "You all spend awhile on the pebble bank, sitting and waiting for a fish to bite, as one typically does while fishing. You and [Companion Name] talk to the fishermen for a while and learn that they used to be able to pull out enough fish to feed half the town, even without the bait. When you dump bait in the water, and start using some on your hooks, things pick up, but it's still rather slow. You watch even more junk float by. Bits of tree branches, huge clumps of soil, and then, a dead Golbin. The fishers point out that it's been like this for a few days, minus the Golbins at least.",
+  "zh": "你们在卵石滩上坐了一会儿，等着鱼儿上钩，钓鱼嘛，本来就是这样。你和[Companion Name]跟渔民聊了一下，听说他们以前捕的鱼可以供应半个镇子，甚至连鱼饵都不用。你把鱼饵扔进水里，在鱼钩上也挂了一点，但进展还是很慢。你看到很多垃圾漂走。有树枝，有大块泥土，还有一具哥布林的尸体。渔民说，除了哥布林的尸体，这种情况已经持续好几天了。",
+  "reason": "翻译腔：句式不通",
+  "reason_en": "Translationese; ungrammatical clause"
  },
  {
   "ctxt": "",
@@ -1282,6 +1492,20 @@
  },
  {
   "ctxt": "",
+  "en": "We've already lost twenty more people on the route to the Ringleader's fortress in the past couple weeks.",
+  "zh": "过去几个星期，我们在去幕后头目堡垒的路上，又折了二十个人。",
+  "reason": "语序混乱，读不通",
+  "reason_en": "Confusing word order"
+ },
+ {
+  "ctxt": "",
+  "en": "All but two of them were to a single weird ent. Way bigger than the rest, and covered in these weird... talismans.",
+  "zh": "除了两个人，其他人都死在同一只古怪的树人手里。那东西比其他树人都大，身上有古怪的……护符。",
+  "reason": "漏掉 single（同一只）",
+  "reason_en": "Dropped 'a single' ent"
+ },
+ {
+  "ctxt": "",
   "en": "If you didn't... I probably would have. I don't want to lose you either.",
   "zh": "如果你没有……我大概也会那么做。我也不想失去你。",
   "reason": "误译：I probably would have 指「我大概也会去逞英雄」，原译「已经死了」",
@@ -1289,10 +1513,24 @@
  },
  {
   "ctxt": "",
+  "en": "Never better. Plan is the same, still?",
+  "zh": "好得很。计划还是那样，对吧？",
+  "reason": "对白生硬：「我非常好」",
+  "reason_en": "Stiff dialogue ('我非常好')"
+ },
+ {
+  "ctxt": "",
   "en": "Alarms start to sound as the militia's arrows are lit. You clutch your weapon in anticipation, wishing you could to go check on the tunnel to see how Gloob's breakout went, but there's no time. The hillside is lit up with the fires you and [Companion Name] started, and hobgolbins on the wall begin to shoot towards you. But it's too late. Burning arrow after arrow soar up and over the wall, towards where you pointed out the stockpile. No one can see over the wall, so it's tough to tell if anyone is on target until a resounding BOOM make you cover your ears, even from this far away.\\n\\nMany of the defenders are thrown from the wall entirely, and as you and the militia charge, the swordsmen dispatch the stunned hobgolbins that fell on the wrong side of the wall. Arrows start to fall again, as the fort's guards gather themselves, and they're met with your militia's own volleys.",
   "zh": "警报响了，民兵把箭点燃。你握紧武器，准备迎战。你想去隧道那边，看看格鲁布的突围怎么样。但时间来不及了。你和[Companion Name]点的火照亮了山坡，墙上的大哥布林开始射击你们。但一切都太晚了。一支支火箭飞过高墙，射向你之前提到的战利品。没人能看到墙那边的情况，所以很难判断有没有射中目标。这时，远处传来一声巨响，你赶紧捂上耳朵。\\n\\n很多守军从墙上掉下来。你和民兵发起冲锋，剑士迅速解决从墙上掉下来的、已经昏倒的大哥布林。堡垒的守卫重整旗鼓，再次射箭。与此同时，民兵射箭还击。",
   "reason": "误译：swordsmen 译成了弓箭手（弓箭手正在射箭）",
   "reason_en": "Mistranslation: swordsmen was translated as archers (弓箭手), who are the ones shooting arrows."
+ },
+ {
+  "ctxt": "",
+  "en": "The occasional pained grunt, or worse, the painted gurgles of someone who was struck somewhere lethal, dampen your mood. You knew people would fall today. You can only imagine how the people on the hillside are faring. Just as your mind starts to lose focus, thinking about those you'd lose, you see a burning light at the end of your axe. As you pull it back, you realize you're through! You give a cheer that turns into a battlecry, and your group follows suit. A few more axe strikes and enough holes are opened to let Azamire's troops push through the gate.\\n\\nThe fort grounds are... hellish. Most of the ent guardians already crawl on the ground, crying out with groaning wails as they burn, with nearly every structure already completely engulfed in flames. You wonder for a moment if there's even a point of being inside until a massive blue Golbin covered in singed fabric cries out as he locks eyes with you. The rest of the fort's surviving defenders stand in the middle of the blazing stronghold with the Ringleader, smashing weapons against their shields, waiting for orders. ",
+  "zh": "偶尔传来几声痛苦的闷哼，更糟的是，有人被击中要害，发出濒死的咯咯声。这些都让你心情沉重。你知道，今天会有人倒下。你只能想象山坡上的人会面临什么。你开始失去注意力，想起那些你会失去的人。这时，你看到斧头上有燃烧的火光。你把斧头收回来，知道你已经做到了！你欢呼一声，欢呼声又变成了战斗的呐喊声。其他人也跟着喊起来。你们又砍了几下，把大门砍了几个大洞。阿扎米尔的队伍可以进去了。\\n\\n堡垒里面就像……地狱。很多树人守卫倒在地上，在烈火中痛苦地哀嚎。几乎所有的建筑都陷入了火海。你心想，留在这儿还有什么意义。这时，一个巨大的蓝色哥布林看着你。它发出尖叫声，身上的布料都烧焦了。堡垒剩下的守军和它们的幕后头目站在大火中间。这些幸存的守军用武器敲打盾牌，等待指令。",
+  "reason": "别扭：「痛苦的咯咯声」「影响你的情绪」",
+  "reason_en": "Awkward wording of the groans and gurgles"
  },
  {
   "ctxt": "",
@@ -1304,23 +1542,37 @@
  {
   "ctxt": "",
   "en": "Before you lies the broken body of the Ringleader, sickly purple blood spilling from his wounds. You finally spare a glance to those around you, and you realize... it's over. Less than half the attacking force remains, but Azamire's people still stand.  Gloob stands among the militia, deep green body covered in the blue blood of hobgolbins, and he lets out a cheer, one that the remaining militia proudly meet. Jass barks out orders, pointing out wounded with the stump of her arm, then starting to pull one of the wounded towards the gate with her other.\\n\\nHalf a dozen emotions cross [Companion Name]'s face the second you look at them, but most among them all, relief. They embrace you for naught but a moment before heading towards the Ringleader, who barely manages a ragged breath. As you approach, the beast lets out a throaty cackle before it devolves into a choking cough. You ask it two questions. Where did the shipments go, and who are the people it works for?\\n\\nHe just sits and smirks, the flames of his burning fortress dancing in his eyes.\\n\\n\\\"They'll come back soon.\\\"",
-  "zh": "你看见幕后头目全身都是伤，伤口流着恶心的紫色鲜血。你看了看周围，终于意识到……一切都结束了。超过一半的敌人都倒了，而阿扎米尔的战士们依然站着。格鲁布站在民兵队伍中，深绿色的身体上沾满了大哥布林的蓝色鲜血。它大声欢呼，其他民兵也自豪地跟着欢呼。杰丝用残缺的手臂指向受伤的人，大声地发出命令。然后，她又用另一只手将一名伤员拖到大门那边。\\n\\n你看着[Companion Name]，他们脸上的情绪复杂，但最明显的是轻松了。他们抱了你一下，然后走向奄奄一息的幕后头目。你走过去，那野兽发出一声嘶哑的怪笑，然后又剧烈地咳嗽。你问了它两个问题。它要把那些囚犯运到哪里去？它是为谁做事？\\n\\n它坐在那里，幸灾乐祸地笑。堡垒的火焰在它的眼睛里跳动。\\n\\n“他们很快就会回来的。”",
-  "reason": "恢复原文分段",
-  "reason_en": "Restored the original paragraph break."
+  "zh": "你看见幕后头目全身都是伤，伤口流着恶心的紫色鲜血。你看了看周围，终于意识到……一切都结束了。进攻的队伍只剩不到一半，但阿扎米尔的人依然站着。格鲁布站在民兵队伍中，深绿色的身体上沾满了大哥布林的蓝色鲜血。它大声欢呼，其他民兵也自豪地跟着欢呼。杰丝用残缺的手臂指向受伤的人，大声地发出命令。然后，她又用另一只手将一名伤员拖到大门那边。\\n\\n你看着[Companion Name]，他们脸上的情绪复杂，但最明显的是如释重负。他们抱了你一下，然后走向奄奄一息的幕后头目。你走过去，那野兽发出一声嘶哑的怪笑，然后又剧烈地咳嗽。你问了它两个问题。它要把那些囚犯运到哪里去？它是为谁做事？\\n\\n它坐在那里，幸灾乐祸地笑。堡垒的火焰在它的眼睛里跳动。\\n\\n“他们很快就会回来的。”",
+  "reason": "误译：原文是进攻方（阿扎米尔）只剩不到一半；另「轻松了」不通顺",
+  "reason_en": "Mistranslation: the attacking force (Azamire) has less than half left, not the enemy; 'relief' phrasing"
  },
  {
   "ctxt": "",
   "en": "The day following your attack on the Ringleader's fort is met with a mixture of joy, relief, grief, and... uncertainty. \\nWhile the assault was successful, casualties number in the range of a few dozen, a large blow to the already wavering population of your home.\\n\\nHowever, with the number of refugees coming and going nowadays, ebbs and flows in the local populace are getting hard to keep track of. While callous, you are thankful that no one you knew well fell - through a few of the original militia recruits you and [Companion Name] were among the bodies you brought back on the wagons.\\n\\nYesterday's events weren't enough to keep you or [Companion Name] down for long, though. The two of you set off back to the fort at first light, searching for tracks of the caravan you saw leave the fort on your first scouting mission. The set of buildings behind their thick wall still smouldered from the night before, reminding you both of the battle.",
-  "zh": "在你们攻击幕后头目堡垒的第二天，大家的心情很复杂，有喜悦，有轻松，有悲伤，还有……迷茫。\\n虽然这次袭击成功了，但还是有几十个人受伤或死亡。小镇的人本来就不多，这些伤亡是很大的打击。\\n\\n但是，现在难民来来往往，当地人口数量的变化很难追踪。战争很残酷，但你庆幸的是，你认识的人都还活着。在你和[Companion Name]用马车运回来的尸体里，有几个是民兵队伍的新兵。\\n\\n不过，昨天发生的事并没有让你或[Companion Name]伤心太久。天刚刚亮，你们俩就出发返回堡垒，寻找那支车队。在第一次侦察时，你看到他们离开了堡垒。墙后面的建筑还在燃烧，这让你们想起了昨晚的那场战斗。",
-  "reason": "量词：那只车队→那支车队",
-  "reason_en": "Measure word: 那只车队 changed to 那支车队 (the caravan)."
+  "zh": "在你们攻击幕后头目堡垒的第二天，大家的心情很复杂，有喜悦，有轻松，有悲伤，还有……迷茫。\\n虽然这次袭击成功了，但还是有几十个人受伤或死亡。小镇的人本来就不多，这些伤亡是很大的打击。\\n\\n但是，现在难民来来往往，当地人口数量的变化很难追踪。这话听着冷血，但你确实庆幸没有熟人倒下——尽管你和[Companion Name]用马车运回来的尸体里，有几个是你们认识的最早一批民兵新兵。\\n\\n不过，昨天发生的事并没有让你或[Companion Name]伤心太久。天刚刚亮，你们俩就出发返回堡垒，寻找那支车队。在第一次侦察时，你看到他们离开了堡垒。墙后面的建筑还在燃烧，这让你们想起了昨晚的那场战斗。",
+  "reason": "前后矛盾，读不通（认识的人都活着 vs 新兵死了）",
+  "reason_en": "Self-contradictory as written"
  },
  {
   "ctxt": "",
   "en": "Following the caravan takes you ages. You travel north, out of the Elder Grove and just an hour's walk outside of the town of Hirane until the tracks stop. Several wagons were stopped here and burned, presumably by the hobgolbins bringing them. It seems that several captives were killed, though for what reason, you don't know. From what you're able to gather, the group split into well over thirty different parties, all heading off in different directions. Doubtlessly impossible to follow them all, even without the added difficulty of being much harder to track than the wagons.\\n\\nYou worry for a moment about Hirane's safety until you realize that the golbins would have to have a small army to raze a town of their size. Being situated on the Heartroad - one of the main throughputs to the capitol of Melvor - certainly had its advantages. Being able to trade for finely crafted arms and armor were chief among them, but the Golbin's presence still gave you pause.\\n\\nYou and [Companion Name] decide to head into town, and the general mood of the place is... tense. Folks who seem to be citizens quickly hurry past haggard, haunted-looking villagers. It's a sight you're well acquainted with, though you're surprised to see it here. You and [Companion Name] are quickly approached by a fussy-looking man with a immaculately cared for mustache and a permanent scowl etched on his face.",
-  "zh": "追踪那支车队花了你很长时间。你向北走，离开长者之林，在距离平根小镇一小时路程的地方，痕迹没了。这里停了几辆被烧的马车，想必是押送囚犯的大哥布林做的。似乎还有几名俘虏被杀了，但你不知道具体原因。根据你掌握的信息，这支车队分成了三十多支小队，向不同的地方走了。要追踪每一支小队是不可能的。况且，这些人比马车还难追踪，那就更难了。\\n\\n你有点担心平根的安全，但转念一想，要毁掉这么大的一个城镇，至少要有一支小军队。平根在心路上，而这条路是通往梅尔沃都城的主干道之一。所以，平根确实有优势。一个主要优势是能够买到精良的武器和盔甲。不过，哥布林的存在还是让你有点担心。\\n\\n你和[Companion Name]决定去镇上。这里的气氛……很紧张。镇民们行色匆匆地经过那些憔悴、惊恐的村民。你对这一幕很熟悉，只是没想到会在这里看到。这时，一名男子向你和[Companion Name]走来。他留着精心打理的胡须，看起来紧张不安，总是愁眉苦脸。",
-  "reason": "量词：那只车队→那支车队",
-  "reason_en": "Measure word: 那只车队 changed to 那支车队 (the caravan)."
+  "zh": "追踪那支车队花了你很长时间。你向北走，离开长者之林，在距离平根小镇一小时路程的地方，痕迹没了。这里停了几辆被烧的马车，想必是押送囚犯的大哥布林做的。似乎还有几名俘虏被杀了，但你不知道具体原因。根据你掌握的信息，这支车队分成了三十多支小队，向不同的地方走了。要追踪每一支小队是不可能的。更何况他们比马车更难追踪。\\n\\n你有点担心平根的安全，但转念一想，要毁掉这么大的一个城镇，至少要有一支小军队。平根在心路上，而这条路是通往梅尔沃都城的主干道之一。所以，平根确实有优势。一个主要优势是能够买到精良的武器和盔甲。不过，哥布林的存在还是让你有点担心。\\n\\n你和[Companion Name]决定去镇上。这里的气氛……很紧张。镇民们行色匆匆地经过那些憔悴、惊恐的村民。你对这一幕很熟悉，只是没想到会在这里看到。这时，一名男子向你和[Companion Name]走来。他留着精心打理的胡须，看起来紧张不安，总是愁眉苦脸。",
+  "reason": "赘述，读不通",
+  "reason_en": "Redundant and muddled"
+ },
+ {
+  "ctxt": "",
+  "en": "Anywhere outside of a walled-in town seems to be fair game to them. That... is, why you're here, no?",
+  "zh": "只要是在有城墙的小镇之外，不管哪儿，都可能成为他们的目标。这……就是你们来这儿的原因吧？",
+  "reason": "翻译腔：「围着围墙」",
+  "reason_en": "Translationese ('围着围墙')"
+ },
+ {
+  "ctxt": "",
+  "en": "That it does. I already have my people working on providing a report, worry not. They'll bring it to you in a few hours.",
+  "zh": "没错。我已经让手下在整理报告了，别担心。几个小时内就会交到你手上。",
+  "reason": "「去报告」语意不清",
+  "reason_en": "'去报告' is unclear; the aides are compiling a report"
  },
  {
   "ctxt": "",
@@ -1331,10 +1583,31 @@
  },
  {
   "ctxt": "",
+  "en": "I didn't think so few of the waystations would be abandoned. We'd have had to carry more than both our weights in water to make it to Clearwater without stopping...",
+  "zh": "没想到废弃的中转点这么少。要不然，想不停歇地直接走到清水镇，我们得带比两个人加起来还重的水……",
+  "reason": "翻译腔：「重量还要重」啰嗦；补「要不然」理清假设关系",
+  "reason_en": "Translationese: the weight comparison was wordy; added 要不然 (otherwise) to make the hypothetical clear."
+ },
+ {
+  "ctxt": "",
+  "en": "I refuse to lose to the sun, just days after we took down the Ringleader.",
+  "zh": "刚干掉幕后头目没几天，我可不想输给太阳。",
+  "reason": "时间关系含混：「我才干掉了」",
+  "reason_en": "Timing ('just days after') muddled"
+ },
+ {
+  "ctxt": "",
   "en": "The cacti that stand in front of you now seem... bigger. And they move. But everything is moving, so that's not particularly strange. What is strange is that one of the cacti swing one of it's spiny arms at your head when you try to cut into it with your axe. The needles in the side of your face snap you out of the cactus water's hallucinogenic effects.\\n\\nEverything around you stops moving, except for the... angry cactus in front of you. And all of the ones behind it. They shift through the sands and reach out with their arms. They're real. You call out to [Companion Name] who seems to be having a similar revelation.",
   "zh": "眼前的仙人掌似乎……变大了。而且还在动。所有东西都在动，没什么特别奇怪的。但奇怪的是，当你准备用斧头砍一株仙人掌的时候，它挥动长满刺的手臂，打在你的头上。你的脸刺痛无比，这时你从仙人掌汁液造成的幻觉中醒了。\\n\\n你周围的一切都停了，除了你面前的那株……愤怒的仙人掌。还有它后面的那些。它们在沙里游走，伸出它们的手臂。它们都是真的。你呼唤[Companion Name]，她似乎也发现了。",
   "reason": "错字：他们→它们（指仙人掌）",
   "reason_en": "Typo: 他们 (they, people) changed to 它们 (they, things), referring to the cacti."
+ },
+ {
+  "ctxt": "",
+  "en": "With that, [Companion Name] continues to peer over the boulders as the two of you travel along the Heartroad, as if they'd spring to life and tell her where they came from. You've had enough of sentient things that should otherwise not be, so you try to avoid staring too much.\\n\\nFinally, you arrive at a little inn that seems to have been built into a stone wall and garrison that takes up the expansive entrance of the Broken Pass. The Sleeping Stone is legendary, and for good reason. Not only is it the home of the Slayers Guild for the eastern region of the continent, it attracts world renowned adventurers who wish to venture into the Perilous Peaks to prove themselves to be the best of the best.\\n\\nThe Broken Pass is the quickest way to the capitol, but it's typically travelled by highly armed caravans that can both pay the toll to pass the gate, and can fend off any beasts that travelled down from the mountain proper. When you hear of caravans being rerouted south - around the mountain range - due to a particularly feisty pack of Stonehoppers, you're quick to offer you and [Companion Name]'s services. \\n\\nThe owner of the Sleeping Stone does you one better, saying that if you take care of them, you'll get free passage through the Broken Pass for life. The deal's too good to pass up.",
+  "zh": "你们俩沿着心路继续走，[Companion Name]时不时地探头看看路边的巨石，仿佛那些巨石会活过来，告诉她来自哪里。你对这些本来就不该有意识的东西没兴趣，所以尽量不去多看。\\n\\n最终，你到了一家小客栈。这家客栈似乎直接嵌在石墙里，连着一座要塞，占据了破碎关口宽阔的入口。沉睡之石非常有名，而且名副其实。这里是大陆东部地区“屠杀者公会”的总部，吸引了世界各地的著名冒险者。他们都想进入“险恶山脉”，证明自己是顶尖中的顶尖。\\n\\n破碎关口是前往都城最快的路，但通常只有装备精良的车队才会走。这些车队付得起通行费，也能够抵御山里的野兽。听说有一群特别凶猛的石跳兽，逼得车队改变方向往南走，绕过大山。你立刻提出要和[Companion Name]一起解决麻烦。\\n\\n沉睡之石的老板提出了更诱人的条件：只要你能搞定那群家伙，以后就可以终身免费通过破碎关口。这笔买卖太划算了，不能错过。",
+  "reason": "语序混乱，读不通",
+  "reason_en": "Confusing structure"
  },
  {
   "ctxt": "",
@@ -1346,9 +1619,9 @@
  {
   "ctxt": "",
   "en": "The Stonehoppers living within the cave are... much larger than the little ones you managed to catch with your traps. The one that passed by as you were climbing must have done so because it didn't even register you as a threat. Now that their den is filled with smoke and the two of you stand with weapons at the ready, they seem to have changed their minds about whether or not they want to take you seriously.",
-  "zh": "住在洞穴里的石跳兽……比你之前用陷阱抓的那些小东西要大得多。你刚才爬的时候，有一只从你旁边经过。它应该根本没把你当成威胁。野兽窝里面都是烟，你们俩拿着武器站着等。看来，它们已经决定要不要认真对待你们了。",
-  "reason": "错字：他们→它们（指石跳兽）",
-  "reason_en": "Typo: 他们 (they, people) changed to 它们 (they, creatures), referring to the Stonehoppers."
+  "zh": "住在洞穴里的石跳兽……比你之前用陷阱抓的那些小东西要大得多。你刚才爬的时候，有一只从你旁边经过。它应该根本没把你当成威胁。野兽窝里面都是烟，你们俩拿着武器站着等。看来，它们已经改了主意，打算认真对付你们了。",
+  "reason": "误译：「已经决定要不要认真对待」不通，原意是它们改变主意、开始认真对待你们",
+  "reason_en": "Mistranslation: 'have decided whether to take you seriously' is garbled; the original means they changed their minds and now take you seriously"
  },
  {
   "ctxt": "",
@@ -1373,6 +1646,13 @@
  },
  {
   "ctxt": "",
+  "en": "By following crumbs of information regarding the group you now know as the Soulsmiths, you've found yourself thrust into the middle of the capitol of Melvor with hardly a clue on what to do or where to go next.",
+  "zh": "顺着关于那群人（现在你知道他们叫炼魂师）的一些线索，你发现自己置身梅尔沃都城，接下来该做什么、该去哪儿，毫无头绪。",
+  "reason": "语序不通：「你发现到了……都城」读不顺，改为「发现自己置身都城」",
+  "reason_en": "Awkward: 'you discover you arrived at the capital' reads badly; rewritten as 'you find yourself in the capital'"
+ },
+ {
+  "ctxt": "",
   "en": "I'd appreciate it if you fashioned them into some arrows. Steel tips are fine, that's what everyone else is using, don't want to stick out too much.",
   "zh": "要是能做成箭，我感激不尽。钢的箭头就行。大家用的都是这种，我不想太扎眼。",
   "reason": "错字：太太→太",
@@ -1384,6 +1664,20 @@
   "zh": "你回去找塔尔姆，希望这是最后一次了。你刚把药水涂在箭上，塔尔姆就被叫去靶场准备射箭。他射出的每一箭都正中靶心，速度和威力比他的所有对手都强。参赛者陆续淘汰，比赛越来越激烈，进入白热化阶段。之前塔尔姆总是一脸笑，现在慢慢变得全神贯注。剩下的六名对手用尽全力，相互比拼。目标距离和大小无法再进行调整，所以每次射击的标准也开始变了。几轮之前，七名参赛者就在射击豌豆大小的目标了。所以现在，他们开始用倒立的姿势射击。在马背上。蒙着眼。\\n\\n每过几轮，当其他参赛者纷纷脱靶时，塔尔姆总能留下来。明知塔尔姆有外力相助，但每次他命中目标，你还是忍不住欢呼。除非他的对手是世界上最厉害的弓箭手，否则你难免会认为，对手获得的外力恐怕和他差不多。塔尔姆成功进入决赛。靶子是一根和头发一样细的线，线轻轻挂在靶场的另一端。他和另一名参赛者同时射出，但塔尔姆那支蓝色羽毛的箭在空中将对方的箭击落，割断了另一端的线。\\n\\n人群开始欢呼，你也忍不住跟着一起欢呼。这时，塔尔姆被带上领奖台，获得的奖杯相当于他身体大小的四分之一。盛大的庆祝活动之后，他回到你和[Companion Name]身边。他说了一些得意和感谢的话，然后让你们在准备好领取奖励以后去找他。",
   "reason": "人名错字：塔姆尔→塔尔姆（两处）；误译：绿色→蓝色（blue-feathered）；误译：时间顺序反了（a few rounds back，几轮之前已在射豌豆大小的目标）",
   "reason_en": "Name typo: 塔姆尔 changed to 塔尔姆 (Talm, two places); mistranslation: 绿色 (green) changed to 蓝色 (blue), for \"blue-feathered\"; mistranslation: the time order was reversed (\"a few rounds back\" means the pea-sized targets were already being shot at several rounds ago)."
+ },
+ {
+  "ctxt": "",
+  "en": "This mission might be next to impossible.",
+  "zh": "这项任务恐怕几乎不可能完成。",
+  "reason": "翻译腔：「可能几乎是不可能的」叠床架屋",
+  "reason_en": "Translationese: 'might be almost impossible' is redundant in Chinese"
+ },
+ {
+  "ctxt": "",
+  "en": "If you're after information on the Soulsmiths, and it has lead you to the vault, stopping you would be... unwise.",
+  "zh": "既然你们在追查炼魂师的线索，而线索把你们引到了宝库，那我拦着你们……可就不明智了。",
+  "reason": "误译：stopping you 是「拦住你们」，原译成了「不去」，意思反了",
+  "reason_en": "Mistranslation: 'stopping you' means Talm blocking them, but the Chinese said 'not going'; meaning was reversed"
  },
  {
   "ctxt": "",
@@ -1415,6 +1709,20 @@
  },
  {
   "ctxt": "",
+  "en": "The cavern was fine, sure. But this is a bit more... hostile of an environment.",
+  "zh": "洞窟那次还行。可这回，环境就有点……不太友好了。",
+  "reason": "翻译腔：「洞窟那次是没错」不通顺，改成口语",
+  "reason_en": "Translationese: 「洞窟那次是没错」 reads oddly (meaning 'the cavern was fine'); made colloquial"
+ },
+ {
+  "ctxt": "",
+  "en": "Talm's broken body lays before you. You hold your weapon in front of you, knowing that the moment you look away, it'll lunge for you, looking to take advantage of your weakness. Your breaths come in ragged heaves. The chance that you'd even be able to fend off a casual swat of Talm's claws is bordering on zero, but you stand at the ready regardless. You lost track of [Companion Name] ages ago, and can only hope that she was able to hold Era off.\\n\\nYou stare at the corpse as long as you can, your whole body threatening to collapse. You risk a blink of your eyes... and he's gone. Replaced by the Talm you know. Mostly.\\n\\nThe man before you wears a bright white crown of bone, and regal garb made of blackened leather. You can tell that it's... alive. But life may be be a stretch for the sorrowful creature wrapped around his body. He lets gives you a slow clap, before turning to Era, who dons similar 'clothes'. He whispers something you cannot hear to her, and she smiles slightly.\\n\\nYou take a step back, consciousness fading. Your weapon wavers, but does not fall.\\n\\nThe platform beneath you shifts and begins to descend into darkness.",
+  "zh": "塔尔姆残破的躯体倒在你面前。你把武器横在身前，知道只要移开视线，它就会趁虚而入，再次扑上来。你大口喘着气，呼吸断断续续。此刻，塔尔姆哪怕随手挥上一爪，你恐怕都挡不住，可你仍然摆着迎战的架势。你早已顾不上留意[Companion Name]，只能盼着她挡住了艾拉。\\n\\n你拼命盯着那具尸体，浑身却已经快撑不住了。你冒险眨了一下眼……他不见了。站在那里的，换成了你熟悉的塔尔姆。至少大致还是那副模样。\\n\\n眼前的男人头戴莹白的骨冠，身披黑色皮革制成的华贵衣袍。你看得出来，那身衣服……是活的。不过，裹在他身上的那个可悲生物，要说它还“活着”，恐怕也有些勉强。他慢慢拍了几下手，随后转向艾拉。她也穿着类似的“衣服”。他凑过去低声说了句什么，你听不清。艾拉微微一笑。\\n\\n你退了一步，意识渐渐模糊。手中的武器晃了晃，却始终没有放下。\\n\\n脚下的平台开始移动，缓缓沉入黑暗。",
+  "reason": "读不通：「如今这样，恐怕也很难说是活着」指代和语序别扭",
+  "reason_en": "Awkward: the clause about the wretched creature wrapped around his body is hard to parse; rephrased"
+ },
+ {
+  "ctxt": "",
   "en": "The chamber's walls shift as the platform you stand upon descends. Talm's regal form slowly begins to bleed into the darkness as the ground shifts beneath you, descending lower and lower. You try to keep your eyes trained on him, but without moving he fades from your vision. Fatigue sets in as your tense body begins to give out without a target in front of you.\\n\\nAs the gloom begins to swallow you, you feel... warm. At peace. Mentally, you lash out, knowing that something is wrong, but you've pushed yourself beyond your limits. Your weapon slips from your grasp as you collapse sideways. You don't even feel the cold stone floor as you fall. Only warmth.\\n\\nYou dream.\\n\\nYou wear dark grey robe made of a material that dances and swirls chaotically whenever you take your eyes off of it. You stand amidst an endless sea of bodies. Your chest wracks with silent sobs as you gaze upon them, not at all comforted by their peaceful smiles. As you walk amongst them, you make it to your king and lift the pearly white bone crown from his cold brow.\\n\\nThe weight it holds is incomparable to that which still rests on your shoulders. There's still so much work to do.\\n\\nYou awaken with a start and find yourself warm... but not cloying so. You're wrapped in devilishly silken sheets and buried in a bed so plush you fear your worn body won't be able to rise. Era stands far on the opposite corner of the room, stoking a fireplace of smooth, black stone.\\n\\nYou try to move, but every inch of your body screams in protest, and your groan catches her attention. She looks at you with... what'd seem to be genuine concern had she and her husband not just tried to kill you. You involuntarily shudder as she drops her bundle of wood and rushes to your side. She tries to begin speaking several times, before sighing and offering a small chuckle.",
   "zh": "脚下的平台缓缓下降，四周的墙壁也随之移动。平台越降越深，塔尔姆那身华贵的装束也渐渐隐入黑暗。你竭力盯住他，可他明明站着没动，身影却从你眼前一点点消失了。眼前没了需要提防的敌人，疲惫顿时涌了上来，紧绷的身体再也支撑不住。\\n\\n黑暗渐渐将你吞没，你却感到……温暖。安宁。你知道不对劲，拼命想要抗拒，可身体早已撑过了极限。武器从手中滑落，你向一旁倒去。倒下时，你甚至感觉不到石地的冰冷。只有温暖。\\n\\n你做了一个梦。\\n\\n你穿着一件深灰色长袍。只要目光稍稍移开，袍子的布料便会疯狂地翻涌、旋动。你站在无数躺倒的人中间，一眼望不到尽头。望着他们，你无声地抽泣，胸口阵阵痉挛。他们脸上安详的笑容丝毫不能让你好受一些。你从他们之间走过，来到国王身边，从他冰冷的额上取下那顶珍珠般洁白的骨冠。\\n\\n骨冠的分量，远不及你肩上仍未卸下的重担。还有太多事等着你去做。\\n\\n你猛然惊醒，身上暖暖的……这次却没有那种令人不适的感觉。裹着你的床单滑软得不可思议，床铺柔软得让你整个人都陷了进去。你甚至担心，这副疲惫不堪的身体还能不能爬起来。艾拉站在房间另一头的角落，正在拨弄壁炉里的火。壁炉由光滑的黑石砌成。\\n\\n你试着动了动，浑身上下却无一处不疼。你呻吟了一声，引起了她的注意。她望向你，眼神里透着……关切。要不是她和丈夫刚刚还想杀了你，你几乎会相信那是真心的。她放下怀里的木柴，快步赶到床边。你不由自主地打了个寒战。她几次欲言又止，最后叹了口气，轻轻笑了一声。",
   "reason": "恢复原文分段",
@@ -1426,6 +1734,13 @@
   "zh": "你心里……很不是滋味。梦中你附身的那个人，无疑就是塔尔姆，只是不知道那是多少个世纪以前的他。怎么……怎么会有人明知一件事错得如此可怕，还执意去做？匕首刺入宝石时，你分明感到他从心底抗拒着这一切，可……他还是没有停手。\\n\\n你非弄清楚不可。\\n\\n你离开房间，留下[Companion Name]独自待着。她似乎仍沉浸在自己的思绪中。\\n\\n走廊两侧满是壁画，描绘着世间的种种景象，可你几乎无心去看，只一心想找他问个明白。不知不觉，你已走到了外面。你要找的那个怪物坐在远处的灰色草地里，面前是两朵白花。\\n\\n草间的小径已被踩得平整，显然有人在这里走过无数次。",
   "reason": "恢复原文分段",
   "reason_en": "Restored the original paragraph break."
+ },
+ {
+  "ctxt": "",
+  "en": "The energy it required caused all of the plant-life across half the continent to wither and die. Millions starved when their plants couldn't grow as the ground was fallow for a decade.",
+  "zh": "它所需的能量，让半个大陆的植物全部枯萎死去。土地整整十年寸草不生，庄稼种不出来，数百万人活活饿死。",
+  "reason": "翻译腔：「那需要的力量」悬空，改为明确主语",
+  "reason_en": "Translationese: 「那需要的力量」 is dangling; made the subject explicit"
  },
  {
   "ctxt": "",
@@ -1450,10 +1765,52 @@
  },
  {
   "ctxt": "",
+  "en": "As you beat down the guards and nobles who look at you expectantly, you wouldn't have guessed the king himself would have risen to join in on the fun, but through no small deal of effort, he fell like the rest of his people. You tried your best to not kill the man, but with how hard he hit the ground, you wonder if you overdid it.\\n\\nYou clutch your weapon, covered in more blood than you ever would have expected for a 'friendly' bout. With the Nalidaian king at your feet, you eye the Archivist, worried that despite the promise of this just being for 'entertainment,' you'd find yourself at the hands of a much more upset populace. Instead, he shrugs towards you and gives a small nod.\\n\\nOyadazminis groans and pushes himself up, he beams with a giant smile, several of his missing teeth having been replaced by intricately carved gemstones. If this is 'entertainment' to these dwarves, you're surprised he's not missing more.\\n\\nHe waves to the nobles and grabs you and [Companion Name] by your shoulders, dragging you off behind the throne room to an lavishly decorated room, with the Archivist following closely behind. The floating man waves his hand over the door, causing the entrance to vanish entirely under a waterfall of blue sparks.",
+  "zh": "你接连打倒那些跃跃欲试的守卫和贵族，却没想到国王本人也会起身加入这场热闹。费了好一番力气后，他也和自己的臣民一样倒下了。你已经尽量留手，可见他摔得那么重，还是不免担心自己是不是打过了头。\\n\\n你紧握武器，身上沾满鲜血，远远超出了你对一场“友好切磋”的预期。纳里达西的国王就倒在你脚边。你看向典藏官，心里有些发虚：虽说事先讲好了只是“助兴”，可这些矮人真不会翻脸吗？他却只是朝你耸耸肩，微微点了点头。\\n\\n奥亚达兹米尼斯呻吟着撑起身，咧嘴大笑。他缺的几颗牙，都换成了雕工精细的宝石。要是这些矮人平时就靠这个“助兴”，你倒奇怪他怎么还有这么多牙。\\n\\n他朝贵族们挥挥手，一手揽住你，一手揽住[Companion Name]，把你们带进王座大厅后方一间装饰华丽的房间。典藏官紧随其后。悬在空中的典藏官抬手一挥，蓝色火花如瀑布般倾泻而下，整扇门随即消失得无影无踪。",
+  "reason": "主语错位：牙「镶着」宝石读着别扭",
+  "reason_en": "Subject mismatch: the teeth 'inlaid with' gems reads awkwardly"
+ },
+ {
+  "ctxt": "",
+  "en": "Since she was in the room when her father mentioned the closely guarded art of Summoning, you don't find any harm in indulging the princess's request. You and [Companion Name] show princess Redilok several of the creatures you've learned to create over your journey here, much to her pleasure. She takes several sketches of the beasts, and asks for you to make them perform... all manner of things, some practical, some a bit silly. She questions you on your journey here throughout the 'tests' as she calls them. You fill her in. The Soulsmiths, your travels. Talm and Era's trials. She listens without a single comment, enraptured by your tales.\\n\\nAfter a long while and the summoning of several more creatures, Redilok closes her notepad and makes it vanish, much like the Archivist did with the door, earlier. She thanks you for your time and asks you to make yourself at home, and that she'll be in touch very soon regarding the Stoneway, then promptly slips off the balcony backward and disappears.\\n\\nAfter confirming you didn't just witness the princess fall to her untimely death, you enter what seems to be 'your' room from the balcony and find a room that likely cost several thousand gold just to furnish, let alone build. A two plush four poster beds, a pool of steaming water kept warm by some arcane source you're unfamiliar with. Thick carpet, beautiful silken drapes, and various pieces of artwork depicting lands you've never seen nor heard of.\\n\\nThe sight is made a bit warmer by the fact that [Companion Name] has already launched herself at the nearest bed and started to snore before even making contact with the pillow, a sentiment you cannot help but share moments later.",
+  "zh": "先前她父亲谈起召唤术这门严守的秘术时，她就在房间里。既然如此，你觉得给她看看也无妨。你和[Companion Name]召出几种一路上学会创造的生物，让雷迪洛克公主看了个够。她兴致勃勃地给这些野兽画了几张速写，又让你们指挥它们做这做那。有些要求还算实用，有些就纯粹是在逗着玩了。她把这些叫作“测试”，还一边看，一边问起你们来这里之前的经历。你将一路上的事告诉了她：炼魂师，旅途见闻，还有塔尔姆和艾拉设下的考验。她听得入神，一句也没有插嘴。\\n\\n又过了好一阵，你们还多召了几种生物给她看。雷迪洛克这才合上笔记本，让它凭空消失，就像典藏官先前变走那扇门一样。她谢过你们花时间演示，让你们把这里当自己家，又说很快会来找你们商量石道的事。说完，她便向后一仰，翻下阳台，没了踪影。\\n\\n确认公主并没有就这么摔死，你们才从阳台走进似乎是为你们安排的客房。单看里面的陈设，恐怕就花了几千金币，还不算建造房间的费用。两张柔软的四柱床，一池冒着热气的水。池水靠某种你不熟悉的魔法保持着温热。脚下铺着厚地毯，窗边垂着精美的丝绸帷幔，四周摆着各式艺术品，描绘的都是你从未见过、甚至从未听说过的地方。\\n\\n[Companion Name]早已扑向最近的那张床，头还没挨上枕头就打起了呼噜。看她这副模样，你也觉得这里亲切了几分。没过多久，你便和她一样，倒头睡着了",
+  "reason": "碎句重复：「还有」连用、与前句重复",
+  "reason_en": "Choppy fragments with repeated '还有' and redundancy"
+ },
+ {
+  "ctxt": "",
+  "en": "I do. There was a war between our kingdoms long before my father was even a pebble in his father's eye, but Dwarven grudges run deep.",
+  "zh": "没错。两国确实打过仗，那时我父亲还没出生呢。可矮人记起仇来，哪有那么容易忘。",
+  "reason": "翻译腔：此句读不通（father not yet born）",
+  "reason_en": "Translationese: the original phrasing is hard to parse (father wasn't even born yet)"
+ },
+ {
+  "ctxt": "",
+  "en": "Prince Cintak simply holds his stony face in his hands as the princess starts to divulge far more detail than you would have thought she'd offer up. The Slabglider departs back towards Koganusan and comes back with half a village of dwarves, tables, decor, and liquor. Then it speeds off towards the Flamberian capitol and brings back even more. Just like that, the Linking is underway.\\n\\nYou and [Companion Name] stroll about the thrown together party. The Stoneglider comes and goes multiple times, bringing more people, food, and furnishings, all of which are tucked into the carved out alcove you all reside in. The atmosphere is lively, sometimes too much so. It'd seem the king isn't the only one with longstanding grudges, and several scuffles break out through the celebration, but they're quickly quelled.\\n\\nYou're on edge, waiting for any sign of the Soulsmiths. You scan every new arrival, take stock of each good brought in, and... the small hint of blood left on one of the chairs.\\n\\nWith the small fights, rowdy dwarves, and free flowing alcohol, it's no wonder someone could have gotten hurt, but the chair hadn't been unloaded from the Slabglider yet.\\n\\nSomething is awry, you just don't know what yet.",
+  "zh": "辛塔克王子只能双手捂住自己那张石头脸。公主则兴致勃勃地讲了起来，讲得之详细，远超你的预料。石板滑行者返回科加努桑，再回来时，带来了足有半个村子那么多的矮人，还有桌椅、装饰和酒。随后，它又飞驰前往弗拉姆贝里都城，运回了更多宾客和物资。就这样，接轨庆典开始了。\\n\\n你和[Companion Name]在临时布置的会场里四处走动。石板滑行者来来回回，又带来更多宾客、食物和桌椅，把你们所在的这处开凿出来的洞厅塞得满满当当。气氛热闹得很，有时甚至热闹过了头。看来，放不下旧怨的不止国王。庆典上接连起了几场冲突，不过很快都被制止了。\\n\\n你始终绷着神经，留意着炼魂师的踪迹。每个新到的宾客，每批运来的物资，你都仔细看过。然后……你发现一把椅子上沾着一点血。\\n\\n会场里有人打架，有人闹腾，酒更是一杯接一杯，磕破点皮本不奇怪。可这把椅子还没从石板滑行者上卸下来。\\n\\n一定有哪里出了问题，只是你还没弄清楚。",
+  "reason": "语序别扭：「细得远远超出」读不通",
+  "reason_en": "Awkward phrasing: '细得远远超出' (so detailed it far exceeds) does not read naturally"
+ },
+ {
+  "ctxt": "",
   "en": "You see several dwarves by the wall turn towards you, startled by the arrow whizzing in their direction and your shout. They disappear as the runes in the barrel and several others nearby explode with a burst of magical energy, swallowing them entirely in a flash of white light.\\n\\nThe whole world heaves upward. [Companion Name] grabs you as you're sent careening out of the alcove and down the tunnel, crashing to the ground with a sickening series of cracks then rolling several meters.\\n\\nThe two of you stagger towards your feet and rush back inside to see that half the cavity has been reduced to rubble, and many of those attending were killed instantly by the blast. The cleared out section is... far larger than it should be, as a large cavern is revealed by the blast. Soulsmiths adorned with gold trimmed robes and long, black metal weapons begin to flood out from the hole and descend on the Dwarves alongside their dark summoned monsters. \\n\\nThe sight is horrifyingly similar to that dark night in Azamire.\\n\\nBehind the cultists is a slug-like monster that pulls itself along the ground on countless sets of arms, pulling itself into the opening with sickening, twitchy movements. The creature is nearly as long as the Stoneglider, and twice as tall. A large black metal vessel protrudes from the beast's back, seemingly fused to it. You watch the device on its back begins to glow as it pulls itself towards the dead dwarves on the ground.\\n\\nA pulse of dark green light washes over the bombed-out alcove.\\n\\nThen the dead begin to move again. ",
   "zh": "墙边的几个矮人被飞来的箭和你的喊声惊动，转头望向你。下一刻，那只桶和附近几只桶里的符文同时炸开，魔力喷涌而出。白光一闪，他们便被彻底吞没了。\\n\\n整个世界猛地向上一掀。[Companion Name]一把抓住你，你们一起被抛出洞厅，飞进隧道，重重砸在地上。接连几声脆响令人心惊，你们又滚出了好几米。\\n\\n你们挣扎着站起来，赶紧冲回洞厅。里面已有一半被炸成废墟，不少宾客当场丧命。爆炸后露出的空间……大得不对劲。原来，岩壁后还藏着一座巨大的洞窟。身穿金边长袍、手持黑色金属长兵器的炼魂师从洞口蜂拥而出，带着他们召唤的黑暗怪物，一同扑向矮人。\\n\\n这一幕，与阿扎米尔遇袭的那个黑夜像得令人胆寒。\\n\\n那些邪教徒身后，一头蛞蝓般的怪物正用无数条手臂拖着身体前进，一抽一抽地挤进洞口，看得人直犯恶心。它几乎与石板滑行者一样长，高度却足有两倍。一个巨大的黑色金属容器从它背上凸出，看起来已经与它的身体长在了一起。它朝地上的矮人尸体爬去，背上的装置随之亮起。\\n\\n一道暗绿色光芒扫过被炸毁的洞厅。\\n\\n接着，亡者又动了起来。",
   "reason": "误译/重复：末句误重复了上一段“一道暗绿色光芒扫过被炸毁的洞厅。”，英文为 Then the dead begin to move again，改为“接着，亡者又动了起来。”",
   "reason_en": "Mistranslation/duplication: the last sentence wrongly repeated the previous paragraph's 一道暗绿色光芒扫过被炸毁的洞厅 (a dark green light swept across the blasted cavern hall); the English is \"Then the dead begin to move again\", changed to 接着，亡者又动了起来 (then the dead began to move again)."
+ },
+ {
+  "ctxt": "",
+  "en": "When the dwarves that remain see you crash against the Soulsmiths, any who are able follow close behind you, burning with unbridled rage. You do your best to defend those too dazed or injured to help or run, but many are cut down by the Soulsmiths who weave through the crowd of undead.\\n\\nThis entire attack was planned out meticulously, maybe even your presence was accounted for. You try to intercept a group that head towards the Stoneglider, but the horde of undead stop you each time. Several Soulsmiths board the Stoneglider, load barrels of volatile runes onto the platform, then send it hurtling towards Koganusan. There's nothing you can do, there's too many things to deal with at once.\\n\\nIn the heat of battle you catch a glimpse of Prince Cintak standing over Princess Redilok, who clutches the new stump of her arm and tries to stem the bleeding. You try to reach them, but there's simply too many undead between you. It's not long before the prince is run through by one of the Soulsmith's black metal blades. He's then hefted into the air and unceremoniously pinned onto the back of the horrific slug creature who cries out as it's blubbery flesh is pierced. \\n\\n[Companion Name] is much closer, she reaches the princess just in time to spare her from the same fate as the prince. Moments after she cuts down the Soulsmith, those that remain call out to one another, escaping with the body of the prince, following after their beast who now scampers deeper into the cavern.\\n\\nThe undead remain, but without the threat of the gold-robed Soulsmiths probing for weaknesses or distractions, you're able to cut down the rest of them in short order. You rush to the princess's side. Undeterred by her missing arm, she stands, eyes piercing the dark of the cavern and staring towards those who took the prince. She claims that it'd take more than that to kill him, and that the Soulsmiths wanted him alive. [Companion Name] tries to stop the princess from following into the cavern, but she's undeterred.\\n\\nOnly thing you can do is follow after.",
+  "zh": "幸存的矮人见你冲向炼魂师，凡是还能战斗的，都满腔怒火地紧随其后。你竭力护住那些没回过神、受了重伤，既没法战斗也来不及逃的人。可炼魂师穿梭在亡者之间，还是杀死了不少人。\\n\\n整场袭击显然经过周密策划，或许连你们在场，都早已被算在其中。一队炼魂师朝石板滑行者奔去。你几次想拦住他们，却都被成群的亡者挡了回来。几个炼魂师登上石板滑行者，把一桶桶不稳定的符文搬上石台，随后让它朝科加努桑疾驰而去。你根本无力阻止。眼前要应付的敌人，已经太多了。\\n\\n混战中，你瞥见辛塔克王子正护在雷迪洛克公主身前。她一只手臂已被斩断，正紧紧按着断口，试图止血。你想赶到他们身边，可中间隔着太多亡者。没过多久，一名炼魂师便用黑色金属利刃刺穿了王子的身体。他将王子挑到半空，狠狠钉在那头恐怖的蛞蝓怪物背上。怪物肥厚的血肉被刺穿，发出一声惨叫。\\n\\n[Companion Name]离他们近得多。她及时赶到公主身边，才没让公主也遭受同样的厄运。她刚斩倒那名炼魂师，剩下的敌人便互相呼喊着撤退。野兽驮着王子的身体，飞快爬向洞窟深处，他们紧随其后。\\n\\n亡者仍在攻击，但没了那些金袍炼魂师伺机偷袭，你们很快便将它们全部解决。你冲到公主身旁。即使失去一条手臂，她还是站了起来，目光直直望向黑暗深处，盯着掳走王子的那群人。她坚称，辛塔克没那么容易死，炼魂师要的是活口。[Companion Name]试图拦住她，不让她追进洞窟，可她心意已决。\\n\\n你们能做的，只有跟上去。",
+  "reason": "定语过长、结构缠绕",
+  "reason_en": "Overlong, tangled modifier"
+ },
+ {
+  "ctxt": "",
+  "en": "You're giving me an order?",
+  "zh": "你在对我下命令？",
+  "reason": "误译：you're giving me an order，原译「教我做事」意思偏了",
+  "reason_en": "Mistranslation: 'giving me an order' rendered as 'teaching me how to do things'"
  },
  {
   "ctxt": "",
@@ -1464,10 +1821,38 @@
  },
  {
   "ctxt": "",
+  "en": "The devastation left by the Soulsmith attack has both fortunately and unfortunately left behind no small number of plots free of their original buildings. All it takes is a small chat with the king and one of them is requisitioned from its deceased owner and then attributed to the two of you. You draft up and begin construction on a sizeable cookhouse, capable of feeding a large portion of those displaced by the attack, and giving new purpose to a few as well, should they choose to help Zotty.\\n\\nBuilding the structure goes much faster than expected. When townsfolk see you working on the structure, many come to help for any number of reasons. Dwarven pride, giving back to their community, or even trying to help the two of you in return for saving as many as you could at the Linking. Before you know it, the dwarven cookhouse stands tall amidst the rubble, ready to feed those in need. Zotty admires the building with her hands on her hips, save for a couple small dabs at her eyes when she thinks you aren't looking.",
+  "zh": "炼魂师毁掉了不少房屋，倒也留下了大片空地。虽然眼下用得上，你却实在高兴不起来。你跟国王简单说了说打算，他便将一块主人已经遇难的地皮征用，交给你们。你们画好图纸，动手建起一间大食堂。有了它，许多因袭击而无家可归的人便能吃上饭。愿意来帮佐蒂的，也能重新找点事情做。\\n\\n房子盖得比预想中快得多。镇民们见你们忙活，纷纷赶来搭手。有的是出于矮人的自尊，有的想为街坊做点事，还有的听说你们在接轨庆典上救了许多人，想借此还一份人情。没多久，一座食堂便在废墟间立了起来，只等开火做饭，招呼有需要的人进门。佐蒂叉着腰，望着新食堂看了又看。趁你们不注意，她还偷偷抹了几下眼角。",
+  "reason": "误译：Dwarven pride 是矮人的自豪/自尊，原文没有「输给人类」",
+  "reason_en": "Mistranslation: 'Dwarven pride' was rendered as not wanting dwarven skill to lose to humans, which is not in the source"
+ },
+ {
+  "ctxt": "",
+  "en": "When I said I wanted a spot of help, I was expecting a bag of tubers, or maybe a scrap of meat.",
+  "zh": "我说想请你们帮点忙，原以为顶多拿来一袋薯块，或者一小块肉。",
+  "reason": "语序啰嗦、读着绕：「想着能拿来…拿点肉来，就挺好了」",
+  "reason_en": "Wordy, circular phrasing in the Chinese; rewritten to read naturally"
+ },
+ {
+  "ctxt": "",
   "en": "Before either you or [Companion Name] can finish cooking your first pots, both Nalidasi and many of the Flamberian survivors from the Linking start trickling into the cookhouse, asking how they can help - in exchange for a bit of food of course - and Zotty begins barking out orders like a trained general. Flamberians heat their bodies and are used as stoves, much to the amusement of both races of dwarves. Zotty moves through the kitchen with purpose, correcting well-intentioned helpers and directing them to watch you and [Companion Name] as examples.\\n\\nIt takes a while, but those in the cookhouse start to produce Cobblestone Soup that Zotty is willing to serve to the long line of hungry survivors of the market district disaster. The two of you do so well Zotty is reluctant to let you go, until King Ozadazminis himself offers himself and the Archivist as replacements during a visit to the building's opening night. Zotty grumbles and mentions that good help is hard to find, but allows to you go after making sure you've both eaten your fill.",
   "zh": "你和[Companion Name]连各自的第一锅汤都还没做好，就陆续有人走进食堂。既有纳里达西人，也有不少从接轨庆典上逃过一劫的弗拉姆贝里人，都是来问能不能帮忙换口饭吃的。佐蒂立刻指挥起来，架势活像个带惯了兵的将军。弗拉姆贝里人把身体烧热，直接充当炉子。这主意把两边的矮人都逗乐了。佐蒂在厨房里来回忙碌，见谁做得不对就上前指点，还不时让他们看看你和[Companion Name]是怎么做的。\\n\\n又忙活了一阵，帮手们终于煮出了让佐蒂满意的卵石汤，可以端给门外排着长队、饥肠辘辘的灾民了。你们干得太好，佐蒂实在舍不得放人。直到开张当晚，奥亚达兹米尼斯国王亲自过来，提出由他和典藏官接手你们的活儿，她才答应让你们走。她嘴里还念叨着“好帮手不好找”，又非要看着你们吃饱了饭，才肯放行。",
   "reason": "专有名词不一致：国王名奥扎达兹米尼斯→奥亚达兹米尼斯（names.tsv）",
   "reason_en": "Inconsistent proper noun: the king's name 奥扎达兹米尼斯 changed to 奥亚达兹米尼斯 (per names.tsv)."
+ },
+ {
+  "ctxt": "",
+  "en": "The Shambling Beast made a mess of a trail through the Misty Thicket, and you wager you'd be able to follow it all the way out pretty easily, now that you've found its trail. Downed trees, a huge gouge through the ground thats already filled with water, and occasional lumps of flesh are pretty telling that you're on the right track. As you get closer and closer to what you presume would be the castle, the stench of death seems to hang in the air, which is impressive for such a horrid bog that already doesn't smell like a bundle of roses.\\n\\nThe two of you leave Brunite and the Rockwolves behind, trusting in your ability to move more quietly and take up less space than huge beasts with stone for fur. You follow the trail until you find what the Flamberians detailed on their map. Row upon row of corpses are pinned to the outer walls of a ancient castle. All of the bodies are seemingly frozen in space, but doubtlessly alive, since the wall adornments seem to moan and twitch from time to time. The mist-shrouded moat surrounding the castle does little to brighten the image in your mind. You let out an involentary shiver as you gaze up at the macbre sight.\\n\\n[Companion Name] pulls you away, sure that the monster you're looking for is within the walls. This is definitely not something you can take on alone. It's time to see just how serious King Oyadazminis is about going to war, because it'll take quite the siege to bring down these walls. The journey back is much faster than your journey in, perhaps in part due to the back you know you'll have dry feet for the first time in a while. It's still quite the trek to return to the capitol, but it's comparatively smooth sailing than your trip to the Misty Thicket.",
+  "zh": "跛行兽一路穿过迷雾丛林，把沿途搅得一片狼藉。如今找着了它的踪迹，哪怕一路追出林子，想来也不会跟丢。沿途的树倒了一片，地上被拖出一道深沟，沟里已经积满了水。偶尔还能看见几块掉落的血肉。你们走对了。你估摸着，古堡就在前面了。越往前走，空气里的腐尸味就越浓。这片沼泽本来就够臭的了，那股味道居然还能盖过去。\\n\\n你们让布鲁尼特和石狼留在后面。两个人悄悄摸过去，总比带着几头浑身披着石甲的庞然大物容易藏身。你们沿着痕迹继续前行，终于看见了弗拉姆贝里人在地图上标出的那座古堡。古堡的外墙上，密密麻麻钉着一排又一排尸体。那些身体仿佛被定在了墙上，可分明还活着。隔一会儿，墙上的这些“装饰”就会抽动几下，发出呻吟。城堡四周还有一道护城河，雾气沉沉地压在水面上，更添了几分阴森。你仰头望着这一幕，不由得打了个寒战。\\n\\n[Companion Name]把你拉开。她确信，你们要找的怪物就在城墙里面。光凭你们俩，这回肯定应付不来。要打下这座城堡，少不了一场硬仗。奥亚达兹米尼斯国王说过要出兵，是时候看看他究竟有多大决心了。回去时，你们的脚程比来时快多了。说不定是因为一想到总算能离开这片沼泽，让湿透的双脚干一干，你们就不由得加快了脚步。回都城还有很长一段路要走。好在比起去迷雾丛林时的跋涉，这一路顺当多了。",
+  "reason": "病句：「比起来迷雾丛林」不通，应为「比起去迷雾丛林」",
+  "reason_en": "Ungrammatical phrase 比起来迷雾丛林; fixed to 比起去迷雾丛林 (compared with the trip to the Misty Thicket)"
+ },
+ {
+  "ctxt": "",
+  "en": "Once those who attacked my people are burried in thier marsh, we'll send an envoy or two around. Let your people know that we'd be willing to entertain more than a few tourists, from time to time.",
+  "zh": "等把那些袭击我族人的家伙埋进他们自己的沼泽里，我打算派一两位使节出去走走。也让你们的人知道，我们愿意多跟你们往来，不会只满足于偶尔来几个游客。",
+  "reason": "语义别扭：「不必总是…就算了」读不通",
+  "reason_en": "Awkward phrase that does not read clearly; reworded to match the meaning of the English"
  },
  {
   "ctxt": "",
@@ -1821,34 +2206,6 @@
  },
  {
   "ctxt": "",
-  "en": "+4% chance to deal double damage in Woodcutting\\n+0.13% Bird/Eagle Nest chance in Woodcutting",
-  "zh": "伐木时造成双倍伤害的几率+4%\\n伐木时获得鸟巢/鹰巢的几率+0.13%",
-  "reason": "原文有换行，译文被改成空格，恢复 \n",
-  "reason_en": "The original has line breaks but the translation turned them into spaces; restored."
- },
- {
-  "ctxt": "",
-  "en": "+8% chance to deal double damage in Woodcutting\\n+0.13% Bird/Eagle Nest chance in Woodcutting",
-  "zh": "伐木时造成双倍伤害的几率+8%\\n伐木时获得鸟巢/鹰巢的几率+0.13%",
-  "reason": "原文有换行，译文被改成空格，恢复 \n",
-  "reason_en": "The original has line breaks but the translation turned them into spaces; restored."
- },
- {
-  "ctxt": "",
-  "en": "+15% chance to deal double damage in Woodcutting\\n+0.13% Bird/Eagle Nest chance in Woodcutting",
-  "zh": "伐木时造成双倍伤害的几率+15%\\n伐木时获得鸟巢/鹰巢的几率+0.13%",
-  "reason": "原文有换行，译文被改成空格，恢复 \n",
-  "reason_en": "The original has line breaks but the translation turned them into spaces; restored."
- },
- {
-  "ctxt": "",
-  "en": "+8% chance to deal double damage in Woodcutting\\n+0.13% Bird/Eagle Nest chance in Woodcutting\\n+0.1% \\\"On Cut\\\" Item chance in Woodcutting",
-  "zh": "伐木时造成双倍伤害的几率+8%\\n伐木时获得鸟巢/鹰巢的几率+0.13%\\n伐木时获得“每次砍伐”物品的几率+0.1%",
-  "reason": "原文有换行，译文被改成空格，恢复 \n",
-  "reason_en": "The original has line breaks but the translation turned them into spaces; restored."
- },
- {
-  "ctxt": "",
   "en": "Requires Hunter",
   "zh": "需要狩猎",
   "reason": "术语：Hunting=狩猎",
@@ -1920,9 +2277,9 @@
  {
   "ctxt": "",
   "en": "Your [b]Accuracy Rating[/b] & [b]Evasion Rating[/b] is reduced\\\\n by [b][color=orange]5%[/color][/b] per Light value below the Darkness value.",
-  "zh": "你的[b]精准值[/b]和[b]躲避值[/b]会降低\\\\n每当光明值比黑暗值低1点，降幅为[b][color=orange]5%[/color][/b]。",
-  "reason": "转义与英文一致（英文是字面 \n）",
-  "reason_en": "Escape sequence now matches the English (the English contains a literal line-break escape)."
+  "zh": "光明值每比黑暗值低1点，你的[b]精准值[/b]和[b]躲避值[/b]\\\\n就会降低[b][color=orange]5%[/color][/b]。",
+  "reason": "翻译腔：语序颠倒，“每当……降幅为”不通顺",
+  "reason_en": "Translationese: inverted word order and awkward phrasing (每当…降幅为, 'whenever…the reduction is')"
  },
  {
   "ctxt": "",
@@ -2077,6 +2434,27 @@
   "zh": "在战斗中累计对{EnemyName}的守护值造成{Current:N0} / {Max:N0}点伤害",
   "reason": "Ward 术语应译为守护值（原为守卫/看守）",
   "reason_en": "Terminology: Ward should be 守护值 (ward value); the old translation used 守卫/看守 (guard/watch)."
+ },
+ {
+  "ctxt": "",
+  "en": "[b][color=#ff4500]Automation Failed ({0})[/color][/b] - Cannot afford automation.",
+  "zh": "[b][color=#ff4500]自动化失败（{0}）[/color][/b]：资金不足，无法自动化。",
+  "reason": "翻译腔：「无法承担…花费」改为「资金不足」",
+  "reason_en": "Translationese: 无法承担…花费 (cannot bear the cost) changed to 资金不足 (insufficient funds)."
+ },
+ {
+  "ctxt": "",
+  "en": "[b][color=#ff4500]Auto Plant Failed ({0})[/color][/b] - Cannot afford to Plant.",
+  "zh": "[b][color=#ff4500]自动种植失败（{0}）[/color][/b]：资金不足，无法种植。",
+  "reason": "翻译腔：「无法承担…花费」改为「资金不足」",
+  "reason_en": "Translationese: 无法承担…花费 (cannot bear the cost) changed to 资金不足 (insufficient funds)."
+ },
+ {
+  "ctxt": "",
+  "en": "[color=orange_red] Failed to auto buy [b]{0}[/b]. Cannot afford.[/color]",
+  "zh": "[color=orange_red]自动购买[b]{0}[/b]失败，资金不足。[/color]",
+  "reason": "翻译腔：连续两个「无法」，「无法承担花费」生硬",
+  "reason_en": "Translationese: two consecutive 「无法」 and stiff 「无法承担花费」 (cannot afford); reworded to 「失败，资金不足」"
  },
  {
   "ctxt": "",

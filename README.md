@@ -20,7 +20,7 @@ Melvor Idle 2 的游戏文件里，其实已经带了一份官方还没正式启
 1. **启用**这份官方草稿，让游戏的语言列表里出现中文；
 2. 在草稿基础上**补全和校对**：
    - 补全 1872 条缺失条目。大部分是物品名的复数形式，缺了它们，日志和掉落提示里会显示英文。
-   - 对照英文原文逐条检查了全部 10407 条文本，修正 300 处：错译、错别字、漏译、术语不统一、换行格式错误等。
+   - 对照英文原文逐条检查了全部 10407 条文本，修正 354 处：错译、错别字、漏译、术语不统一、换行格式错误等。
    - 部分译名（祝祭、法术等）与一代 Melvor Idle 的官方中文保持一致。
 
 翻译主体仍然是官方草稿，本仓库只保存**修正和补充的部分**（`translation/`），安装时脚本从你自己的游戏里读取官方草稿，在本地合并后写回游戏。
@@ -60,6 +60,15 @@ Melvor Idle 2 的游戏文件里，其实已经带了一份官方还没正式启
 - 本补丁会直接修改 `Melvor2.exe` 内的翻译文件，exe 的数字签名会因此失效，但不影响运行；原始数据备份在 `_backup/`。
 - 想彻底还原，在 Steam 里对游戏「验证游戏文件完整性」即可。
 - 官方草稿尚未完成，个别文本可能仍是英文或有不准确之处，欢迎反馈。
+
+## 已知问题（需要开发者修复）
+
+以下界面的文字在翻译文件里**已经有中文**，但游戏显示时没有调用翻译，所以仍是英文。补丁无法修复，已反馈给开发者：
+
+- 商店物品的描述（如「Upgrades the Fire Pit for Firemaking to Iron」）
+- 星象学面板的「+1.00 per Study」「Next unlock at 12 Knowledge」
+- 获得物品提示里的「13 in Bank」、底栏等级进度里的「Level」
+- 底栏时间下拉框的「10 minutes」（翻译文件里没有这条）
 
 ## 参与修正
 
@@ -103,7 +112,7 @@ The game already ships an unreleased official Simplified Chinese (`zh_CN.po`) dr
 1. **enables** that draft so Chinese appears in the game's language list, and
 2. **completes and proofreads** it:
    - adds 1,872 missing entries (mostly `PluralName`-context item names, without which logs and drop messages show English);
-   - checks all 10,407 strings against the English source and fixes 300 issues (mistranslations, typos, missing information, inconsistent terminology, broken line breaks);
+   - checks all 10,407 strings against the English source and fixes 354 issues (mistranslations, typos, missing information, inconsistent terminology, broken line breaks);
    - aligns some names (prayers, spells) with Melvor Idle 1's official Chinese.
 
 The bulk of the translation is still the official draft. This repository only holds the **corrections and additions** (`translation/`). At install time the script reads the draft from your own game files, merges the changes locally, and writes the result back into the game.
@@ -132,6 +141,15 @@ Other commands: `status` (show state), `restore` (uninstall: put the original dr
 - A Steam update or "Verify integrity of game files" restores `Melvor2.exe`; just run `install` again (with the game closed).
 - Corrections whose English text changed in an update are reported as unmatched and skipped; the rest still apply.
 - The patch edits the translation file inside `Melvor2.exe`, which invalidates the exe's code signature (the game still runs). The original data is backed up in `_backup/`.
+
+## Known issues (need a fix from the developers)
+
+The following UI text already has a Chinese translation in the game's translation file, but the game does not pass it through translation, so it stays in English. A patch cannot fix these:
+
+- Shop item descriptions (`ShopPurchase.Description`, e.g. "Upgrades the Fire Pit for Firemaking to Iron")
+- Astrology panel: "+{0:N2} per Study", "Next unlock at {0} Knowledge"
+- Item notification "{0:N0} in Bank"; "Level" in the bottom-bar level progress
+- "10 minutes" in the bottom-bar time dropdown (not present in the translation file at all)
 
 ## Contributing
 
