@@ -22,6 +22,7 @@ Melvor Idle 2 的游戏文件里，其实已经带了一份官方还没正式启
    - 补全 1872 条缺失条目。大部分是物品名的复数形式，缺了它们，日志和掉落提示里会显示英文。
    - 对照英文原文逐条检查了全部 10407 条文本，修正 354 处：错译、错别字、漏译、术语不统一、换行格式错误等。
    - 部分译名（祝祭、法术等）与一代 Melvor Idle 的官方中文保持一致。
+3. **替换游戏没有翻译的界面文字**：商店物品描述、战斗区域/地下城名称、星象学面板的「per Study」「Next unlock at」等，游戏显示时不会调用翻译，补丁直接把这些英文原文换成中文（只改文字，不改游戏代码）。
 
 翻译主体仍然是官方草稿，本仓库只保存**修正和补充的部分**（`translation/`），安装时脚本从你自己的游戏里读取官方草稿，在本地合并后写回游戏。
 
@@ -50,8 +51,8 @@ Melvor Idle 2 的游戏文件里，其实已经带了一份官方还没正式启
 | 命令 | 作用 |
 |---|---|
 | `python melvor2_zh.py status` | 查看当前是否已安装 |
-| `python melvor2_zh.py restore` | 卸载：还原官方原始草稿，删除 `override.cfg` |
-| `python melvor2_zh.py build` | 只生成合并后的翻译文件到 `_work/zh_CN.po`，不改动游戏 |
+| `python melvor2_zh.py restore` | 卸载：还原所有被修改的原始文件，删除 `override.cfg` |
+| `python melvor2_zh.py build` | 只生成合并后的文件到 `_work/`，不改动游戏 |
 
 ## 注意事项
 
@@ -59,20 +60,19 @@ Melvor Idle 2 的游戏文件里，其实已经带了一份官方还没正式启
 - 如果更新后部分修正提示“未匹配”，说明官方改动了对应的英文原文，这些条目会保留官方译文，其余修正照常生效。
 - 本补丁会直接修改 `Melvor2.exe` 内的翻译文件，exe 的数字签名会因此失效，但不影响运行；原始数据备份在 `_backup/`。
 - 想彻底还原，在 Steam 里对游戏「验证游戏文件完整性」即可。
+- 第 3 项是直接替换原文，所以**切换回英文后，这些位置仍显示中文**；需要英文时运行 `restore` 即可。
 - 官方草稿尚未完成，个别文本可能仍是英文或有不准确之处，欢迎反馈。
 
 ## 已知问题（需要开发者修复）
 
-以下界面的文字在翻译文件里**已经有中文**，但游戏显示时没有调用翻译，所以仍是英文，补丁无法修复：
+以下界面的文字由游戏代码直接生成，没有调用翻译，补丁无法修复（商店描述、战斗区域名、星象学面板已通过替换原文解决）：
 
-- 商店物品的描述（如「Upgrades the Fire Pit for Firemaking to Iron」）
-- 星象学面板的「+1.00 per Study」「Next unlock at 12 Knowledge」
 - 获得物品提示里的「13 in Bank」、底栏等级进度里的「Level」
 - 底栏时间下拉框的「10 minutes」（翻译文件里没有这条）
 
 ## 参与修正
 
-所有修正都在 `translation/overrides.json`，每条格式如下：
+翻译修正在 `translation/overrides.json`（游戏不翻译的原文替换在 `translation/source_text.json`），每条修正格式如下：
 
 ```json
 {"ctxt": "", "en": "英文原文（必须与游戏完全一致）", "zh": "修正后的译文", "reason": "修改理由", "reason_en": "英文版修改理由"}
@@ -113,7 +113,8 @@ The game already ships an unreleased official Simplified Chinese (`zh_CN.po`) dr
 2. **completes and proofreads** it:
    - adds 1,872 missing entries (mostly `PluralName`-context item names, without which logs and drop messages show English);
    - checks all 10,407 strings against the English source and fixes 354 issues (mistranslations, typos, missing information, inconsistent terminology, broken line breaks);
-   - aligns some names (prayers, spells) with Melvor Idle 1's official Chinese.
+   - aligns some names (prayers, spells) with Melvor Idle 1's official Chinese;
+3. **replaces the English source text of UI the game never translates** (shop item descriptions, combat area and dungeon names, the astrology panel's "per Study" / "Next unlock at" labels). Only text is changed, never game code.
 
 The bulk of the translation is still the official draft. This repository only holds the **corrections and additions** (`translation/`). At install time the script reads the draft from your own game files, merges the changes locally, and writes the result back into the game.
 
@@ -134,20 +135,19 @@ The bulk of the translation is still the official draft. This repository only ho
 
 4. Start the game, open **Settings → Language** and choose **Chinese, China**.
 
-Other commands: `status` (show state), `restore` (uninstall: put the original draft back and remove `override.cfg`), `build` (only write the merged file to `_work/zh_CN.po`).
+Other commands: `status` (show state), `restore` (uninstall: put every modified file back and remove `override.cfg`), `build` (only write the merged files to `_work/`).
 
 ## Notes
 
 - A Steam update or "Verify integrity of game files" restores `Melvor2.exe`; just run `install` again (with the game closed).
 - Corrections whose English text changed in an update are reported as unmatched and skipped; the rest still apply.
 - The patch edits the translation file inside `Melvor2.exe`, which invalidates the exe's code signature (the game still runs). The original data is backed up in `_backup/`.
+- Because step 3 replaces the source text itself, those spots stay in Chinese even if you switch the game back to English. Run `restore` to get English back.
 
 ## Known issues (need a fix from the developers)
 
-The following UI text already has a Chinese translation in the game's translation file, but the game does not pass it through translation, so it stays in English. A patch cannot fix these:
+The following UI text is built in game code without going through translation, so the patch cannot fix it (shop descriptions, combat area names and the astrology panel are now handled by replacing the source text):
 
-- Shop item descriptions (`ShopPurchase.Description`, e.g. "Upgrades the Fire Pit for Firemaking to Iron")
-- Astrology panel: "+{0:N2} per Study", "Next unlock at {0} Knowledge"
 - Item notification "{0:N0} in Bank"; "Level" in the bottom-bar level progress
 - "10 minutes" in the bottom-bar time dropdown (not present in the translation file at all)
 

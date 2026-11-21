@@ -1,0 +1,36 @@
+{
+  "_comment": "UI text the game never passes through translation. The patch replaces the English source text itself (game data + scene files). Data fields take their Chinese from the merged zh_CN.po, with data_extra for values that have no po entry. Scene replacements must not be longer in UTF-8 bytes than the English; they are padded with trailing spaces.",
+  "data_file": "Data/Packages/MelvorBase.json",
+  "data_fields": [
+    ["ShopPurchase", "Description"],
+    ["CombatArea", "DisplayName"],
+    ["Dungeon", "DisplayName"]
+  ],
+  "data_extra": {
+    "Grants access to new slayer zones.": "解锁新的屠杀者区域。",
+    "Hire a Farmhand I that unlocks automations for all Farming actions with a [b]Farming Level requirement less than [color=orange]30[/color][/b]. Requires Wine as payment for their services.": "雇用农场帮工I后，凡是[b]所需农务等级低于 [color=orange]30[/color]级[/b]的农务操作，均可自动执行。雇用帮工需用葡萄酒支付报酬。",
+    "Act 2 - The Path to Melvor": "第二幕 - 通往梅尔沃之路",
+    "Act 2 - The Big City": "第二幕 - 大城市",
+    "Act 2 - Unfortunate Teller": "第二幕 - 倒霉的占卜师",
+    "Act 2 - Starlit Sky": "第二幕 - 星光满天",
+    "Act 2 - Cold Plunge": "第二幕 - 寒地探秘",
+    "Act 2 - The Sunken Tower": "第二幕 - 沉没之塔"
+  },
+  "scenes": {
+    "-current_constellation_view.scn": [
+      ["+0.00 per Study", "每研究+0.00"],
+      ["+{0:N2} per Study", "每研究+{0:N2}"],
+      ["[color=#b5b5b5]Next unlock at[/color] [b]0 Knowledge[/b]", "[color=#b5b5b5]下次解锁需要[/color][b]0知识[/b]"],
+      ["[color=#b5b5b5]Next unlock at[/color] [b]{0:N0} Knowledge[/b]", "[color=#b5b5b5]下次解锁需要[/color][b]{0:N0}知识[/b]"],
+      ["99 Available", "99可用"]
+    ],
+    "-combat_area_category_button.scn": [
+      ["0 Available", "0可用"],
+      ["{0:N0} Available", "{0:N0}可用"]
+    ],
+    "-select_combat_area_panel.scn": [
+      ["0 Available", "0可用"],
+      ["{0:N0} Available", "{0:N0}可用"]
+    ]
+  }
+}
