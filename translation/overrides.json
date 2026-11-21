@@ -3,1620 +3,1890 @@
   "ctxt": "",
   "en": "{Value:0.##%} {Value:cond:<0?Decreased|>=0?Increased} Rock Break chance in {LocalContext.Component.Entity.DisplayName}",
   "zh": "{Value:cond:<0?减少|>=0?增加} {Value:0.##%} {LocalContext.Component.Entity.DisplayName}的矿石碎裂几率",
-  "reason": "条件分支英文未翻译"
+  "reason": "条件分支英文未翻译",
+  "reason_en": "Untranslated English in the conditional branch (Decreased/Increased)."
  },
  {
   "ctxt": "",
   "en": "{Value:0%} {Value:cond:<0?Decreased|>=0?Increased} {LocalContext.Item.DisplayName} chance in {LocalContext.Component.Entity.DisplayName}",
   "zh": "{Value:cond:<0?减少|>=0?增加} {Value:0%} {LocalContext.Component.Entity.DisplayName}获取{LocalContext.Item.DisplayName}的几率",
-  "reason": "条件分支英文未翻译"
+  "reason": "条件分支英文未翻译",
+  "reason_en": "Untranslated English in the conditional branch (Decreased/Increased)."
  },
  {
   "ctxt": "",
   "en": "Convert Junk to GP for {Value:+0,0.##%;-#.##%} of its sale price in {LocalContext.Component.Entity.DisplayName}",
   "zh": "在{LocalContext.Component.Entity.DisplayName}中，将垃圾转换为金币的金额为其售价的{Value:+0,0.##%;-#.##%}",
-  "reason": "主宾颠倒，语义不清"
+  "reason": "主宾颠倒，语义不清",
+  "reason_en": "Subject and object were reversed, making the meaning unclear."
  },
  {
   "ctxt": "",
   "en": "{Value:0%} {Value:cond:<0?Decreased|>=0?Increased} chance for {LocalContext.Item.DisplayName} from burning Logs",
   "zh": "{Value:cond:<0?减少|>=0?增加} {Value:0%}燃烧原木获得{LocalContext.Item.DisplayName}的几率",
-  "reason": "条件分支英文未翻译；语序调整为\"增加/减少 数值\""
+  "reason": "条件分支英文未翻译；语序调整为\"增加/减少 数值\"",
+  "reason_en": "Untranslated English in the conditional branch (Decreased/Increased). Word order changed to \"increase/decrease + value\"."
  },
  {
   "ctxt": "",
   "en": "{Value:0%} {Value:cond:<0?Decreased|>=0?Increased} Rock Break chance for {LocalContext.Category.DisplayName} in {LocalContext.Component.Entity.DisplayName}",
   "zh": "{Value:cond:<0?减少|>=0?增加} {Value:0%} {LocalContext.Component.Entity.DisplayName}的{LocalContext.Category.DisplayName}矿石碎裂几率",
-  "reason": "条件分支英文未翻译；语序调整为\"增加/减少 数值\""
+  "reason": "条件分支英文未翻译；语序调整为\"增加/减少 数值\"",
+  "reason_en": "Untranslated English in the conditional branch (Decreased/Increased). Word order changed to \"increase/decrease + value\"."
  },
  {
   "ctxt": "",
   "en": "{Value:0%} {Value:cond:<0?Decreased|>=0?Increased} Special Item chance in {LocalContext.Component.Entity.DisplayName}",
   "zh": "{Value:cond:<0?减少|>=0?增加} {Value:0%} {LocalContext.Component.Entity.DisplayName}的特殊物品几率",
-  "reason": "条件分支英文未翻译；语序调整为\"增加/减少 数值\""
+  "reason": "条件分支英文未翻译；语序调整为\"增加/减少 数值\"",
+  "reason_en": "Untranslated English in the conditional branch (Decreased/Increased). Word order changed to \"increase/decrease + value\"."
  },
  {
   "ctxt": "",
   "en": "{Value:+0.##%;-#.##%} chance for Ranching Animals to not consume Food",
   "zh": "{Value:+0.##%;-#.##%}畜牧动物不消耗饲料的几率",
-  "reason": "Ranching 术语为畜牧"
+  "reason": "Ranching 术语为畜牧",
+  "reason_en": "Terminology: Ranching is translated as 畜牧 (animal husbandry)."
  },
  {
   "ctxt": "",
   "en": "{Value:+0.##%;-#.##%} Ranching Animal Happiness",
   "zh": "{Value:+0.##%;-#.##%}畜牧动物的幸福度",
-  "reason": "Ranching 术语为畜牧"
+  "reason": "Ranching 术语为畜牧",
+  "reason_en": "Terminology: Ranching is translated as 畜牧 (animal husbandry)."
  },
  {
   "ctxt": "",
   "en": "{Value:+0.##%;-#.##%} chance for Ranching Enclosures to not degrade",
   "zh": "{Value:+0.##%;-#.##%}畜牧围栏不损坏的几率",
-  "reason": "Ranching 术语为畜牧"
+  "reason": "Ranching 术语为畜牧",
+  "reason_en": "Terminology: Ranching is translated as 畜牧 (animal husbandry)."
  },
  {
   "ctxt": "",
   "en": "{Value:+0.##%;-#.##%} maximum hit",
   "zh": "{Value:+0.##%;-#.##%}最大伤害",
-  "reason": "Max Hit 术语应为最大伤害"
+  "reason": "Max Hit 术语应为最大伤害",
+  "reason_en": "Terminology: Max Hit should be 最大伤害 (maximum damage)."
  },
  {
   "ctxt": "",
   "en": "{Value:0%} {Value:cond:<0?Decreased|>=0?Increased} maximum hit",
   "zh": "{Value:cond:<0?减少|>=0?增加} {Value:0%}最大伤害",
-  "reason": "条件分支英文；Max Hit 术语为最大伤害"
+  "reason": "条件分支英文；Max Hit 术语为最大伤害",
+  "reason_en": "Untranslated English in the conditional branch; Max Hit terminology should be 最大伤害 (maximum damage)."
  },
  {
   "ctxt": "",
   "en": "{Value:0%} {Value:cond:<0?Decreased|>=0?Increased} resistance",
   "zh": "{Value:cond:<0?减少|>=0?增加} {Value:0%}抵抗",
-  "reason": "条件分支英文未翻译"
+  "reason": "条件分支英文未翻译",
+  "reason_en": "Untranslated English in the conditional branch (Decreased/Increased)."
  },
  {
   "ctxt": "",
   "en": "{Value:+0.##%;-#.##%} damage taken from {LocalContext.Element.DisplayName} {LocalContext.CombatStyle.DisplayName} attacks",
   "zh": "{Value:+0.##%;-#.##%}受到的来自{LocalContext.Element.DisplayName}的{LocalContext.CombatStyle.DisplayName}攻击的伤害",
-  "reason": "漏译 damage taken（所受）"
+  "reason": "漏译 damage taken（所受）",
+  "reason_en": "Omission: \"damage taken\" was not translated (should be 所受, damage received)."
  },
  {
   "ctxt": "",
   "en": "{Value:+0.##%;-#.##%} Area Effect Magnitude",
   "zh": "{Value:+0.##%;-#.##%}区域效果强度",
-  "reason": "漏译 Magnitude"
+  "reason": "漏译 Magnitude",
+  "reason_en": "Omission: Magnitude was not translated."
  },
  {
   "ctxt": "",
   "en": "{Value:0%} {Value:cond:<0?Decreased|>=0?Increased} Rare Loot chance in {LocalContext.Component.Entity.DisplayName}",
   "zh": "{Value:cond:<0?减少|>=0?增加} {Value:0%} {LocalContext.Component.Entity.DisplayName}的稀有战利品掉落几率",
-  "reason": "条件分支英文未翻译；语序调整为\"增加/减少 数值\""
+  "reason": "条件分支英文未翻译；语序调整为\"增加/减少 数值\"",
+  "reason_en": "Untranslated English in the conditional branch (Decreased/Increased). Word order changed to \"increase/decrease + value\"."
  },
  {
   "ctxt": "",
   "en": "{Value:0%} {Value:cond:<0?Decreased|>=0?Increased} Currency Loot chance in {LocalContext.Component.Entity.DisplayName}",
   "zh": "{Value:cond:<0?减少|>=0?增加} {Value:0%} {LocalContext.Component.Entity.DisplayName}获取货币战利品的几率",
-  "reason": "条件分支英文未翻译；语序调整为\"增加/减少 数值\""
+  "reason": "条件分支英文未翻译；语序调整为\"增加/减少 数值\"",
+  "reason_en": "Untranslated English in the conditional branch (Decreased/Increased). Word order changed to \"increase/decrease + value\"."
  },
  {
   "ctxt": "",
   "en": "{Value:+0;-#} {LocalContext.DamageType.DisplayName} Protection Rating",
   "zh": "{Value:+0;-#} {LocalContext.DamageType.DisplayName}防护值",
-  "reason": "Protection Rating 与同批其他条目统一为防护值"
+  "reason": "Protection Rating 与同批其他条目统一为防护值",
+  "reason_en": "Protection Rating is unified as 防护值 (protection value) with the other entries in this batch."
  },
  {
   "ctxt": "",
   "en": "{Value:+0.##%;-#.##%} chance to gain Rune Essence or Pure Essence when hitting any Rock in {LocalContext.Component.Entity.DisplayName}",
   "zh": "{Value:+0.##%;-#.##%}在{LocalContext.Component.Entity.DisplayName}中攻击任何岩石时获得符文精华或纯净精华的几率",
-  "reason": "修正“在X并攻击”语病"
+  "reason": "修正“在X并攻击”语病",
+  "reason_en": "Fixed an ungrammatical \"in X and attack\" phrasing."
  },
  {
   "ctxt": "",
   "en": "{Value:+0.##%;-#.##%} {LocalContext.Area.DisplayName} Slayer Area effect magnitude",
   "zh": "{Value:+0.##%;-#.##%} {LocalContext.Area.DisplayName}屠杀者区域效果强度",
-  "reason": "漏译 magnitude"
+  "reason": "漏译 magnitude",
+  "reason_en": "Omission: magnitude was not translated."
  },
  {
   "ctxt": "",
   "en": "{Value:0%} {Value:cond:<0?Decreased|>=0?Increased} Common Loot chance in Thieving",
   "zh": "{Value:cond:<0?减少|>=0?增加}{Value:0%}扒窃时获得常规战利品的几率",
-  "reason": "条件分支英文未翻译"
+  "reason": "条件分支英文未翻译",
+  "reason_en": "Untranslated English in the conditional branch (Decreased/Increased)."
  },
  {
   "ctxt": "",
   "en": "{Value:0%} {Value:cond:<0?Decreased|>=0?Increased} Output chance in {LocalContext.Component.Entity.DisplayName}",
   "zh": "{Value:cond:<0?减少|>=0?增加} {Value:0%}{LocalContext.Component.Entity.DisplayName}时的输出几率",
-  "reason": "条件分支英文未翻译"
+  "reason": "条件分支英文未翻译",
+  "reason_en": "Untranslated English in the conditional branch (Decreased/Increased)."
  },
  {
   "ctxt": "",
   "en": " {Value:0.##%;-#.##%} of {LocalContext.Category.DisplayName} bonuses provided while growing in {LocalContext.Component.Entity.DisplayName}",
   "zh": "在{LocalContext.Component.Entity.DisplayName}中种植时，提供{LocalContext.Category.DisplayName}加成的{Value:0.##%;-#.##%}",
-  "reason": "语序/语义不清"
+  "reason": "语序/语义不清",
+  "reason_en": "Word order/meaning was unclear."
  },
  {
   "ctxt": "",
   "en": "{Value:+0.##%;-#.##%} chance to pickpocket all unlocked {LocalContext.RecipeType.DisplayName} in the same location when successfully pickpocketing {LocalContext.RecipeType.DisplayName} (No damage is taken upon a failed attempt).",
   "zh": "成功扒窃{LocalContext.RecipeType.DisplayName}时，有{Value:+0.##%;-#.##%}的几率将同一地点内所有已解锁的{LocalContext.RecipeType.DisplayName}一并带走（扒窃失败时不会受到伤害）。",
-  "reason": "\"未上锁\"应为\"已解锁\"，数值前缺少\"有...几率\""
+  "reason": "\"未上锁\"应为\"已解锁\"，数值前缺少\"有...几率\"",
+  "reason_en": "Mistranslation: \"unlocked\" was rendered as 未上锁 (not locked) where 已解锁 (unlocked/available) is meant; also the value lacked \"has ... chance\" wording."
  },
  {
   "ctxt": "",
   "en": "{Value:+0.##%;-#.##%} double Ward damage chance",
   "zh": "{Value:+0.##%;-#.##%}守护伤害翻倍几率",
-  "reason": "Ward 术语应译为守护值（原为守卫/看守）"
+  "reason": "Ward 术语应译为守护值（原为守卫/看守）",
+  "reason_en": "Terminology: Ward should be 守护值 (ward value); the old translation used 守卫/看守 (guard/watch)."
  },
  {
   "ctxt": "",
   "en": "{Value:0%} {Value:cond:<0?Decreased|>=0?Increased} Rock Break chance for {LocalContext.Recipe.DisplayName} in {LocalContext.Component.Entity.DisplayName}",
   "zh": "{Value:cond:<0?减少|>=0?增加} {Value:0%} {LocalContext.Component.Entity.DisplayName}时针对{LocalContext.Recipe.DisplayName}的矿石碎裂几率",
-  "reason": "条件分支英文未翻译"
+  "reason": "条件分支英文未翻译",
+  "reason_en": "Untranslated English in the conditional branch (Decreased/Increased)."
  },
  {
   "ctxt": "",
   "en": "{Value:+0.##%;-#.##%} Rune cost Preservation chance for {LocalContext.Element.DisplayName} Magic Spells only",
   "zh": "{Value:+0.##%;-#.##%}符文消耗留存几率（仅限{LocalContext.Element.DisplayName}魔法咒语）",
-  "reason": "语序错误"
+  "reason": "语序错误",
+  "reason_en": "Word order error."
  },
  {
   "ctxt": "",
   "en": "{Value:0%} {Value:cond:<0?Decreased|>=0?Increased} on hit item chance in {LocalContext.Component.Entity.DisplayName}",
   "zh": "{LocalContext.Component.Entity.DisplayName}时，{Value:cond:<0?减少|>=0?增加} {Value:0%}命中时触发物品几率",
-  "reason": "条件分支英文未翻译"
+  "reason": "条件分支英文未翻译",
+  "reason_en": "Untranslated English in the conditional branch (Decreased/Increased)."
  },
  {
   "ctxt": "",
   "en": "Reinforced String",
   "zh": "强化线",
-  "reason": "统一为 Reinforced=强化，去掉多余的「的」"
+  "reason": "统一为 Reinforced=强化，去掉多余的「的」",
+  "reason_en": "Unified Reinforced=强化 (reinforced) and removed the redundant 的."
  },
  {
   "ctxt": "",
   "en": "Fortified String",
   "zh": "加固线",
-  "reason": "统一为 Fortified=加固，去掉多余的「的」"
+  "reason": "统一为 Fortified=加固，去掉多余的「的」",
+  "reason_en": "Unified Fortified=加固 (fortified) and removed the redundant 的."
  },
  {
   "ctxt": "",
   "en": "Reinforced Snare",
   "zh": "强化圈套陷阱",
-  "reason": "统一为 Reinforced=强化，与 Fortified=加固区分"
+  "reason": "统一为 Reinforced=强化，与 Fortified=加固区分",
+  "reason_en": "Unified Reinforced=强化, to distinguish it from Fortified=加固."
  },
  {
   "ctxt": "",
   "en": "Fortified Snare",
   "zh": "加固圈套陷阱",
-  "reason": "统一为 Fortified=加固"
+  "reason": "统一为 Fortified=加固",
+  "reason_en": "Unified Fortified=加固."
  },
  {
   "ctxt": "",
   "en": "Reinforced Net",
   "zh": "强化网子",
-  "reason": "统一为 Reinforced=强化（本批 8 处用强化），与 Fortified=加固区分"
+  "reason": "统一为 Reinforced=强化（本批 8 处用强化），与 Fortified=加固区分",
+  "reason_en": "Unified Reinforced=强化 (8 entries in this batch use 强化), distinct from Fortified=加固."
  },
  {
   "ctxt": "",
   "en": "Fortified Net",
   "zh": "加固网子",
-  "reason": "统一为 Fortified=加固（本批 6 处用加固），与 Reinforced=强化区分"
+  "reason": "统一为 Fortified=加固（本批 6 处用加固），与 Reinforced=强化区分",
+  "reason_en": "Unified Fortified=加固 (6 entries in this batch use 加固), distinct from Reinforced=强化."
  },
  {
   "ctxt": "",
   "en": "Black Opal Bolts",
   "zh": "黑蛋白石弩箭",
-  "reason": "误译：Black Opal Bolts 被译成「靴」，系列内 Bolts 均为弩箭"
+  "reason": "误译：Black Opal Bolts 被译成「靴」，系列内 Bolts 均为弩箭",
+  "reason_en": "Mistranslation: Black Opal Bolts was translated as boots (靴); Bolts are 弩箭 (crossbow bolts) throughout the series."
  },
  {
   "ctxt": "",
   "en": "Reinforced Woodcutter's Axe",
   "zh": "强化伐木斧",
-  "reason": "误译：Woodcutter 是伐木工，不是木匠（Carpenter）"
+  "reason": "误译：Woodcutter 是伐木工，不是木匠（Carpenter）",
+  "reason_en": "Mistranslation: Woodcutter is 伐木工 (woodcutter), not 木匠 (Carpenter)."
  },
  {
   "ctxt": "",
   "en": "Ivory Athanaeum Hood",
   "zh": "象牙藏书院兜帽",
-  "reason": "误译：Hood 是兜帽，非头盔"
+  "reason": "误译：Hood 是兜帽，非头盔",
+  "reason_en": "Mistranslation: Hood is 兜帽 (hood), not a helmet."
  },
  {
   "ctxt": "",
   "en": "Cavern of Experiments (D)",
   "zh": "实验洞穴（地牢）",
-  "reason": "误译：Experiments 是实验，不是经验"
+  "reason": "误译：Experiments 是实验，不是经验",
+  "reason_en": "Mistranslation: Experiments is 实验 (experiments), not 经验 (experience)."
  },
  {
   "ctxt": "",
   "en": "Kraken's Domain",
   "zh": "克拉肯领地",
-  "reason": "Kraken 按一代译名，与小克拉肯一致"
+  "reason": "Kraken 按一代译名，与小克拉肯一致",
+  "reason_en": "Kraken follows the Melvor Idle 1 translation 克拉肯, consistent with Krakeling (小克拉肯)."
  },
  {
   "ctxt": "",
   "en": "Silt Burns",
   "zh": "粉砂燃烧",
-  "reason": "术语不一致：Silt 在敌人名中统一为「粉砂」，「粉尘」改为「粉砂」"
+  "reason": "术语不一致：Silt 在敌人名中统一为「粉砂」，「粉尘」改为「粉砂」",
+  "reason_en": "Inconsistent terminology: Silt is 粉砂 (silt) in enemy names; 粉尘 (dust) changed to 粉砂."
  },
  {
   "ctxt": "",
   "en": "Smoke Body",
   "zh": "烟霭之躯",
-  "reason": "误译：Body 译成「背心」，改为「烟霭之躯」，与 Thorn Body 一致"
+  "reason": "误译：Body 译成「背心」，改为「烟霭之躯」，与 Thorn Body 一致",
+  "reason_en": "Mistranslation: Body was translated as 背心 (vest); changed to 烟霭之躯 (smoke body), consistent with Thorn Body."
  },
  {
   "ctxt": "",
   "en": "Evasive",
   "zh": "躲避",
-  "reason": "误译：Evasive 译成「逃跑」，与 Evasion=躲避 术语不一致，改为「躲避」"
+  "reason": "误译：Evasive 译成「逃跑」，与 Evasion=躲避 术语不一致，改为「躲避」",
+  "reason_en": "Mistranslation: Evasive was translated as 逃跑 (flee); changed to 躲避 (evade), consistent with Evasion=躲避."
  },
  {
   "ctxt": "",
   "en": "Desert Heat",
   "zh": "沙漠酷热",
-  "reason": "误译：Desert Heat 误译为「沙漠之心」，改为「沙漠酷热」"
+  "reason": "误译：Desert Heat 误译为「沙漠之心」，改为「沙漠酷热」",
+  "reason_en": "Mistranslation: Desert Heat was translated as 沙漠之心 (heart of the desert); changed to 沙漠酷热 (desert scorching heat)."
  },
  {
   "ctxt": "",
   "en": "Starblight",
   "zh": "星蚀之灾",
-  "reason": "误译：Starblight 译成「星光」漏掉 blight 含义（Starblighted=星蚀），改为「星蚀之灾」"
+  "reason": "误译：Starblight 译成「星光」漏掉 blight 含义（Starblighted=星蚀），改为「星蚀之灾」",
+  "reason_en": "Mistranslation: Starblight was translated as 星光 (starlight), dropping the meaning of blight (Starblighted=星蚀); changed to 星蚀之灾 (starblight calamity)."
  },
  {
   "ctxt": "",
   "en": "Shambling Protection",
   "zh": "跛行保护",
-  "reason": "术语不一致：Shambling 在敌人/地牢名中为「跛行」，此处「蹒跚」改为「跛行」"
+  "reason": "术语不一致：Shambling 在敌人/地牢名中为「跛行」，此处「蹒跚」改为「跛行」",
+  "reason_en": "Inconsistent terminology: Shambling is 跛行 (limping) in enemy/dungeon names; 蹒跚 (stumbling) changed to 跛行."
  },
  {
   "ctxt": "",
   "en": "Burning Body",
   "zh": "燃烧之躯",
-  "reason": "误译：Body 译成「背心」，与 Thorn Body=棘刺之躯 不一致，改为「燃烧之躯」"
+  "reason": "误译：Body 译成「背心」，与 Thorn Body=棘刺之躯 不一致，改为「燃烧之躯」",
+  "reason_en": "Mistranslation: Body was translated as 背心 (vest), inconsistent with Thorn Body=棘刺之躯; changed to 燃烧之躯 (burning body)."
  },
  {
   "ctxt": "",
   "en": "Unlocks an extra [color=#FFD16D]Toolbelt Slot[/color] for this Skill",
   "zh": "为此技能解锁一个额外的[color=#FFD16D]工具带栏位[/color]",
-  "reason": "Toolbelt 术语为工具带"
+  "reason": "Toolbelt 术语为工具带",
+  "reason_en": "Terminology: Toolbelt is 工具带 (tool belt)."
  },
  {
   "ctxt": "",
   "en": "Unlocks the [color=#FFD16D]Priority Fishing[/color] mechanic.\\nComing Soon - Unlocks the Secret Cove Fishing Location",
   "zh": "解锁[color=#FFD16D]钓鱼优先级[/color]机制。\\n即将推出 - 解锁神秘钓鱼地点",
-  "reason": "恢复原文换行"
+  "reason": "恢复原文换行",
+  "reason_en": "Restored the original line break."
  },
  {
   "ctxt": "",
   "en": "[color=#E9DFC1]Unlocks an extra [color=#FFD16D]Toolbelt Slot[/color] for this Skill[/color]",
   "zh": "[color=#E9DFC1]为该技能[/color]解锁额外的[color=#FFD16D]工具带栏位[/color]",
-  "reason": "Toolbelt 术语为工具带"
+  "reason": "Toolbelt 术语为工具带",
+  "reason_en": "Terminology: Toolbelt is 工具带 (tool belt)."
  },
  {
   "ctxt": "",
   "en": "[color=#E9DFC1]Unlocks an extra [color=#FFD16D]Toolbelt Slot[/color] for this Skill\\nUnlocks [color=#FFD16D]Tan's Tanning Emporium[/color] in the [img height=1.25em]res://Assets/Icons/Shop_64.png[/img] Shop (Crafting)[/color]",
   "zh": "[color=#E9DFC1]为该技能解锁额外的[color=#FFD16D]工具带栏位[/color] \\n在[img height=1.25em]res://Assets/Icons/Shop_64.png[/img]商店（制造）解锁[color=#FFD16D]塔恩的鞣制中心[/color][/color]",
-  "reason": "Toolbelt 术语为工具带"
+  "reason": "Toolbelt 术语为工具带",
+  "reason_en": "Terminology: Toolbelt is 工具带 (tool belt)."
  },
  {
   "ctxt": "",
   "en": "You can now create [b]Rune Packs[/b]",
   "zh": "你现在可以制作[b]符文包[/b]",
-  "reason": "术语：create Rune Packs 的「锻造」与锻造(Smithing)术语冲突，改为制作"
+  "reason": "术语：create Rune Packs 的「锻造」与锻造(Smithing)术语冲突，改为制作",
+  "reason_en": "Terminology: \"create Rune Packs\" used 锻造 (forge), which conflicts with the Smithing term; changed to 制作 (craft)."
  },
  {
   "ctxt": "",
   "en": "[color=#E9DFC1]Unlocks an extra [color=#FFD16D]Toolbelt Slot[/color] for this Skill\\nComing Soon - Unlocks Potion Purifier[/color]",
   "zh": "[color=#E9DFC1]为该技能解锁额外的[color=#FFD16D]工具带栏位[/color]\\n即将推出 - 解锁药水精炼台[/color]",
-  "reason": "Toolbelt 术语为工具带"
+  "reason": "Toolbelt 术语为工具带",
+  "reason_en": "Terminology: Toolbelt is 工具带 (tool belt)."
  },
  {
   "ctxt": "",
   "en": "Apprentice Woodcutter",
   "zh": "伐木工学徒",
-  "reason": "误译：Woodcutter 是伐木工，不是木匠（木匠=Carpenter）；整个 Woodcutter 系列统一为「伐木工」"
+  "reason": "误译：Woodcutter 是伐木工，不是木匠（木匠=Carpenter）；整个 Woodcutter 系列统一为「伐木工」",
+  "reason_en": "Mistranslation: Woodcutter is 伐木工 (woodcutter), not 木匠 (carpenter; Carpenter has its own entries); the whole Woodcutter series is unified as 伐木工."
  },
  {
   "ctxt": "",
   "en": "Journeyman Woodcutter",
   "zh": "出师伐木工",
-  "reason": "误译：Woodcutter 是伐木工，不是木匠（木匠=Carpenter）；整个 Woodcutter 系列统一为「伐木工」"
+  "reason": "误译：Woodcutter 是伐木工，不是木匠（木匠=Carpenter）；整个 Woodcutter 系列统一为「伐木工」",
+  "reason_en": "Mistranslation: Woodcutter is 伐木工 (woodcutter), not 木匠 (carpenter; Carpenter has its own entries); the whole Woodcutter series is unified as 伐木工."
  },
  {
   "ctxt": "",
   "en": "Skilled Woodcutter",
   "zh": "熟练伐木工",
-  "reason": "误译：Woodcutter 是伐木工，不是木匠（木匠=Carpenter）；整个 Woodcutter 系列统一为「伐木工」"
+  "reason": "误译：Woodcutter 是伐木工，不是木匠（木匠=Carpenter）；整个 Woodcutter 系列统一为「伐木工」",
+  "reason_en": "Mistranslation: Woodcutter is 伐木工 (woodcutter), not 木匠 (carpenter; Carpenter has its own entries); the whole Woodcutter series is unified as 伐木工."
  },
  {
   "ctxt": "",
   "en": "Veteran Woodcutter",
   "zh": "伐木工老手",
-  "reason": "误译：Woodcutter 是伐木工，不是木匠（木匠=Carpenter）；整个 Woodcutter 系列统一为「伐木工」"
+  "reason": "误译：Woodcutter 是伐木工，不是木匠（木匠=Carpenter）；整个 Woodcutter 系列统一为「伐木工」",
+  "reason_en": "Mistranslation: Woodcutter is 伐木工 (woodcutter), not 木匠 (carpenter; Carpenter has its own entries); the whole Woodcutter series is unified as 伐木工."
  },
  {
   "ctxt": "",
   "en": "Prime Woodcutter",
   "zh": "首席伐木工",
-  "reason": "误译：Woodcutter 是伐木工，不是木匠（木匠=Carpenter）；并删除重复的「首席」"
+  "reason": "误译：Woodcutter 是伐木工，不是木匠（木匠=Carpenter）；并删除重复的「首席」",
+  "reason_en": "Mistranslation: Woodcutter is 伐木工 (woodcutter), not 木匠 (carpenter; Carpenter has its own entries); also removed the duplicated 首席 (chief)."
  },
  {
   "ctxt": "",
   "en": "Protect Item",
   "zh": "物品庇佑",
-  "reason": "祝祭名沿用一代"
+  "reason": "祝祭名沿用一代",
+  "reason_en": "Prayer name follows Melvor Idle 1."
  },
  {
   "ctxt": "",
   "en": "Steel Skin",
   "zh": "钢铁皮肤",
-  "reason": "祝祭名沿用一代"
+  "reason": "祝祭名沿用一代",
+  "reason_en": "Prayer name follows Melvor Idle 1."
  },
  {
   "ctxt": "",
   "en": "Ward",
   "zh": "守护",
-  "reason": "祝祭名不带“值”"
+  "reason": "祝祭名不带“值”",
+  "reason_en": "Prayer name should not include 值 (value)."
  },
  {
   "ctxt": "",
   "en": "Chivalry",
   "zh": "骑士道",
-  "reason": "祝祭名沿用一代"
+  "reason": "祝祭名沿用一代",
+  "reason_en": "Prayer name follows Melvor Idle 1."
  },
  {
   "ctxt": "",
   "en": "Stoic",
   "zh": "坚忍",
-  "reason": "误译：Stoic 为坚忍/斯多葛，「禁欲」(ascetic) 词义不对"
+  "reason": "误译：Stoic 为坚忍/斯多葛，「禁欲」(ascetic) 词义不对",
+  "reason_en": "Mistranslation: Stoic means 坚忍 (stoic/resilient); 禁欲 (ascetic) is the wrong sense."
  },
  {
   "ctxt": "",
   "en": "Lemon Chest",
   "zh": "柠檬宝箱",
-  "reason": "误译：随 Lemon 改为柠檬"
+  "reason": "误译：随 Lemon 改为柠檬",
+  "reason_en": "Mistranslation: updated to follow Lemon=柠檬 (lemon)."
  },
  {
   "ctxt": "",
   "en": "Compost",
   "zh": "堆肥",
-  "reason": "误译：Compost 是堆肥（与 Coalmpost=煤炭堆肥一致，并区别于 Fertiliser=化肥）"
+  "reason": "误译：Compost 是堆肥（与 Coalmpost=煤炭堆肥一致，并区别于 Fertiliser=化肥）",
+  "reason_en": "Mistranslation: Compost is 堆肥 (compost), consistent with Coalmpost=煤炭堆肥 and distinct from Fertiliser=化肥."
  },
  {
   "ctxt": "",
   "en": "Grain",
   "zh": "谷物",
-  "reason": "误译：Grain 是谷物，不是胭脂虫"
+  "reason": "误译：Grain 是谷物，不是胭脂虫",
+  "reason_en": "Mistranslation: Grain is 谷物 (grain), not 胭脂虫 (cochineal)."
  },
  {
   "ctxt": "",
   "en": "Food for some animals in Ranching.",
   "zh": "畜牧中特定动物的食物。",
-  "reason": "Ranching 术语为畜牧"
+  "reason": "Ranching 术语为畜牧",
+  "reason_en": "Terminology: Ranching is translated as 畜牧 (animal husbandry)."
  },
  {
   "ctxt": "",
   "en": "Broodling Egg",
   "zh": "幼蛛卵",
-  "reason": "误译：Broodling 对应敌人 Murkwood Broodlings=黑林幼蛛，不是「巢虫」"
+  "reason": "误译：Broodling 对应敌人 Murkwood Broodlings=黑林幼蛛，不是「巢虫」",
+  "reason_en": "Mistranslation: Broodling corresponds to the enemy Murkwood Broodlings=黑林幼蛛 (Murkwood spiderlings), not 巢虫 (nest worm)."
  },
  {
   "ctxt": "",
   "en": "Wildebeast Horn",
   "zh": "角马角",
-  "reason": "误译：Wildebeast 为 wildebeest（角马）的变体，「野兽」是字面误读"
+  "reason": "误译：Wildebeast 为 wildebeest（角马）的变体，「野兽」是字面误读",
+  "reason_en": "Mistranslation: Wildebeast is a variant of wildebeest (角马); 野兽 (wild beast) was a literal misreading."
  },
  {
   "ctxt": "",
   "en": "Small assortment of possible items found while Surveying in Hunting.",
   "zh": "在狩猎调查中可能发现的少量各类物品。",
-  "reason": "误译：Small assortment 被译成「小部分」，应为少量"
+  "reason": "误译：Small assortment 被译成「小部分」，应为少量",
+  "reason_en": "Mistranslation: Small assortment was translated as 小部分 (a small part); should be 少量 (a small amount)."
  },
  {
   "ctxt": "",
   "en": "Medium assortment of possible items found while Surveying in Hunting.",
   "zh": "在狩猎调查中可能发现的中等数量各类物品。",
-  "reason": "误译：Medium assortment 被译成「中等部分」，应为中等数量"
+  "reason": "误译：Medium assortment 被译成「中等部分」，应为中等数量",
+  "reason_en": "Mistranslation: Medium assortment was translated as 中等部分 (a medium part); should be 中等数量 (a medium amount)."
  },
  {
   "ctxt": "",
   "en": "Large assortment of possible items found while Surveying in Hunting.",
   "zh": "在狩猎调查中可能发现的大量各类物品。",
-  "reason": "误译：Large assortment 被译成「大部分」，应为大量/各类"
+  "reason": "误译：Large assortment 被译成「大部分」，应为大量/各类",
+  "reason_en": "Mistranslation: Large assortment was translated as 大部分 (most of); should be 大量 (a large amount) / various items."
  },
  {
   "ctxt": "",
   "en": "Ashwing Hawk Feather (c)",
   "zh": "灰翼鹰羽毛（收藏品）",
-  "reason": "误译：Feather 被译成「战利品」，应为羽毛"
+  "reason": "误译：Feather 被译成「战利品」，应为羽毛",
+  "reason_en": "Mistranslation: Feather was translated as 战利品 (loot); should be 羽毛 (feather)."
  },
  {
   "ctxt": "",
   "en": "Lemon",
   "zh": "柠檬",
-  "reason": "误译：Lemon 是柠檬（与苹果/香蕉等水果并列），非「菜鸟」"
+  "reason": "误译：Lemon 是柠檬（与苹果/香蕉等水果并列），非「菜鸟」",
+  "reason_en": "Mistranslation: Lemon is 柠檬 (lemon), listed alongside fruits such as apple/banana, not 菜鸟 (rookie)."
  },
  {
   "ctxt": "",
   "en": "Lockpick",
   "zh": "开锁工具",
-  "reason": "Lockpick 是物品，与说明文字「开锁工具」一致"
+  "reason": "Lockpick 是物品，与说明文字「开锁工具」一致",
+  "reason_en": "Lockpick is an item, consistent with the description text 开锁工具 (lock-picking tool)."
  },
  {
   "ctxt": "",
   "en": "Balaclava",
   "zh": "蒙面头套",
-  "reason": "误译：Balaclava 是头套，不是「蒙面恶棍」（类别错误）"
+  "reason": "误译：Balaclava 是头套，不是「蒙面恶棍」（类别错误）",
+  "reason_en": "Mistranslation: Balaclava is 头套 (a head covering), not 蒙面恶棍 (masked thug), which is the wrong category."
  },
  {
   "ctxt": "",
   "en": "Woodcutters Gloves",
   "zh": "伐木工手套",
-  "reason": "误译：Woodcutters 是伐木工，「木匠」是 carpenter，与伐木术语一致"
+  "reason": "误译：Woodcutters 是伐木工，「木匠」是 carpenter，与伐木术语一致",
+  "reason_en": "Mistranslation: Woodcutters is 伐木工 (woodcutter); 木匠 (carpenter) is Carpenter; consistent with the Woodcutting terminology."
  },
  {
   "ctxt": "",
   "en": "Blood Sapping Dagger",
   "zh": "鲜血汲取匕首",
-  "reason": "误译：Sapping 是汲取/削弱，不是切割"
+  "reason": "误译：Sapping 是汲取/削弱，不是切割",
+  "reason_en": "Mistranslation: Sapping means 汲取/削弱 (to drain/weaken), not 切割 (to cut)."
  },
  {
   "ctxt": "",
   "en": "Rune Boots (u)",
   "zh": "符文靴（已升级）",
-  "reason": "误译/复制错误：Boots 被译成「头盔」，改为符文靴，与同系列 (c) 版一致"
+  "reason": "误译/复制错误：Boots 被译成「头盔」，改为符文靴，与同系列 (c) 版一致",
+  "reason_en": "Mistranslation/copy error: Boots was translated as helmet (头盔); changed to 符文靴 (Rune Boots), consistent with the (c) version in the same series."
  },
  {
   "ctxt": "",
   "en": "Blood Volley Bow",
   "zh": "鲜血齐射弓",
-  "reason": "系列不一致/误译：Volley 为齐射；Blood 前缀统一为「鲜血」（本批多数）"
+  "reason": "系列不一致/误译：Volley 为齐射；Blood 前缀统一为「鲜血」（本批多数）",
+  "reason_en": "Inconsistent within series/mistranslation: Volley is 齐射 (volley); the Blood prefix is unified as 鲜血 (blood), as used by most of this batch."
  },
  {
   "ctxt": "",
   "en": "Drowned Orb",
   "zh": "沉沦之球",
-  "reason": "系列不一致：Drowned 在本批装备系列统一为「沉沦」"
+  "reason": "系列不一致：Drowned 在本批装备系列统一为「沉沦」",
+  "reason_en": "Inconsistent within series: Drowned is unified as 沉沦 (sunken) across the equipment series in this batch."
  },
  {
   "ctxt": "",
   "en": "Bug Dust",
   "zh": "虫尘",
-  "reason": "漏译：Bug Dust 漏译 Bug"
+  "reason": "漏译：Bug Dust 漏译 Bug",
+  "reason_en": "Omission: Bug Dust lacked the translation of Bug."
  },
  {
   "ctxt": "",
   "en": "Kraken Chest",
   "zh": "克拉肯宝箱",
-  "reason": "Kraken 按一代译名"
+  "reason": "Kraken 按一代译名",
+  "reason_en": "Kraken follows the Melvor Idle 1 translation."
  },
  {
   "ctxt": "",
   "en": "Emerald Gemscale",
   "zh": "绿宝石鳞片",
-  "reason": "误译：Gemscale 的 scale 是鳞片（同类 Dracolith Scale 译鳞片）"
+  "reason": "误译：Gemscale 的 scale 是鳞片（同类 Dracolith Scale 译鳞片）",
+  "reason_en": "Mistranslation: the scale in Gemscale is 鳞片 (scale), same as Dracolith Scale."
  },
  {
   "ctxt": "",
   "en": "Slayer Challenge Contract",
   "zh": "屠杀者挑战契约",
-  "reason": "漏译：Contract 未译出，补「契约」"
+  "reason": "漏译：Contract 未译出，补「契约」",
+  "reason_en": "Omission: Contract was not translated; added 契约 (contract)."
  },
  {
   "ctxt": "",
   "en": "Hobforge Gloves",
   "zh": "大哥布林锻造手套",
-  "reason": "术语不一致：Hob=大哥布林（Hobgolbin 译大哥布林），「地精」未在别处使用"
+  "reason": "术语不一致：Hob=大哥布林（Hobgolbin 译大哥布林），「地精」未在别处使用",
+  "reason_en": "Inconsistent terminology: Hob = 大哥布林 (Hobgoblin is translated as 大哥布林); 地精 (gnome/goblin) is not used elsewhere."
  },
  {
   "ctxt": "",
   "en": "Light Boots",
   "zh": "轻薄靴",
-  "reason": "系列不一致：Light 系列统一为「轻薄」（本批 3 处用轻薄）"
+  "reason": "系列不一致：Light 系列统一为「轻薄」（本批 3 处用轻薄）",
+  "reason_en": "Inconsistent within series: Light is unified as 轻薄 (light and thin), as used by 3 entries in this batch."
  },
  {
   "ctxt": "",
   "en": "Joint Padding",
   "zh": "关节护垫",
-  "reason": "误译：Joint 是关节，不是「复合」"
+  "reason": "误译：Joint 是关节，不是「复合」",
+  "reason_en": "Mistranslation: Joint is 关节 (joint), not 复合 (composite)."
  },
  {
   "ctxt": "",
   "en": "Sand Drake Scale",
   "zh": "沙漠龙蜥鳞片",
-  "reason": "系列一致：Sand Drake 敌人名译「沙漠龙蜥」，沙漠地龙皮/游牧者斗篷均带「沙漠」"
+  "reason": "系列一致：Sand Drake 敌人名译「沙漠龙蜥」，沙漠地龙皮/游牧者斗篷均带「沙漠」",
+  "reason_en": "Series consistency: the Sand Drake enemy is 沙漠龙蜥 (desert drake-lizard); Desert Drake Hide and Nomad Cloak also include 沙漠 (desert)."
  },
  {
   "ctxt": "",
   "en": "Ceedyr Cape",
   "zh": "塞迪尔斗篷",
-  "reason": "系列不一致：统一为「塞迪尔」（本批 3 处用塞迪尔）"
+  "reason": "系列不一致：统一为「塞迪尔」（本批 3 处用塞迪尔）",
+  "reason_en": "Inconsistent within series: unified as 塞迪尔 (Ceedyr transliteration), as used by 3 entries in this batch."
  },
  {
   "ctxt": "",
   "en": "Ward Breaker Potion P1-A",
   "zh": "破除守护药水P1-A",
-  "reason": "Ward 术语应译为守护值（原为守卫/看守）"
+  "reason": "Ward 术语应译为守护值（原为守卫/看守）",
+  "reason_en": "Terminology: Ward should be 守护值 (ward value); the old translation used 守卫/看守 (guard/watch)."
  },
  {
   "ctxt": "",
   "en": "Ward Breaker Potion P2-A",
   "zh": "破除守护药水P2-A",
-  "reason": "Ward 术语应译为守护值（原为守卫/看守）"
+  "reason": "Ward 术语应译为守护值（原为守卫/看守）",
+  "reason_en": "Terminology: Ward should be 守护值 (ward value); the old translation used 守卫/看守 (guard/watch)."
  },
  {
   "ctxt": "",
   "en": "Ward Breaker Potion P2-B",
   "zh": "破除守护药水P2-B",
-  "reason": "Ward 术语应译为守护值（原为守卫/看守）"
+  "reason": "Ward 术语应译为守护值（原为守卫/看守）",
+  "reason_en": "Terminology: Ward should be 守护值 (ward value); the old translation used 守卫/看守 (guard/watch)."
  },
  {
   "ctxt": "",
   "en": "Super Ward Breaker Potion P1-A",
   "zh": "超级破除守护药水P1-A",
-  "reason": "Ward 术语应译为守护值（原为守卫/看守）"
+  "reason": "Ward 术语应译为守护值（原为守卫/看守）",
+  "reason_en": "Terminology: Ward should be 守护值 (ward value); the old translation used 守卫/看守 (guard/watch)."
  },
  {
   "ctxt": "",
   "en": "Super Ward Breaker Potion P2-A",
   "zh": "超级破除守护药水P2-A",
-  "reason": "Ward 术语应译为守护值（原为守卫/看守）"
+  "reason": "Ward 术语应译为守护值（原为守卫/看守）",
+  "reason_en": "Terminology: Ward should be 守护值 (ward value); the old translation used 守卫/看守 (guard/watch)."
  },
  {
   "ctxt": "",
   "en": "Super Ward Breaker Potion P2-B",
   "zh": "超级破除守护药水P2-B",
-  "reason": "Ward 术语应译为守护值（原为守卫/看守）"
+  "reason": "Ward 术语应译为守护值（原为守卫/看守）",
+  "reason_en": "Terminology: Ward should be 守护值 (ward value); the old translation used 守卫/看守 (guard/watch)."
  },
  {
   "ctxt": "",
   "en": "Ceedyr Gloves",
   "zh": "塞迪尔手套",
-  "reason": "系列不一致：统一为「塞迪尔」（本批 3 处用塞迪尔）"
+  "reason": "系列不一致：统一为「塞迪尔」（本批 3 处用塞迪尔）",
+  "reason_en": "Inconsistent within series: unified as 塞迪尔 (Ceedyr transliteration), as used by 3 entries in this batch."
  },
  {
   "ctxt": "",
   "en": "Gilded Graceful Pants",
   "zh": "镀金优雅裤子",
-  "reason": "漏译：Gilded Graceful Pants 漏译 Graceful，对照 Gilded Swift Pants"
+  "reason": "漏译：Gilded Graceful Pants 漏译 Graceful，对照 Gilded Swift Pants",
+  "reason_en": "Omission: Gilded Graceful Pants lacked Graceful; compared against Gilded Swift Pants."
  },
  {
   "ctxt": "",
   "en": "Water Weapons",
   "zh": "流水武器",
-  "reason": "系列不一致：Water 在符文/法杖等条目均为「流水」，统一为流水"
+  "reason": "系列不一致：Water 在符文/法杖等条目均为「流水」，统一为流水",
+  "reason_en": "Inconsistent within series: Water is 流水 (flowing water) in runes/staves and other entries; unified as 流水."
  },
  {
   "ctxt": "",
   "en": "Water Wizard Gear",
   "zh": "流水巫师装备",
-  "reason": "系列不一致：Water Wizard 物品均为「流水巫师」，统一为流水"
+  "reason": "系列不一致：Water Wizard 物品均为「流水巫师」，统一为流水",
+  "reason_en": "Inconsistent within series: Water Wizard items all use 流水巫师; unified as 流水."
  },
  {
   "ctxt": "",
   "en": "Studded Leather Gear",
   "zh": "铆钉皮革装备",
-  "reason": "系列不一致：Studded 物品名均为「铆钉」，统一"
+  "reason": "系列不一致：Studded 物品名均为「铆钉」，统一",
+  "reason_en": "Inconsistent within series: Studded item names all use 铆钉 (rivet); unified."
  },
  {
   "ctxt": "",
   "en": "Studded Elk Leather Gear",
   "zh": "铆钉马鹿皮装备",
-  "reason": "系列不一致：Studded 物品名均为「铆钉」，分类名「饰钉」统一为铆钉"
+  "reason": "系列不一致：Studded 物品名均为「铆钉」，分类名「饰钉」统一为铆钉",
+  "reason_en": "Inconsistent within series: Studded item names all use 铆钉 (rivet); the category name used 饰钉 (ornamental stud) and was unified to 铆钉."
  },
  {
   "ctxt": "",
   "en": "Large Bird Nets",
   "zh": "大型捕鸟用具",
-  "reason": "系列不一致：Large Bird Net 物品名为「大型捕鸟用具」，分类名统一"
+  "reason": "系列不一致：Large Bird Net 物品名为「大型捕鸟用具」，分类名统一",
+  "reason_en": "Inconsistent within series: the Large Bird Net item name is 大型捕鸟用具 (large bird-catching gear); category name unified."
  },
  {
   "ctxt": "",
   "en": "Pancakes",
   "zh": "煎饼",
-  "reason": "误译：Pancakes 为煎饼，松饼对应 muffin/waffle"
+  "reason": "误译：Pancakes 为煎饼，松饼对应 muffin/waffle",
+  "reason_en": "Mistranslation: Pancakes is 煎饼 (pancake); 松饼 (muffin) corresponds to muffin/waffle."
  },
  {
   "ctxt": "",
   "en": "Tracker Bands",
   "zh": "追踪者指环",
-  "reason": "系列不一致：Trackers Band 物品名为「追踪者指环」，统一"
+  "reason": "系列不一致：Trackers Band 物品名为「追踪者指环」，统一",
+  "reason_en": "Inconsistent within series: the Trackers Band item name is 追踪者指环 (tracker's ring); unified."
  },
  {
   "ctxt": "",
   "en": "Ward Breaker Potion",
   "zh": "破除守护药水",
-  "reason": "Ward 术语应译为守护值（原为守卫/看守）"
+  "reason": "Ward 术语应译为守护值（原为守卫/看守）",
+  "reason_en": "Terminology: Ward should be 守护值 (ward value); the old translation used 守卫/看守 (guard/watch)."
  },
  {
   "ctxt": "",
   "en": "Super Ward Breaker Potion",
   "zh": "超级破除守护药水",
-  "reason": "Ward 术语应译为守护值（原为守卫/看守）"
+  "reason": "Ward 术语应译为守护值（原为守卫/看守）",
+  "reason_en": "Terminology: Ward should be 守护值 (ward value); the old translation used 守卫/看守 (guard/watch)."
  },
  {
   "ctxt": "",
   "en": "Crescent Lake of Iridan",
   "zh": "艾丽丹的月牙湖",
-  "reason": "名称不一致：Crescent Lake 官方战斗区域译名为月牙湖"
+  "reason": "名称不一致：Crescent Lake 官方战斗区域译名为月牙湖",
+  "reason_en": "Inconsistent name: Crescent Lake is officially 月牙湖 (crescent lake) in the combat area."
  },
  {
   "ctxt": "",
   "en": "[color=green]This observation grants you with access to the Crescent Lake Combat Area.[/color]",
   "zh": "[color=green]此次观测解锁了月牙湖战斗区域。[/color]",
-  "reason": "名称不一致：Crescent Lake 官方译名为月牙湖"
+  "reason": "名称不一致：Crescent Lake 官方译名为月牙湖",
+  "reason_en": "Inconsistent name: Crescent Lake is officially 月牙湖 (crescent lake)."
  },
  {
   "ctxt": "",
   "en": "Kraken Slam",
   "zh": "克拉肯猛击",
-  "reason": "Kraken 按一代译名"
+  "reason": "Kraken 按一代译名",
+  "reason_en": "Kraken follows the Melvor Idle 1 translation."
  },
  {
   "ctxt": "",
   "en": "Slicing Winds",
   "zh": "切割之风",
-  "reason": "法术名沿用一代"
+  "reason": "法术名沿用一代",
+  "reason_en": "Spell name follows Melvor Idle 1."
  },
  {
   "ctxt": "",
   "en": "Kraken, the Drowned Overlord",
   "zh": "溺亡霸主，克拉肯",
-  "reason": "误译为溺亡步枪手；Kraken 按一代译名克拉肯，称号在前同一代格式"
+  "reason": "误译为溺亡步枪手；Kraken 按一代译名克拉肯，称号在前同一代格式",
+  "reason_en": "Mistranslated as 溺亡步枪手 (drowned rifleman); Kraken follows the Melvor Idle 1 translation 克拉肯, and the title comes first, same format as Melvor Idle 1."
  },
  {
   "ctxt": "",
   "en": "Ward Breaker Potion P2A",
   "zh": "破除守护药水P2A",
-  "reason": "Ward 术语应译为守护值（原为守卫/看守）"
+  "reason": "Ward 术语应译为守护值（原为守卫/看守）",
+  "reason_en": "Terminology: Ward should be 守护值 (ward value); the old translation used 守卫/看守 (guard/watch)."
  },
  {
   "ctxt": "",
   "en": "Wild Elk",
   "zh": "野生马鹿",
-  "reason": "术语不一致：Elk 统一为「马鹿」"
+  "reason": "术语不一致：Elk 统一为「马鹿」",
+  "reason_en": "Inconsistent terminology: Elk is unified as 马鹿 (red deer/elk)."
  },
  {
   "ctxt": "",
   "en": "Starhorn Elk",
   "zh": "星角马鹿",
-  "reason": "术语不一致：Elk 统一为「马鹿」"
+  "reason": "术语不一致：Elk 统一为「马鹿」",
+  "reason_en": "Inconsistent terminology: Elk is unified as 马鹿 (red deer/elk)."
  },
  {
   "ctxt": "",
   "en": "Tame Elk",
   "zh": "温顺马鹿",
-  "reason": "术语不一致：Elk 统一为「马鹿」"
+  "reason": "术语不一致：Elk 统一为「马鹿」",
+  "reason_en": "Inconsistent terminology: Elk is unified as 马鹿 (red deer/elk)."
  },
  {
   "ctxt": "",
   "en": "Frostmane Elk",
   "zh": "霜鬃马鹿",
-  "reason": "术语不一致：Elk 统一为「马鹿」"
+  "reason": "术语不一致：Elk 统一为「马鹿」",
+  "reason_en": "Inconsistent terminology: Elk is unified as 马鹿 (red deer/elk)."
  },
  {
   "ctxt": "",
   "en": "Alpha Belra Torag",
   "zh": "首领贝尔拉·托拉格",
-  "reason": "错字/不一致：与 Belra Torag=贝尔拉·托拉格 不一致（「贝尔·拉托拉格」错断）"
+  "reason": "错字/不一致：与 Belra Torag=贝尔拉·托拉格 不一致（「贝尔·拉托拉格」错断）",
+  "reason_en": "Typo/inconsistency: inconsistent with Belra Torag=贝尔拉·托拉格 (the name was split incorrectly as 贝尔·拉托拉格)."
  },
  {
   "ctxt": "",
   "en": "These look great, hopefully it'll be enough to last her a while.",
   "zh": "这些看起来不错，希望能让她撑一段时间。",
-  "reason": "错字/语病：希望能够她撑→希望能让她撑"
+  "reason": "错字/语病：希望能够她撑→希望能让她撑",
+  "reason_en": "Typo/grammar error: 希望能够她撑 (garbled) changed to 希望能让她撑 (hopefully it lets her hold on)."
  },
  {
   "ctxt": "",
   "en": "As you walk into the warm tavern, a middle-aged woman rushes by you in a blur, carrying a half dozen tankards of ale, then quickly setting them in front of two excited looking patrons.\\nThe whole place is buzzing with rowdy energy, but it remains light and warm. Despite all people clamoring for her attention, they quickly fall to silence as Lira holds up her hand. She gives you a warm embrace, then pinches your cheek shortly afterward.",
   "zh": "当你走进温暖的酒馆时，一位中年女子从你身边匆匆掠过。她手里端着六大杯麦芽酒，将酒快速放到两位兴奋的顾客面前。\\n酒馆内十分热闹，温暖又明亮。周围的人都在叫利拉，但她一抬手，大家立刻安静了下来。她热情地拥抱你，然后轻轻捏了捏你的脸。",
-  "reason": "恢复原文换行；修正“中间女子”→“中年女子”"
+  "reason": "恢复原文换行；修正“中间女子”→“中年女子”",
+  "reason_en": "Restored the original line break; fixed 中间女子 (middle woman) to 中年女子 (middle-aged woman)."
  },
  {
   "ctxt": "",
   "en": "I can only imagine, looks like you're feeding half the town in here. Business is going well, it'd seem?",
   "zh": "我想也是，看你这儿像是在养活半个镇子。生意不错，对吧？",
-  "reason": "误译：I can only imagine 被译成“我能想到的只有你”，句意错；改为“我想也是，看你这儿像是在养活半个镇子”"
+  "reason": "误译：I can only imagine 被译成“我能想到的只有你”，句意错；改为“我想也是，看你这儿像是在养活半个镇子”",
+  "reason_en": "Mistranslation: \"I can only imagine\" was translated as 我能想到的只有你 (all I can think of is you), which gives the wrong meaning; changed to 我想也是，看你这儿像是在养活半个镇子 (I figured, it looks like you are feeding half the town)."
  },
  {
   "ctxt": "",
   "en": "Morlin flicks his hands, and a leaf of paper floats out of his pack and hangs in the air. You can see something already written on it... \\\"Blindfold, velvet rope, three wheels of cheese...\\\" But Morlin flicks his hands again and another-blank this time-leaf is produced, while the other immediately combusts. \\n\\nWords form from nothing, and then the paper floats into your hands. You want to ask about the other list, but decide against it.",
   "zh": "莫林挥了挥手，一张纸从他的包裹里飞出来，飘在空中。你可以看到纸上写着……“蒙眼布、天鹅绒绳、三块奶酪……”但莫林又挥了挥手，那张纸瞬间烧成灰烬，出现了另一张空白的纸。\\n\\n纸上的字慢慢浮现，然后飘落到你手里。你想问问那份清单，但最后还是算了。",
-  "reason": "恢复原文分段；修正错字“灰经”"
+  "reason": "恢复原文分段；修正错字“灰经”",
+  "reason_en": "Restored the original paragraph break; fixed the typo 灰经."
  },
  {
   "ctxt": "",
   "en": "You are guided down into the dimly lit tunnel as dwarves gather around excitedly, seeing what Morlin has in store. The old wizard gladly takes the runes from you and begins focusing very deeply...\\n\\nEveryone holds their breath while he works, moving his hands in esoteric swirls and patterns until suddenly, the man... sneezes. But then! With a crack and a flash that bathes the room in cold blue light, a veil of magic slowly rolls off the door and evaporates into the air. Morlin warns everyone not to breathe in the cursed air, and as folks duck and cover their faces with clothes and pulled up shirts, he laughs and swats the air, exclaiming that there's no such thing.\\n\\nYou hold back the urge to take a pickaxe from the wall and stick it into his back as the door slowly rolls into the side of the wall, revealing... a long, cold hallway lined with suits of armor in remarkable condition. At the feet of these, many offerings were laid out ages ago. Withered flowers and fruits have light stains in the stone, almost completely missed because of the small piles of gems, coins, and other small treasures laid out.\\n\\nEveryone is quite pleased by the discovery, as the immediate payoff is overshadowed by the looming question: What more could lay further below?",
   "zh": "你被带入一条昏暗的隧道，矮人们兴奋地围过来，想看看莫林准备了什么。老巫师欣然接过你手里的符文，开始全神贯注……\\n\\n在他施法时，大家屏住呼吸，看他的双手划出神秘的轨迹和图案。突然，他……打了个喷嚏。接下来！出现一声爆裂响和一道闪光。清冷的蓝光照着四周，一层魔法屏障从门上慢慢落下，消失在空中。莫林提醒大家不要呼吸被诅咒的空气。当大家纷纷躲避并用衣服遮脸时，他笑了起来，挥手驱散空气，说根本就没有诅咒。\\n\\n你真想取下墙上的镐头，捅进他的后背，但你忍住了。这时，那扇门慢慢滑入墙的一侧，露出了……一条又长又冷的走廊。走廊两边有几套保存完好的盔甲。在盔甲的下面，有许多很久以前留下的祭品。枯萎的花朵和水果在石头上留下了淡淡的痕迹。如果没有那些散落的宝石、钱币和其他小财宝，这些痕迹根本不会被发现。\\n\\n看到这些，大家都很高兴。但比起眼前的这些，大家不禁在想：再往里走，还有什么呢？",
-  "reason": "错字：又长又阴→又长又冷（英文 long, cold hallway）"
+  "reason": "错字：又长又阴→又长又冷（英文 long, cold hallway）",
+  "reason_en": "Typo: 又长又阴 (long and gloomy) changed to 又长又冷 (long and cold), matching the English \"long, cold hallway\"."
  },
  {
   "ctxt": "",
   "en": "I wonder if I should toss him back..?",
   "zh": "我想是不是该把他放回去？",
-  "reason": "人称错误：指被钓上来的男人 Dixon（him），“它”→“他”"
+  "reason": "人称错误：指被钓上来的男人 Dixon（him），“它”→“他”",
+  "reason_en": "Wrong pronoun: it refers to the man Dixon who was caught (him); 它 (it) changed to 他 (him)."
  },
  {
   "ctxt": "",
   "en": "Maybe I shouldn't have asked if I could keep him.",
   "zh": "也许我不该问能不能把他留下来。",
-  "reason": "人称错误：keep him 指迪克森，“它”→“他”"
+  "reason": "人称错误：keep him 指迪克森，“它”→“他”",
+  "reason_en": "Wrong pronoun: \"keep him\" refers to Dixon; 它 (it) changed to 他 (him)."
  },
  {
   "ctxt": "",
   "en": "He's a master of the arcane, has felled countless beasts and has unearthed some of the most powerful relics ever found...",
   "zh": "他是位奥术大师，打败过无数野兽，还发掘了一些最强大的遗物。",
-  "reason": "误译：most powerful relics 译成“最有影响力”→“最强大”"
+  "reason": "误译：most powerful relics 译成“最有影响力”→“最强大”",
+  "reason_en": "Mistranslation: \"most powerful relics\" was translated as 最有影响力 (most influential); changed to 最强大 (most powerful)."
  },
  {
   "ctxt": "",
   "en": "Well, a bit of coriander, hibiscus, juniper berries, orange peel... But I can't tell you the rest of course, I don't want to lose my leverage over you.",
   "zh": "嗯……加了点香菜籽、芙蓉花、杜松子、橙皮……还有什么，我当然不能告诉你，我可不想失去拿捏你的筹码。",
-  "reason": "误译：leverage over you 是“对你的筹码/把柄”，不是“吸引力”"
+  "reason": "误译：leverage over you 是“对你的筹码/把柄”，不是“吸引力”",
+  "reason_en": "Mistranslation: \"leverage over you\" means 对你的筹码/把柄 (a hold over you), not 吸引力 (attraction)."
  },
  {
   "ctxt": "",
   "en": "Lira lets out a loud whistle, and like a well-oiled machine the entire tavern pushes the tables together and drapes several clean cloths over them. It'd look like the start of a banquet if it wasn't for the crates of raw ingredients starting to be distributed among the patrons and the couple dozen more citizens that have started filtering in. \\n\\nThe townsfolk crack open the boxes and barrels of raw food and water and get to work in a show of efficency that shocks you. You wonder if Lira has access to some form of magic to make them work with such a fervor. But as you start to guess at her powers, you see tankards distributed and filled as Lira walks around checking progress. Seems you're not the only one taking drinks as payment.",
   "zh": "利拉吹了一声响亮的口哨。整个酒馆就像一台高效运转的机器，大家把桌子拼在一起，在桌面铺上干净的布。如果不是一箱箱生鲜食材正分发到顾客手里，又有几十位市民陆续涌进来，这场景看起来就像要举办一场盛宴。\\n\\n镇民们撬开装有食材和水的箱子和桶，以惊人的效率投入工作。你想，利拉是不是用了什么魔法，大家干活才这么卖力。当你开始猜测她究竟有什么本事时，你看见利拉在人群中走来走去查看进度，给大家分发和倒满酒水。看来，用酒水当报酬的不止你一个。",
-  "reason": "语序/读不通：原句缺主语，主被动不清，重排以还原 crates 被分发、市民涌入的意思"
+  "reason": "语序/读不通：原句缺主语，主被动不清，重排以还原 crates 被分发、市民涌入的意思",
+  "reason_en": "Word order/unreadable: the sentence lacked a subject and the active/passive voice was unclear; reordered to restore the meaning that crates are handed out and townsfolk rush in."
  },
  {
   "ctxt": "",
   "en": "You chuckle at the idea of needing to manage without her, then having her turn around and ask you for help instead. You head out to find some, and as you do, you walk past Petal, who has a dozen or so people in tow, all armed with various tools or carrying lumber. Shockingly efficient, that one.",
   "zh": "她刚说完要你自己应付，结果转头就向你求助，你忍不住笑了。你去找箭，经过佩塔时看到她身后跟着十几个人，大家都拿着各种工具或扛着木头。这效率真高啊。",
-  "reason": "误译/主宾颠倒：manage without her 指“你”要在她不在时自己应付，不是“她自己应付”"
+  "reason": "误译/主宾颠倒：manage without her 指“你”要在她不在时自己应付，不是“她自己应付”",
+  "reason_en": "Mistranslation/subject-object reversal: \"manage without her\" means you must cope on your own while she is away, not that she copes by herself."
  },
  {
   "ctxt": "",
   "en": "As you finish up with the flowers, you catch a whiff of Petal's cooking and let yourself inside. The place isn't 'homey' just yet, but it's far better than the wreck it was just a bit ago, and trust the two of them will give it the final touch-ups it needs.\\n\\nClove sets the table and waves you away when you try to help, so you turn to Petal, who brushes past you with three steaming birds balanced on her arm, with a pitcher of... something in the other. \\nUsing herbs she'd gathered, Petal seasoned the meat to perfection, and Clove produces a few fruits she collected while she was hunting. They pair beautifully with the... concoction that Petal assures you is safe to drink. It's sickly sweet and could be considered tasty, if it weren't for the fact that it leaves you feeling as though you've plunged into an icy lake, but only for a few moments after each sip\\n\\nPetal pushes your chair towards Clove's every once in a while, and slowly but surely she begins to turn bright red, but plays it off casually. Eventually, you all finish your meals, and Petal takes down a few notes as to how you felt while you drink her beverage. They both thank you for your time, and encourage you to come back once they've set up shop.",
   "zh": "忙完花草的活儿，你闻到了佩塔做饭的香气，于是自己进了屋。虽然这里还不像家，但跟之前的破败相比，已经好多了。相信她们会完成最后的修整工作。\\n\\n克洛夫在摆放餐具。看你想帮忙，她挥手让你休息。你转头看着佩塔。佩塔从你身边经过，一只手端着三只热气腾腾的鸟，另一只手提着一壶……不知道什么东西。\\n佩塔用她采的草药给肉调味，味道特别好。克洛夫拿出她在狩猎时采集的果子。这些果子和那壶……喝的很搭。佩塔向你保证，那喝的绝对安全。它的味道甜得腻人，本来也算可口，只是每喝一口都会让你产生一种坠入冰湖的感觉，不过只持续一小会儿。\\n\\n佩塔时不时地将你的椅子往克洛夫那边挪动。克洛夫的脸慢慢红了，但仍然装作没事的样子。吃完后，佩塔记下你喝那壶饮品的感受。她们感谢你的帮助，欢迎你在开店后再来。",
-  "reason": "逻辑颠倒：英文是“本来还算好喝，只是每口都像掉进冰湖”，原译写成“所以也还算美味”"
+  "reason": "逻辑颠倒：英文是“本来还算好喝，只是每口都像掉进冰湖”，原译写成“所以也还算美味”",
+  "reason_en": "Reversed logic: the English says it was drinkable but every sip was like falling into an icy lake; the old translation said \"so it was tasty\"."
  },
  {
   "ctxt": "",
   "en": "Well... I can't say that I'm not a little interested in what you had in mind, but really, that's not necessary. I'm just happy to see you on your feet, and a bit more clothed than last time.",
   "zh": "那个……说实话，我有点好奇你是怎么想的，不过这没关系。看到你能站稳脚跟，而且穿得也比上次像样些，我就很高兴了。",
-  "reason": "错字：站位脚跟→站稳脚跟"
+  "reason": "错字：站位脚跟→站稳脚跟",
+  "reason_en": "Typo: 站位脚跟 (garbled) changed to 站稳脚跟 (gain a firm footing)."
  },
  {
   "ctxt": "",
   "en": "You stumble across Magnavous bumbling through Azamire's square, asking people if they've seen you. Many either shake their heads or mention your various comings and goings, but few have solid answers as to where she could look next. You stand back and watch as she shakes down a couple others, who point you out. She looks pleased to have come across you, and quite a bit more sure of herself than the last time you saw her. She still firmly clutches one of the staves you made her, but she walks far more proudly and confidently.",
   "zh": "你偶然看见麦格纳沃斯在阿扎米尔广场上乱转，到处问有没有见过你。有人摇头，有人说看到过你，但没人明确告诉她应该去哪儿找你。你站在一旁，看她又问了几个人。那些人指了指你。她看见你很高兴。跟上次见她比起来，她看起来自信多了。她手里还紧紧握着你做的那根法杖，走起路来更加昂首挺胸、更加自信。",
-  "reason": "漏字：指了你→指了指你"
+  "reason": "漏字：指了你→指了指你",
+  "reason_en": "Missing character: 指了你 changed to 指了指你 (pointed at you)."
  },
  {
   "ctxt": "",
   "en": "Well, the stone is getting harder to work through. Morlin thinks that it may be magically enhanced since we're getting closer to the city.",
   "zh": "岩石越来越难凿了。莫林觉得可能是因为我们离城市越来越近，岩石被施了魔法。",
-  "reason": "漏译：英文开头“the stone is getting harder to work through”被丢，补上"
+  "reason": "漏译：英文开头“the stone is getting harder to work through”被丢，补上",
+  "reason_en": "Omission: the opening \"the stone is getting harder to work through\" was dropped; added it."
  },
  {
   "ctxt": "",
   "en": "Gemstone-tipped bolts in-hand, you slowly work your way around each of the statues. Each fits in the openings nicely, and lock into place with a firm and resonate snap. Magnavous begins to do the same while Whudgrath holds a lantern aloft. Soon enough, the vapor that twisted and curled up towards the ceiling has been stopped. All at once, the statues seem to heave and twist. Where they once hunched and gaunt, sealing them seems to have changed the stone outright, causing the figures to warp into more imposing, able-bodied versions of themselves.",
   "zh": "你拿着镶嵌宝石的弩箭，慢慢绕着雕像走。弩箭正好插进雕像上的孔洞，清脆的一声响，箭头嵌入雕像。麦格纳沃斯也开始这样做，伍德格拉斯高举着提灯。没过多久，之前盘旋上升的雾气就消散了。这时，雕像好像动了，扭曲变形。封印之后，原本佝偻枯瘦的雕像完全变了，它们扭曲变形，变得更威武、更强壮。",
-  "reason": "误译：弩箭是用手按进孔洞的，不是射入"
+  "reason": "误译：弩箭是用手按进孔洞的，不是射入",
+  "reason_en": "Mistranslation: the bolts are pressed into the holes by hand, not shot into them."
  },
  {
   "ctxt": "",
   "en": "Everyone begins layering on the amulets as best they can, taking wild guesses as to how many and where they should be placed. The four statues begin to look positively gaudy by the time you finish, and you start to wonder if it would have been better to use the same enlargement spell as you used for the staves... just as the first of the four begins to stir.\\n\\nThe adornments melt into their stone skin, and each statue's eyes begin to light up one by one, shining with an eerie energy. Magnavous ducks behind you, and Whudgrath behind her, while Morlin waves his staff menacingly at the statues. You all sit in a tense silence as seconds feel as if they stretch into minutes. The statues slam their staves into the ground once again, this time eliciting a shriek from... Morlin, your mighty protector.\\n\\nIn tandem, the statues take position by the colossal gate, and each hammers their staff against it one after another, the whacks shaking the cavern enough to knock you all to your knees. When the sentries cease, they begin to push arduously against it, the bolts you pressed into them fragmenting and shooting out from the gaps in their facades, letting the vapor they held back rise towards the cavern's ceiling once more. \\n\\nSlowly but surely, the gate grinds open, and the statues don't let up until the doors scrape to a halt. With that, they wander into the darkness, leaving you all behind, wondering what lies beyond the gate.",
   "zh": "大家开始努力贴护身符。至于贴多少、贴在哪儿，全靠胡乱猜测。贴完以后，那四座雕像看起来相当俗气。你心想，如果再用一次将法杖变大的咒语，会不会好些……这时，其中一座雕像动了。\\n\\n那些装饰物融入雕像的岩石皮肤，雕像的眼睛陆续亮了，闪着诡异的光。麦格纳沃斯躲到你身后；伍德格拉斯躲到麦格纳沃斯身后；莫林气势汹汹地挥着法杖，指着雕像。你们紧张得不敢说话，一秒就像一分钟那么长。雕像再次将法杖重重砸向地面。这一次……莫林，你们那位强大的守护者，竟然尖叫一声。\\n\\n与此同时，雕像来到大门前，用手里的法杖连续击打大门。撞击声让整个洞震动，你们都纷纷跪在地上。这些守卫停止击打，然后开始用力推门。插入他们身体的弩箭断裂，从雕像表面的缝隙飞出。原本止住的雾气再次升起来，向着洞顶弥漫开来。\\n\\n大门慢慢打开，发出刺耳的摩擦声。直到这些门停止不动，雕像才停下来。随后，它们走进黑暗，把你们留在原地，猜想门后究竟有什么。",
-  "reason": "漏译：结尾雕像走入黑暗、众人猜想门后是什么这句被丢"
+  "reason": "漏译：结尾雕像走入黑暗、众人猜想门后是什么这句被丢",
+  "reason_en": "Omission: the ending, where the statue walks into the darkness and everyone wonders what is behind the door, was dropped."
  },
  {
   "ctxt": "",
   "en": "The bushes and trees are thick, and for every one you chop down, it feels as though three more shoot up in their place. Their rapid growth would be a lot more impressive if it wasn't for its murderous intent. How they stay out of sight is a mystery, but as you cut deeper into the tangle of plants, thunderous bellows and growls sound from nearby creatures you feel lucky not to encounter.\\n\\nYou do your best to make your way inward, and eventually, the outer thicket gives way to a calmer bit of forest. Jass catches her breath and wipes the vegetation from her sword and armor. The two of you stand on a ridgeline surrounding a deep crater, filled with plantlife you've never seen anywhere else. It almost looks like a jungle, with dark trees towering from the pit and threatening to spill out. All manner of dark shadows prowl through the vegetation, and you're very happy to be far above it, at least for now.",
   "zh": "灌木和树木密密麻麻，砍一棵长三棵。如果不是透着杀意，这生长速度确实令人惊叹。它们是如何藏得不见踪影的，谁也不知道。当你走进这片杂乱的林子，附近传来震耳的咆哮声和低吼声。幸运的是，你没有遇到这些东西。\\n\\n你努力向里面走，穿过茂密的丛林，最后来到一片宁静的树林。杰丝喘了口气，擦去剑上和盔甲上的枝叶。你们站在一道山脊上，下面是一个深坑。坑里长满了你们从未见过的植物。整个坑看起来就像一片丛林。坑里的树木阴暗高大，仿佛就快出来了。各种黑影在丛林中穿梭。幸好你们站得高，至少现在是安全的。",
-  "reason": "误译：“murderous intent”译成“隐藏杀意”意思不对；他们→它们（指生物）"
+  "reason": "误译：“murderous intent”译成“隐藏杀意”意思不对；他们→它们（指生物）",
+  "reason_en": "Mistranslation: \"murderous intent\" was translated as 隐藏杀意 (hidden killing intent), which is not the right meaning; also 他们 (they, people) changed to 它们 (they, creatures)."
  },
  {
   "ctxt": "",
   "en": "The two of you cut through the thicket back the way you came, and found less resistance exiting than entering. You make your way to Azamire, and started to form a plan while recharging in Lira's tavern. You set yourselves on sealing the grove, keeping whatever may be inside the crater locked away, and hopefully preventing the spread of the outer thicket as well.\\n\\nAs you start to wonder who might be helpful, in slaying corrupted beasts and dealing with wild plants before finally sealing the grove, Lira-who has clearly been listening in-swings by and recommends Gol and Petal for the first steps, and Morlin for the last. Without a word from either of you, she sends a couple of her patrons to fetch them. Sure enough, the two of them are more than up for the challenge, and recommend dealing with the beasts first, then tending to the thicket before sealing it. This works out well, as Magnavous sends a message back on Morlin's behalf, saying that he'll come as soon as he's able to return his sense of gravity-whatever that means.",
   "zh": "你们原路返回，穿过丛林。你们发现，回去比进来更轻松。你们回到阿扎米尔，在利拉的酒馆里一边休息一边想办法。你们的目标是封印那片树林，将坑里的所有东西都封锁起来，设法阻止外面那片丛林继续蔓延。\\n\\n要屠杀腐化的野兽，要应付野蛮的植物，最后还要封印树林。当你们考虑找谁帮忙的时候，一直在旁边听的利拉走了过来。她建议第一步和第二步找戈尔和佩塔帮忙，第三步找莫林帮忙。你们还没说话，她就让几位顾客去找他们了。不出所料，戈尔和佩塔两人欣然接受挑战，建议先解决野兽，再处理丛林，最后封印。事情进展顺利。莫林让麦格纳沃斯传回消息，说他一旦找回重力感（不知道具体是什么意思），就马上过来。",
-  "reason": "指代不清：the two of them 指戈尔和佩塔，原译像是两位顾客"
+  "reason": "指代不清：the two of them 指戈尔和佩塔，原译像是两位顾客",
+  "reason_en": "Unclear reference: \"the two of them\" refers to Gor and Peta, but the old translation read as two customers."
  },
  {
   "ctxt": "",
   "en": "Giant Fish Bait packed in your spare bag sounded fine and dandy, until you realized that you'd have to walk along the edge of the rampant forest. Gol, by some miracle or stroke of luck, just so happened to be nearby when one of the same beasts as before just about grabbed you in its massive jaws. It let out a terrifying howl, and followed after the two of you. Worried about your pace, eventually Gol decided to throw you over his shoulder and run towards the edge of the crater as the vegetation pulls out of Gol's path, which would have felt a lot more disheartening if it weren't for the scores of eyes following after you. \\n\\nAs the two of you crash through the treeline, you toss the bait-filled bag and send it careening into the crater. Gol dashes to the side and doesn't stop running, even as the beasts go lurching over the edge towards the pack. He doesn't set you down until the forest stops moving, which you don't mind one bit. Eventually, you deem it safe to return to camp, and do so quickly.",
   "zh": "把巨型鱼饵装进你的备用包听起来不错，可当你意识到自己要沿着那片疯狂蔓延的森林边缘走时，就不行了。不知道是奇迹还是运气好，之前遇到的那种野兽差点用血盆大口咬住你的时候，戈尔恰好就在附近。它发出一声恐怖的咆哮，跟在你们身后。戈尔怕你太慢，最后决定把你扛在肩上，向洞边跑去。两边的草木向后退，给戈尔让路。如果不是身后有无数双眼睛盯着你们，这场面或许更加令人沮丧。\\n\\n你们冲出树林，你将那包诱饵甩了出去，滚进了洞里。戈尔迅速闪到一边，继续奔跑。那群野兽跌跌撞撞地翻过洞边，扑向那袋诱饵。直到森林不再晃动，他才把你放下来。对此，你一点也不介意。过了一会儿，你觉得可以安全回营地了，于是便赶快回去了。",
-  "reason": "误译：one of the same beasts 是同类野兽中的一头，不是之前那头"
+  "reason": "误译：one of the same beasts 是同类野兽中的一头，不是之前那头",
+  "reason_en": "Mistranslation: \"one of the same beasts\" means one of the same kind of beast, not the same one as before."
  },
  {
   "ctxt": "",
   "en": "Considering I haven't seen anyone so much as levitate more than a couple feet off the ground, I'd have to say yes.",
   "zh": "我没见过有谁能飘离地面超过几英尺，所以我觉得这称呼没问题。",
-  "reason": "误译/读不通：英文是没见过别人能飘离地面超过几英尺"
+  "reason": "误译/读不通：英文是没见过别人能飘离地面超过几英尺",
+  "reason_en": "Mistranslation/unreadable: the English says they have never seen anyone float off the ground more than a few feet."
  },
  {
   "ctxt": "",
   "en": "The cinders from the assault on Azamire have only just fizzled out, much like many of the survivors' will to go on. Everyone that remained had lost something. Their homes. Family members. Friends. You and [Companion Name] sit on the soot covered cobbles that once made up the town's main thoroughfare, watching another family carry what little they have left and shuffle out of town, hoping that some nearby village may have been spared. Neither of you blame them.\\n\\nA woman with a bloodied stump where her hand should have been approaches the two of you and falls to the ground beside you with a sigh.",
   "zh": "阿扎米尔遭袭后的余烬刚刚熄灭，许多幸存者想要活下去的意志也随之熄灭。留下来的每个人都失去了些什么：家园、家人、朋友。你和[Companion Name]坐在覆满煤灰的鹅卵石路上，这里曾是镇上的主干道。你们看着又一家人带着仅剩的一点家当，拖着脚步离开小镇，希望附近的某个村子能幸免于难。你们谁也不怪他们。\\n\\n一个女人朝你们走了过来，她本该长着手的地方只剩一截血淋淋的断肢。她叹了口气，一屁股坐在你们旁边。",
-  "reason": "漏译：丢了[Companion Name]标签，以及你们坐在煤灰覆盖的主干道上、看一家人离开小镇等信息；断手细节也改准确"
+  "reason": "漏译：丢了[Companion Name]标签，以及你们坐在煤灰覆盖的主干道上、看一家人离开小镇等信息；断手细节也改准确",
+  "reason_en": "Omission: the [Companion Name] tag was dropped, as was the information about you sitting on the soot-covered main road watching a family leave town; the severed-hand detail was also made accurate."
  },
  {
   "ctxt": "",
   "en": "I knew they'd be bad, but wow.",
   "zh": "我就知道他们会很糟，但没想到这么糟。",
-  "reason": "误译：I knew they'd be bad, but wow 是说比预想的还糟，原译成了「其实还不错」"
+  "reason": "误译：I knew they'd be bad, but wow 是说比预想的还糟，原译成了「其实还不错」",
+  "reason_en": "Mistranslation: \"I knew they'd be bad, but wow\" means worse than expected; the old translation said 其实还不错 (actually not bad)."
  },
  {
   "ctxt": "",
   "en": "[Companion Name] glares at you, but you've known them long enough to know there's no real anger there, just like they know you have no malice in your light banter.\\n\\nThough, you start to think otherwise when the villagers pick up their bows and start trying to hit the targets. You feel as though their arrows pass by you more often than the targets. You get to work quickly, trying to show them how to draw, aim, and fire, before they really hurt someone.",
   "zh": "[Companion Name]瞪了你一眼。你们认识很久了，你知道他没有真的生气，他也知道你只是开玩笑，没有恶意。\\n\\n不过，当村民们拿起弓，开始尝试射箭的时候，你开始动摇了。你感觉他们朝你射的箭，比朝靶子射的还要多。你赶紧动手，教他们怎么拉弓、瞄准和射击，以免他们真的伤到什么人。",
-  "reason": "语病：「你赶紧起来」→「你赶紧动手」（get to work）"
+  "reason": "语病：「你赶紧起来」→「你赶紧动手」（get to work）",
+  "reason_en": "Grammar: 你赶紧起来 (hurry up and get up) changed to 你赶紧动手 (hurry up and get to work)."
  },
  {
   "ctxt": "",
   "en": "You just start to drift off to sleep before a frantic pounding at your door makes you jump up and start grabbing for something nearby to protect yourself. Your door opens a bit more gently than you'd expect considering the knocking, and you find [Companion Name] looking worried with a young woman behind her. She holds up something about as thick as your finger with a sickly pale yellow hue.",
   "zh": "你刚要睡着，一阵急促的敲门声把你惊醒了。你跳起来，抓起身边能当武器的东西。你的门开了，比刚才的敲门声轻多了。你看到[Companion Name]一脸担忧，身后还有一名年轻女子。她手里举着跟你手指一样粗的东西，颜色是病态的淡黄。",
-  "reason": "误译：sickly pale yellow 形容她手里的东西（牙齿），不是她的脸色"
+  "reason": "误译：sickly pale yellow 形容她手里的东西（牙齿），不是她的脸色",
+  "reason_en": "Mistranslation: \"sickly pale yellow\" describes what she holds (teeth), not her complexion."
  },
  {
   "ctxt": "",
   "en": "Just catch some fish and don't look suspicious. Easy.",
   "zh": "去抓几条鱼，别看起来很可疑。这简单。",
-  "reason": "错字：可以→可疑（don't look suspicious）"
+  "reason": "错字：可以→可疑（don't look suspicious）",
+  "reason_en": "Typo: 可以 (can) changed to 可疑 (suspicious), for \"don't look suspicious\"."
  },
  {
   "ctxt": "",
   "en": "Jass, you sure about this?",
   "zh": "杰丝，你确定吗？",
-  "reason": "专有名词：杰斯→杰丝（Jass）"
+  "reason": "专有名词：杰斯→杰丝（Jass）",
+  "reason_en": "Proper noun: 杰斯 changed to 杰丝 (Jass)."
  },
  {
   "ctxt": "",
   "en": "You look around as the movement begins to settle. The Golbin force was larger than you had anticipated, but your efforts went as well as could be expected. Among the bodies littering the forest floor, from what you could see, only a couple were human, which was better than expected considering their experience.\\n\\nYou rush over as you hear a shout from Jass, who managed to pin a dark green Golbin to ground. The beast would have hardly came up to your hip had it been on its feet, and you could hear it whimpering and begging not to be hurt. It quickly rattles off fragments of information that it thinks could be useful, detailing how its clan was taken over by a rival group led by someone it called the 'Ringleader', its own name - Gloob - and how it really really wants to live. Jass slaps her hand over its mouth and asks it where the girl they kidnapped was, and why they took her. Gloob goes one step further, and says that it'll lead you all there to its nearby camp, and that they were going to try and paint him and sell him off too, whatever that may mean.\\n\\nYou discuss it briefly together, and decide to 'trust' it to do as it says. Surely enough, the camp is close, and the leftover defenders quickly scatter as they see they're vastly outnumbered, leaving their camp behind. You and [Companion Name] quickly find Ana in one of their tents and take her home, while Jass and the militia handle a dozen or so other folks who had been captured from elsewhere throughout the countryside. Ana's mother meets you just outside of Azamire with tears in her eyes, thanking you over and over again for saving her daughter.",
   "zh": "战斗逐渐平息，你看了看四周。哥布林的数量比你预想的要多，但你们的攻击跟预想的一样好。看着躺在地上的尸体，只有几具是人类的。考虑到大家的战斗经验，这比预想的结果要好。\\n\\n你听到杰丝大喊一声，赶快跑了过去。杰丝把一只深绿色的哥布林死死按在地上。这野兽要是站起来，恐怕还没你的腰高。它低声抽泣，求你们不要伤害它。为了活命，它说了一些信息。它说，它的氏族被一个敌对氏族控制了，领头的叫‘幕后头目’。它还说自己叫格鲁布，非常、非常想活命。杰丝捂住它的嘴，问它被绑架的小女孩在哪儿，为什么要抓小女孩。格鲁布先开口了。它说带你们去它附近的营地，还说它们原本打算把它涂上颜色，然后卖掉。具体什么意思，不知道。\\n\\n你们简单商量了一下，决定‘相信’它的话。果然，营地就在附近。营地的守卫发现自己的人太少，丢下营地，迅速逃走了。你和[Companion Name]很快在一个帐篷里找到了安娜，把她带回家。杰丝和民兵们负责处理从其他地方抓到的另外十几个人。在阿扎米尔的外面，安娜的母亲满眼泪水，一遍又一遍地感谢你们救了她女儿。",
-  "reason": "误译：Ringleader是敌对团体首领、格鲁布是它自己的名字，原译混为一谈；slaps hand over mouth 是捂嘴不是打嘴；a dozen or so 是十几个不是几十个；him 指格鲁布应为「它」"
+  "reason": "误译：Ringleader是敌对团体首领、格鲁布是它自己的名字，原译混为一谈；slaps hand over mouth 是捂嘴不是打嘴；a dozen or so 是十几个不是几十个；him 指格鲁布应为「它」",
+  "reason_en": "Mistranslation: Ringleader is the leader of the hostile group and Gloob is its own name, but the old translation mixed them up; \"slaps hand over mouth\" means covering the mouth, not hitting it; \"a dozen or so\" means about a dozen, not dozens; \"him\" refers to Gloob and should be 它 (it)."
  },
  {
   "ctxt": "",
   "en": "Didn't figure. Well, would you two mind helping me out with a little project, then?",
   "zh": "我也没指望。那你们能不能帮我个忙，参与一个小项目？",
-  "reason": "误译：Didn't figure 意为「我也没指望」，原译「我不明白」"
+  "reason": "误译：Didn't figure 意为「我也没指望」，原译「我不明白」",
+  "reason_en": "Mistranslation: \"Didn't figure\" means 我也没指望 (I didn't expect so); the old translation said 我不明白 (I don't understand)."
  },
  {
   "ctxt": "",
   "en": "Hapren brings the two of you over to the center of town, which has been piled with debris from Azamire's cleanup efforts. He talks about how he'd love to throw a little gathering for the town, just so folks can get to know one another and feel a bit of normalcy despite how hard the last while has been. A few people try their best to break down the rubble into movable chunks, but progress is slow, and Hapren asks for help before starting to work on the pile himself.",
   "zh": "哈普伦带你们俩去镇中心，那里堆满了阿扎米尔清理出来的垃圾。他说想办个小聚会，让大家相互认识一下，在经历了那段艰苦日子之后回归正常生活。几个人努力将废墟砸碎，方便搬运。但他们进度很慢。哈普伦向你们寻求帮助，随后自己也去清理了。",
-  "reason": "错字/语病：「将废墟杂碎」→「将废墟砸碎」"
+  "reason": "错字/语病：「将废墟杂碎」→「将废墟砸碎」",
+  "reason_en": "Typo/grammar: 将废墟杂碎 (garbled) changed to 将废墟砸碎 (smash the rubble)."
  },
  {
   "ctxt": "",
   "en": "With you and [Companion Name]'s help, you manage to break up the debris in short order, and Hapren directs much of the salvageable materials to be stored for reconstruction efforts, and the wood that is too mangled to be used to be left in the square to be used for the bonfire.\\n\\nJust as you set your tools down, a few tired looking folks make their way into the center of town, fishing gear in hand.",
   "zh": "有你和[Companion Name]帮忙，垃圾很快就清理了。哈普伦下令将还能用的材料收起来，日后重建可以用。至于那些不能用的坏木材，就留在广场上生篝火。\\n\\n就在你们放下工具时，几个人走进了镇中心。他们看起来很累，手里拿着钓鱼工具。",
-  "reason": "恢复原文分段"
+  "reason": "恢复原文分段",
+  "reason_en": "Restored the original paragraph break."
  },
  {
   "ctxt": "",
   "en": "A shipment of...",
   "zh": "运的是……",
-  "reason": "误译：A shipment of... 是在追问货物内容，原译「押送……」不通"
+  "reason": "误译：A shipment of... 是在追问货物内容，原译「押送……」不通",
+  "reason_en": "Mistranslation: \"A shipment of...\" is asking what the cargo is; the old translation 押送...... (escorting...) does not make sense."
  },
  {
   "ctxt": "",
   "en": "What do you mean, saved you?",
   "zh": "什么叫救了你？",
-  "reason": "误译：saved you 译成了「就你」"
+  "reason": "误译：saved you 译成了「就你」",
+  "reason_en": "Mistranslation: \"saved you\" was translated as 就你 (just you)."
  },
  {
   "ctxt": "",
   "en": "They were going to tie me up and try to put me in one of the shipments, too, since I wanted to 'act like a human'. ",
   "zh": "因为我想‘像人一样说话做事’，他们就想把我绑起来，跟那些人类一起运走。",
-  "reason": "错字：一切→一起"
+  "reason": "错字：一切→一起",
+  "reason_en": "Typo: 一切 (everything) changed to 一起 (together)."
  },
  {
   "ctxt": "",
   "en": "You, Gloob, and [Companion Name] set off into the Misty Thicket on the night of the full moon. Gloob brings you through the woods quickly, and it's tough to keep up with his speed. You and [Companion Name] find yourselves huffing and puffing just outside of the Ringleader's Fortress. In the moonlight, you all see a train of wagons and hobgolbins heading to the north along an old dirt road, but quickly lose track of it as they slip into the dense thicket.\\n\\nWith them gone, the three of you use the gear you prepared and scale the walls, landing quietly on the other side. Gloob brings you to several spots throughout the relatively open grounds. A small, ramshackle prison, with several ents patrolling just outside. You pass by a handful of sleeping areas for the fort's living guards, until you reach a large wooden hut Gloob says is the Ringleader's home. Finally, he leads you to a stockpile of various bits that a Golbin would find valuable, taken as tribute or looted from nearby towns. Hides, half-rotten food, weapons and armor, gold, and most notably, dozens upon dozens of caskets of flammable oil and booze.\\n\\nYou and [Companion Name] wait for Gloob to lead you into an ambush, but the trap never comes. True to his word, once he finishes with the important parts of the fortress, the three of you scale back over the wall and head back to Azamire. When you return, you immediately begin talks with Jass about launching an assault on the fortress with what you've learned, and set plans into motion to get the town ready. Clearing a path to bring wagons to the fort, and securing an exit route for prisoners will be essential before launching an attack. Plus, it gives Jass more time to get her people ready, too.",
   "zh": "满月那晚，你、格鲁布和[Companion Name]一起进入迷雾丛林。格鲁布走得很快，你们很难跟上。到了幕后头目的堡垒外面，你和[Companion Name]气喘吁吁。在月光下，你们看到一队马车和大哥布林沿着一条老土路向北走，但它们很快就钻进茂密的丛林，没了踪影。\\n\\n他们走后，你们三人用事先准备好的装备翻过围墙，悄悄来到墙的另一侧。格鲁布带你们在相对开阔的地方转了几圈。这里有一个破烂的小牢房，外面有几个恩特树人巡逻。你们经过几个守卫休息区，到了一间大木屋。格鲁布说，那是幕后头目的住处。最后，他带你们来到堆战利品的地方。这些东西是哥布林的宝贝，有的是贡品，有的是从附近城镇抢来的。这里堆满了兽皮、半腐烂的食物、武器盔甲、黄金，最引人注意的是许多桶易燃的油和酒。\\n\\n你和[Companion Name]等格鲁布把你们引入伏击，但陷阱始终没有出现。他没有说谎。勘察完堡垒的重要区域，你们三人翻出围墙，返回阿扎米尔。回来之后，你立马和杰丝讨论利用已经掌握的信息，突袭堡垒。你开始制定计划，让小镇做好准备。在突袭之前，要先清理出一条能让马车到达堡垒的道路，为牢房里的人找好撤离路线。此外，这也让杰丝有更多的时间调动人手。",
-  "reason": "漏字：这也杰丝→这也让杰丝"
+  "reason": "漏字：这也杰丝→这也让杰丝",
+  "reason_en": "Missing character: 这也杰丝 changed to 这也让杰丝 (this also made Jass...)."
  },
  {
   "ctxt": "",
   "en": "Hopefully Gloob's contacts pull through.",
   "zh": "希望格鲁布找的人靠得住。",
-  "reason": "专有名词：格鲁比→格鲁布（Gloob）"
+  "reason": "专有名词：格鲁比→格鲁布（Gloob）",
+  "reason_en": "Proper noun: 格鲁比 changed to 格鲁布 (Gloob)."
  },
  {
   "ctxt": "",
   "en": "Not sure how far down the wall goes, but we can't just dig down further.",
   "zh": "不知道这堵墙到底有多深，但我们不能再往下挖了。",
-  "reason": "误译：can't just dig down 是「不能」，原译成「没有」"
+  "reason": "误译：can't just dig down 是「不能」，原译成「没有」",
+  "reason_en": "Mistranslation: \"can't just dig down\" means \"cannot\"; the old translation said \"do not have\" (没有)."
  },
  {
   "ctxt": "",
   "en": "Oh and I'm really starting to grow on Jass, and [Companion Name] is having me do a few things around, and also...",
   "zh": "哦，杰丝好像也越来越喜欢我了。[Companion Name]在帮我做一些事，另外……",
-  "reason": "误译：grow on Jass 是杰丝逐渐接受/喜欢我，主客颠倒"
+  "reason": "误译：grow on Jass 是杰丝逐渐接受/喜欢我，主客颠倒",
+  "reason_en": "Mistranslation: \"grow on Jass\" means Jass gradually accepts/likes me; the subject and object were reversed."
  },
  {
   "ctxt": "",
   "en": "If you were doing something dangerous, then I especially should have been there!",
   "zh": "如果你要做什么危险的事，我才更应该跟你在一起！",
-  "reason": "错字+误译：「我刚应该」→「我才更应该」；If you were doing something dangerous 是「如果你要做危险的事」"
+  "reason": "错字+误译：「我刚应该」→「我才更应该」；If you were doing something dangerous 是「如果你要做危险的事」",
+  "reason_en": "Typo and mistranslation: 我刚应该 (garbled) changed to 我才更应该 (I should even more); \"If you were doing something dangerous\" means 如果你要做危险的事 (if you were going to do something dangerous)."
  },
  {
   "ctxt": "",
   "en": "If you didn't... I probably would have. I don't want to lose you either.",
   "zh": "如果你没有……我大概也会那么做。我也不想失去你。",
-  "reason": "误译：I probably would have 指「我大概也会去逞英雄」，原译「已经死了」"
+  "reason": "误译：I probably would have 指「我大概也会去逞英雄」，原译「已经死了」",
+  "reason_en": "Mistranslation: \"I probably would have\" means I would probably have played the hero too; the old translation said 已经死了 (already dead)."
  },
  {
   "ctxt": "",
   "en": "Alarms start to sound as the militia's arrows are lit. You clutch your weapon in anticipation, wishing you could to go check on the tunnel to see how Gloob's breakout went, but there's no time. The hillside is lit up with the fires you and [Companion Name] started, and hobgolbins on the wall begin to shoot towards you. But it's too late. Burning arrow after arrow soar up and over the wall, towards where you pointed out the stockpile. No one can see over the wall, so it's tough to tell if anyone is on target until a resounding BOOM make you cover your ears, even from this far away.\\n\\nMany of the defenders are thrown from the wall entirely, and as you and the militia charge, the swordsmen dispatch the stunned hobgolbins that fell on the wrong side of the wall. Arrows start to fall again, as the fort's guards gather themselves, and they're met with your militia's own volleys.",
   "zh": "警报响了，民兵把箭点燃。你握紧武器，准备迎战。你想去隧道那边，看看格鲁布的突围怎么样。但时间来不及了。你和[Companion Name]点的火照亮了山坡，墙上的大哥布林开始射击你们。但一切都太晚了。一支支火箭飞过高墙，射向你之前提到的战利品。没人能看到墙那边的情况，所以很难判断有没有射中目标。这时，远处传来一声巨响，你赶紧捂上耳朵。\\n\\n很多守军从墙上掉下来。你和民兵发起冲锋，剑士迅速解决从墙上掉下来的、已经昏倒的大哥布林。堡垒的守卫重整旗鼓，再次射箭。与此同时，民兵射箭还击。",
-  "reason": "误译：swordsmen 译成了弓箭手（弓箭手正在射箭）"
+  "reason": "误译：swordsmen 译成了弓箭手（弓箭手正在射箭）",
+  "reason_en": "Mistranslation: swordsmen was translated as archers (弓箭手), who are the ones shooting arrows."
  },
  {
   "ctxt": "",
   "en": "Not a single person falters as they stream past you, charging with weapons and heads held high. You don't turn away as you see some being driven through as the Ringleader's forces crash into your own. Time slows as you push through, trusting your people to keep you safe. As you make it through the bodies, the Ringleader stands with a gnarled smirk, holding what must be half a burning tree as its weapon, seemingly unbothered by the flames that flicker up its arm.\\n\\nYou hear people roar in the battle behind you, some in victory, others... likely as their last act of defiance against the opposing force. You steel yourself and step forward, challenging the Ringleader.",
   "zh": "大家抬起头，拿着武器，从你身边飞快地冲出去。幕后头目的手下也冲了过来。你看见有人的身体被直接撞穿了，但你没有退缩。你继续向前冲，把自己的安全交给战友。此时，时间好像慢了下来。你穿过一具具尸体，终于看见了幕后头目。它歪着嘴，露出狰狞的笑。它握着燃烧的半棵树当武器。火焰爬上它的手臂，但它似乎一点也不在乎。\\n\\n你听到身后传来一阵阵的呼喊声。有的是胜利的呼叫，有的……或许是面对敌人的最后一次反抗。你镇静下来，继续向前，向幕后头目发起挑战。",
-  "reason": "错字：一句句→一具具"
+  "reason": "错字：一句句→一具具",
+  "reason_en": "Typo: 一句句 (sentence by sentence) changed to 一具具 (body by body)."
  },
  {
   "ctxt": "",
   "en": "Before you lies the broken body of the Ringleader, sickly purple blood spilling from his wounds. You finally spare a glance to those around you, and you realize... it's over. Less than half the attacking force remains, but Azamire's people still stand.  Gloob stands among the militia, deep green body covered in the blue blood of hobgolbins, and he lets out a cheer, one that the remaining militia proudly meet. Jass barks out orders, pointing out wounded with the stump of her arm, then starting to pull one of the wounded towards the gate with her other.\\n\\nHalf a dozen emotions cross [Companion Name]'s face the second you look at them, but most among them all, relief. They embrace you for naught but a moment before heading towards the Ringleader, who barely manages a ragged breath. As you approach, the beast lets out a throaty cackle before it devolves into a choking cough. You ask it two questions. Where did the shipments go, and who are the people it works for?\\n\\nHe just sits and smirks, the flames of his burning fortress dancing in his eyes.\\n\\n\\\"They'll come back soon.\\\"",
   "zh": "你看见幕后头目全身都是伤，伤口流着恶心的紫色鲜血。你看了看周围，终于意识到……一切都结束了。超过一半的敌人都倒了，而阿扎米尔的战士们依然站着。格鲁布站在民兵队伍中，深绿色的身体上沾满了大哥布林的蓝色鲜血。它大声欢呼，其他民兵也自豪地跟着欢呼。杰丝用残缺的手臂指向受伤的人，大声地发出命令。然后，她又用另一只手将一名伤员拖到大门那边。\\n\\n你看着[Companion Name]，他们脸上的情绪复杂，但最明显的是轻松了。他们抱了你一下，然后走向奄奄一息的幕后头目。你走过去，那野兽发出一声嘶哑的怪笑，然后又剧烈地咳嗽。你问了它两个问题。它要把那些囚犯运到哪里去？它是为谁做事？\\n\\n它坐在那里，幸灾乐祸地笑。堡垒的火焰在它的眼睛里跳动。\\n\\n“他们很快就会回来的。”",
-  "reason": "恢复原文分段"
+  "reason": "恢复原文分段",
+  "reason_en": "Restored the original paragraph break."
  },
  {
   "ctxt": "",
   "en": "The day following your attack on the Ringleader's fort is met with a mixture of joy, relief, grief, and... uncertainty. \\nWhile the assault was successful, casualties number in the range of a few dozen, a large blow to the already wavering population of your home.\\n\\nHowever, with the number of refugees coming and going nowadays, ebbs and flows in the local populace are getting hard to keep track of. While callous, you are thankful that no one you knew well fell - through a few of the original militia recruits you and [Companion Name] were among the bodies you brought back on the wagons.\\n\\nYesterday's events weren't enough to keep you or [Companion Name] down for long, though. The two of you set off back to the fort at first light, searching for tracks of the caravan you saw leave the fort on your first scouting mission. The set of buildings behind their thick wall still smouldered from the night before, reminding you both of the battle.",
   "zh": "在你们攻击幕后头目堡垒的第二天，大家的心情很复杂，有喜悦，有轻松，有悲伤，还有……迷茫。\\n虽然这次袭击成功了，但还是有几十个人受伤或死亡。小镇的人本来就不多，这些伤亡是很大的打击。\\n\\n但是，现在难民来来往往，当地人口数量的变化很难追踪。战争很残酷，但你庆幸的是，你认识的人都还活着。在你和[Companion Name]用马车运回来的尸体里，有几个是民兵队伍的新兵。\\n\\n不过，昨天发生的事并没有让你或[Companion Name]伤心太久。天刚刚亮，你们俩就出发返回堡垒，寻找那支车队。在第一次侦察时，你看到他们离开了堡垒。墙后面的建筑还在燃烧，这让你们想起了昨晚的那场战斗。",
-  "reason": "量词：那只车队→那支车队"
+  "reason": "量词：那只车队→那支车队",
+  "reason_en": "Measure word: 那只车队 changed to 那支车队 (the caravan)."
  },
  {
   "ctxt": "",
   "en": "Following the caravan takes you ages. You travel north, out of the Elder Grove and just an hour's walk outside of the town of Hirane until the tracks stop. Several wagons were stopped here and burned, presumably by the hobgolbins bringing them. It seems that several captives were killed, though for what reason, you don't know. From what you're able to gather, the group split into well over thirty different parties, all heading off in different directions. Doubtlessly impossible to follow them all, even without the added difficulty of being much harder to track than the wagons.\\n\\nYou worry for a moment about Hirane's safety until you realize that the golbins would have to have a small army to raze a town of their size. Being situated on the Heartroad - one of the main throughputs to the capitol of Melvor - certainly had its advantages. Being able to trade for finely crafted arms and armor were chief among them, but the Golbin's presence still gave you pause.\\n\\nYou and [Companion Name] decide to head into town, and the general mood of the place is... tense. Folks who seem to be citizens quickly hurry past haggard, haunted-looking villagers. It's a sight you're well acquainted with, though you're surprised to see it here. You and [Companion Name] are quickly approached by a fussy-looking man with a immaculately cared for mustache and a permanent scowl etched on his face.",
   "zh": "追踪那支车队花了你很长时间。你向北走，离开长者之林，在距离平根小镇一小时路程的地方，痕迹没了。这里停了几辆被烧的马车，想必是押送囚犯的大哥布林做的。似乎还有几名俘虏被杀了，但你不知道具体原因。根据你掌握的信息，这支车队分成了三十多支小队，向不同的地方走了。要追踪每一支小队是不可能的。况且，这些人比马车还难追踪，那就更难了。\\n\\n你有点担心平根的安全，但转念一想，要毁掉这么大的一个城镇，至少要有一支小军队。平根在心路上，而这条路是通往梅尔沃都城的主干道之一。所以，平根确实有优势。一个主要优势是能够买到精良的武器和盔甲。不过，哥布林的存在还是让你有点担心。\\n\\n你和[Companion Name]决定去镇上。这里的气氛……很紧张。镇民们行色匆匆地经过那些憔悴、惊恐的村民。你对这一幕很熟悉，只是没想到会在这里看到。这时，一名男子向你和[Companion Name]走来。他留着精心打理的胡须，看起来紧张不安，总是愁眉苦脸。",
-  "reason": "量词：那只车队→那支车队"
+  "reason": "量词：那只车队→那支车队",
+  "reason_en": "Measure word: 那只车队 changed to 那支车队 (the caravan)."
  },
  {
   "ctxt": "",
   "en": "You and [Companion Name] find yourselves breathless and exhausted after providing as many warm meals as you could. The crowd has been quelled substantially, with only a few stragglers coming up every half an hour or so. The head chef dismisses you, and thanks you dearly for your help, while making sure that you don't leave without a warm meal yourselves.\\n\\nThe two of you start to dig in, right as one of Curo's earlier companions wordlessly jogs up to you and holds out a sealed scroll. Once you take it from his hands, he gives a small salute and turns back the way he came.\\n\\nYou read over the scroll in the dim evening light to see a collection of detailed notes from months of observations. You read of the guard's clashes with armed groups, freed captives, and even a few raids on encampments of the unnamed group. Finally, you find what you're looking for.\\n\\nYou read an entry regarding a skirmish that took Hirane's scouts far to the east, to the edge of a town called Clearwater. The scouts continued to assail a caravan of these armed bandits until a massive sandstorm blew into the region and forced their retreat.\\n\\nIt wasn't much to go off of, but it's a start. The two of you finish your meals quickly and ready yourselves to head east.",
   "zh": "在发完热气腾腾的食物后，你和[Companion Name]累得气喘吁吁。难民的情绪已经基本稳住了。每隔半小时左右，偶尔会有几个难民来要吃的。主厨让你们去休息，感谢你们的帮忙，叮嘱你们走之前先吃一口热乎的。\\n\\n你们俩正准备大吃一顿，刚才库罗的一名随从跑到你们面前，没说一句话，把一个封好的卷轴递给你。你接过卷轴。他行了一个礼，转身就回去了。\\n\\n在昏暗的夜色中，你打开卷轴，里面详细记录了几个月的观察情况。你读到守卫和武装队伍的冲突、获救的俘虏，还有对某个无名组织的几次突袭。最后，你找到了想要的内容。\\n\\n你读到一条信息，说一次小冲突把平根的侦察员引向了遥远的东边，最后到了一座名叫清水镇的小镇附近。那些侦察员一路追击一群武装匪徒的车队，后来遇到了一场巨大的沙尘暴，他们不得不撤退。\\n\\n虽然线索不多，但总算是个开始。你们俩迅速吃完饭，准备去东边。",
-  "reason": "人名不一致：库伦→库罗；误译：北边→东边（英文 far to the east）"
+  "reason": "人名不一致：库伦→库罗；误译：北边→东边（英文 far to the east）",
+  "reason_en": "Inconsistent name: 库伦 changed to 库罗; mistranslation: 北边 (north) changed to 东边 (east), matching the English \"far to the east\"."
  },
  {
   "ctxt": "",
   "en": "The cacti that stand in front of you now seem... bigger. And they move. But everything is moving, so that's not particularly strange. What is strange is that one of the cacti swing one of it's spiny arms at your head when you try to cut into it with your axe. The needles in the side of your face snap you out of the cactus water's hallucinogenic effects.\\n\\nEverything around you stops moving, except for the... angry cactus in front of you. And all of the ones behind it. They shift through the sands and reach out with their arms. They're real. You call out to [Companion Name] who seems to be having a similar revelation.",
   "zh": "眼前的仙人掌似乎……变大了。而且还在动。所有东西都在动，没什么特别奇怪的。但奇怪的是，当你准备用斧头砍一株仙人掌的时候，它挥动长满刺的手臂，打在你的头上。你的脸刺痛无比，这时你从仙人掌汁液造成的幻觉中醒了。\\n\\n你周围的一切都停了，除了你面前的那株……愤怒的仙人掌。还有它后面的那些。它们在沙里游走，伸出它们的手臂。它们都是真的。你呼唤[Companion Name]，她似乎也发现了。",
-  "reason": "错字：他们→它们（指仙人掌）"
+  "reason": "错字：他们→它们（指仙人掌）",
+  "reason_en": "Typo: 他们 (they, people) changed to 它们 (they, things), referring to the cacti."
  },
  {
   "ctxt": "",
   "en": "You tally up the bodies of the tall, awkward beasts. Stonehoppers were a bit of an odd blend of creatures. They were scaly like a lizard and use a long whip-like tail for stability. They have two large wings that aid them in jumping from rock to rock - hence their name - but they were technically flightless. The 'birds' walk on two powerful legs that they used to kick at their prey, which fortunately made it easy to get them tangled up in traps.\\n\\nWhat surprised you about them was their number. It felt like every time you caught one, you'd see two more jumping overhead.",
   "zh": "你清理那些野兽的尸体。它们又高又笨。石跳兽是一种奇特的生物。它们长着蜥蜴般的鳞片，还有一条鞭子似的长尾巴，用来保持平衡。它们有一对大翅膀，让它们能够在岩石间跳跃。它们的名字就是这样来的。但严格来说，它们不会飞。这些‘鸟’行走时用两条强壮的腿，捕猎时用脚踢猎物。好在这些特点可以让它们轻松落入陷阱。\\n\\n令你惊讶的是它们的数量。感觉你抓一只，头上又有两只跳过去。",
-  "reason": "错字：他们→它们（指石跳兽）"
+  "reason": "错字：他们→它们（指石跳兽）",
+  "reason_en": "Typo: 他们 (they, people) changed to 它们 (they, creatures), referring to the Stonehoppers."
  },
  {
   "ctxt": "",
   "en": "The Stonehoppers living within the cave are... much larger than the little ones you managed to catch with your traps. The one that passed by as you were climbing must have done so because it didn't even register you as a threat. Now that their den is filled with smoke and the two of you stand with weapons at the ready, they seem to have changed their minds about whether or not they want to take you seriously.",
   "zh": "住在洞穴里的石跳兽……比你之前用陷阱抓的那些小东西要大得多。你刚才爬的时候，有一只从你旁边经过。它应该根本没把你当成威胁。野兽窝里面都是烟，你们俩拿着武器站着等。看来，它们已经决定要不要认真对待你们了。",
-  "reason": "错字：他们→它们（指石跳兽）"
+  "reason": "错字：他们→它们（指石跳兽）",
+  "reason_en": "Typo: 他们 (they, people) changed to 它们 (they, creatures), referring to the Stonehoppers."
  },
  {
   "ctxt": "",
   "en": "Can hardly say that you earned free passage for life if I get to have all the fun to myself.",
   "zh": "如果所有的乐子都让我一个人占了，那可不能算你挣到了终身免费通行。",
-  "reason": "语序不通：原句读不懂，按英文改为“算不上挣到终身免费通行”"
+  "reason": "语序不通：原句读不懂，按英文改为“算不上挣到终身免费通行”",
+  "reason_en": "Word order/unreadable: the sentence could not be understood; changed to follow the English, \"can hardly say you earned free passage for life\"."
  },
  {
   "ctxt": "",
   "en": "I don't miss it. Much.",
   "zh": "我不想念那儿。不是很想。",
-  "reason": "漏字：想→想念（I don't miss it）"
+  "reason": "漏字：想→想念（I don't miss it）",
+  "reason_en": "Missing character: 想 (want) changed to 想念 (miss), for \"I don't miss it\"."
  },
  {
   "ctxt": "",
   "en": "You follow the group along for a while until one of the richly dressed men smacks a wide-eyed child on the nose with their pass, then hurries along. The child's mother shouts after them, and the angry line of onlookers finally snaps at the mistreatment. Some of the drunken nobles cower in fear, afraid of the consequences of their own actions, while others egg the crowd on further, clearly enjoying the attention. The guards try to keep the peace, though they are clearly fed up with the 'social elite' as well, judging by their glares.\\n\\nTaking advantage of the situation, you bump into one of the nobles in the and slip your hand into their coat, withdrawing a sleek sky blue visitor's pass. You keep walking as its original owner shouts after you for daring to touch them, but they're drowned out by the angry mob soon enough. [Companion Name] slides in right beside you, holding one of her own. The two of you open them up, realizing that there's no identifying information that is required, the pass alone is proof enough that you may enter.\\n\\nJust like that, the gates of the capitol won't stop you. You don't even feel a little bad.",
   "zh": "你跟着人群走了一会儿，这时一名穿着华贵的男子用通行证打了一个孩子的鼻子，那孩子的眼睛瞪得很大。然后，那名男子就走了。孩子的母亲在后面大声喊。看见孩子受欺负，围观人群的愤怒彻底爆发。一些醉醺醺的贵族害怕了，担心自己的行为会造成什么后果。还有一些贵族煽动情绪，显然很享受被关注的感觉。守卫努力维持秩序，但从他们愤怒的眼睛来看，显然他们烦透了这些‘社会精英’。\\n\\n趁着混乱，你撞上一名贵族，把手伸进他的外套，掏出了一张天蓝色的访客通行证。这张通行证原来的主人在你后面大喊，骂你摸他，但他的声音很快就被愤怒的人群淹没了。你没有回头，继续走。[Companion Name]溜到你旁边，手里也拿着通行证。你们俩打开通行证，发现上面不需要任何身份信息。单凭这张通行证，你们就可以进城。\\n\\n就这样，都城的大门没能拦住你。你甚至没觉得不好。",
-  "reason": "恢复原文分段"
+  "reason": "恢复原文分段",
+  "reason_en": "Restored the original paragraph break."
  },
  {
   "ctxt": "",
   "en": "I'd appreciate it if you fashioned them into some arrows. Steel tips are fine, that's what everyone else is using, don't want to stick out too much.",
   "zh": "要是能做成箭，我感激不尽。钢的箭头就行。大家用的都是这种，我不想太扎眼。",
-  "reason": "错字：太太→太"
+  "reason": "错字：太太→太",
+  "reason_en": "Typo: 太太 changed to 太 (extra character)."
  },
  {
   "ctxt": "",
   "en": "You head back to find Talm, hopefully for the final time. Just as you manage to finish applying the solution, Talm is called to the range to take his shots. Each of his arrows finds their mark at the other side of the range, faster and more powerful than any of his opponents. The competition rages on and gets more fierce as competitors are eliminated. Talm's near permanent smile is slowly replaced by a look of genuine concentration his six remaining competitors do their best to outdo one another. Criteria for each shot begin to change as the distance and size of the targets can no longer be changed. The seven of them started shooting at pea-sized targets a few rounds back, so now, they begin to fire upside-down. On horseback. Blindfolded.\\n\\nEvery few rounds, Talm manages to stick around as another competitor misses their mark. Even knowing how much help Talm is getting, you cannot help but cheer with each shot he lands. Unless he's going up against the best archers the world has even seen, you start to believe they have just as much assistance as he does. Talm makes it to the final round. One target, a hair-thin string gently dangling on the other side of the range. Both him and the other competitor fire at the same time, but Talm's blue-feathered arrow knocks the competitor's arrow out of the air, and severs the string on the other side.\\n\\nThe crowd erupts into cheers, and you find yourself cheering as well, as Talm is brought up to the top of the podium and given a trophy about a quarter of his size. After ample celebration, he finds his way back to you and [Companion Name], and after a combination of gloating and thanks, tells you to find him when you're ready for your rewards.",
   "zh": "你回去找塔尔姆，希望这是最后一次了。你刚把药水涂在箭上，塔尔姆就被叫去靶场准备射箭。他射出的每一箭都正中靶心，速度和威力比他的所有对手都强。参赛者陆续淘汰，比赛越来越激烈，进入白热化阶段。之前塔尔姆总是一脸笑，现在慢慢变得全神贯注。剩下的六名对手用尽全力，相互比拼。目标距离和大小无法再进行调整，所以每次射击的标准也开始变了。几轮之前，七名参赛者就在射击豌豆大小的目标了。所以现在，他们开始用倒立的姿势射击。在马背上。蒙着眼。\\n\\n每过几轮，当其他参赛者纷纷脱靶时，塔尔姆总能留下来。明知塔尔姆有外力相助，但每次他命中目标，你还是忍不住欢呼。除非他的对手是世界上最厉害的弓箭手，否则你难免会认为，对手获得的外力恐怕和他差不多。塔尔姆成功进入决赛。靶子是一根和头发一样细的线，线轻轻挂在靶场的另一端。他和另一名参赛者同时射出，但塔尔姆那支蓝色羽毛的箭在空中将对方的箭击落，割断了另一端的线。\\n\\n人群开始欢呼，你也忍不住跟着一起欢呼。这时，塔尔姆被带上领奖台，获得的奖杯相当于他身体大小的四分之一。盛大的庆祝活动之后，他回到你和[Companion Name]身边。他说了一些得意和感谢的话，然后让你们在准备好领取奖励以后去找他。",
-  "reason": "人名错字：塔姆尔→塔尔姆（两处）；误译：绿色→蓝色（blue-feathered）；误译：时间顺序反了（a few rounds back，几轮之前已在射豌豆大小的目标）"
+  "reason": "人名错字：塔姆尔→塔尔姆（两处）；误译：绿色→蓝色（blue-feathered）；误译：时间顺序反了（a few rounds back，几轮之前已在射豌豆大小的目标）",
+  "reason_en": "Name typo: 塔姆尔 changed to 塔尔姆 (Talm, two places); mistranslation: 绿色 (green) changed to 蓝色 (blue), for \"blue-feathered\"; mistranslation: the time order was reversed (\"a few rounds back\" means the pea-sized targets were already being shot at several rounds ago)."
  },
  {
   "ctxt": "",
   "en": "And with that, Talm helps Era up and takes her to a room behind a nearby curtain. It doesn't seem like you're invited. You check on [Companion Name] once again, about the vision she had. She gently, tells you that she'll talk about it later, just that it was a bit scary. \\n\\nThe two of you wander around the city, a bit less awestruck than when you first arrived, and soon enough, find yourselves on the doorstep of the Ivory Athenaeum. From what you learn, speaking with some of the guests and staff, it'd seem that the titanic structure holds the largest compilation of humanity's knowledge ever created, with a near endless number of books on every subject one could think of.\\n\\nYou ask about the lower floors, and learn that they are restricted to the general public, needing a direct invitation from the King himself to be let inside, since the books down there contain dangerous information. The process of obtaining an invitation is told to you through a long, well-rehearsed deluge of information. What sticks out to you is the time involved. An average of thirty years for those prestigious enough to be allowed a chance. Too long.",
   "zh": "说完，塔尔姆扶起艾拉，把她带进附近一道帘子后面的房间。好像没让你们一起去。关于她看见的幻象，你再次询问[Companion Name]。她低声说等会儿再细讲，只是那幻象有点吓人。\\n\\n你们俩在城中闲逛，没有刚来时那么惊叹。没过多久，你们来到象牙藏书院的门前。你们跟这里的访客和工作人员交谈，听说这座宏伟的建筑里有人类有史以来最庞大的知识汇编。这里面的书数不胜数，涵盖人们所能想象的所有领域。\\n\\n你询问底层的情况，得知那里不对公众开放。要想进去，需要国王本人的直接邀请，因为那里的书中有危险的信息。他们向你介绍获得邀请的流程。那一长串的介绍就像是反复排练过的，滔滔不绝。你最关心的是需要的时间。即使是有机会获得邀请的名门望族，平均也要等三十年。太久了。",
-  "reason": "逻辑颠倒：因此→因为（原因是书中有危险信息）"
+  "reason": "逻辑颠倒：因此→因为（原因是书中有危险信息）",
+  "reason_en": "Reversed logic: 因此 (therefore) changed to 因为 (because); the reason is that the book contains dangerous information."
  },
  {
   "ctxt": "",
   "en": "Just like you remember, all that time ago. Hooded figures with beasts you've never seen or heard of, clash with you and your companions. However, unlike back at Azamire, you don't fall. You drive them back into the building, where more of their beasts materialize from nothing, following a few quickly spoken words and a flash of light. They bare down on you, but you push them back, again and again, until the last of the hooded figures falls.\\n\\nYou worry about the commotion until you realize that... the guards likely don't make it out this far.\\n\\nYou search the building and find many of Era's things. Books and scrolls in a similar script to the gilded tome you took from the Abyssal Vault, and many others in different writing that seems to flow and move like water on the page. But the woman herself doesn't seem to be here. Talm slams his fist into a nearby table in anger, splintering the wood.\\n\\nYou look to the man, who hardly seems to notice the few small cuts he took to his arms and side. He doesn't look back to you as he reaches a hand out to one of the dead figures. Their body begins to contort, cracking and lurching with sickening jolts, as the body seems to right itself once again. The man rises, standing on his feet once again despite several wounds that should have left him as nothing but a corpse.\\n\\n[Companion Name] says it before you can. Soulsmith. Talm turns to you both, finally snapping out of his pure drive to find his wife. He sputters out an apology, and promises to explain everything, he just needs a little time. He begs you to come back in just a little bit, if you can stomach it. [Companion Name] backs away slowly before pushing into you, bringing you both outside, leaving the man alone. ",
   "zh": "和你记忆里，那场许久之前的灾难一样。戴着兜帽的人带着你从未见过、甚至从未听说过的野兽，和你们厮杀起来。不过，这次和在阿扎米尔时不同。你没有倒下。你把他们逼回屋内。几句急促的咒语过后，光芒闪过，更多野兽凭空出现。它们扑向你，可你一次又一次将它们击退，直到最后一个戴兜帽的人倒下。\\n\\n你还在担心闹出这么大动静会不会惹来麻烦，随即意识到……守卫多半根本不会来这么偏的地方。\\n\\n你搜查屋子，找到了不少艾拉的东西。有些书和卷轴上的文字，和你从深渊宝库拿来的镶金边厚书很相似。另一些则用不同的文字写成，字迹仿佛流水，在纸面上缓缓游动。可艾拉本人似乎不在这里。塔尔姆愤怒地一拳砸向旁边的桌子，砸裂了木板。\\n\\n你看向他。他胳膊和腰侧挨了几下，留下几道小伤口，可他似乎根本没在意。他没有回头，只是向其中一具尸体伸出手。那具尸体开始扭曲，骨头咔咔作响，伴着令人作呕的抽搐，一点点重新挺了起来。那人站起身，再次用双脚立在地上。可他身上有好几处伤口，随便哪一处都足以让他死得透透的。\\n\\n[Companion Name]抢在你前面开了口。炼魂师。塔尔姆转向你们，这才从一心寻找妻子的执念里回过神来。他结结巴巴地道歉，保证会把一切解释清楚，只求你们给他一点时间。他恳求你们，过一小会儿再回来，只要你们还受得了。[Companion Name]慢慢退后，随后推着你一起出了门，把他独自留在屋里。",
-  "reason": "错字：死的透透的→死得透透的"
+  "reason": "错字：死的透透的→死得透透的",
+  "reason_en": "Typo: 死的透透的 changed to 死得透透的 (dead through and through)."
  },
  {
   "ctxt": "",
   "en": "It was.",
   "zh": "还真难。",
-  "reason": "误译：It was（确实很难）译成「还真有」，语义不通→还真难"
+  "reason": "误译：It was（确实很难）译成「还真有」，语义不通→还真难",
+  "reason_en": "Mistranslation: \"It was\" (it really was difficult) was translated as 还真有 (there really is), which makes no sense; changed to 还真难 (it really was hard)."
  },
  {
   "ctxt": "",
   "en": "Glass shatters as you break a bottle of wine over the ship's bow. [Companion Name] holds her steady as you jump aboard, cutting the rope loose and gracefully landing on the deck, your momentum carrying the boat out into the water. The sheepish townsfolk of Tidebreak silently watch as you set off, several of them actually tracing marks of good fortune in the air. You're pleasantly surprised.\\n\\nThe two of you move about the skiff, setting the sail and getting it as ready as you can to sail.",
   "zh": "你把一瓶葡萄酒砸在船头，玻璃应声碎裂。[Companion Name]稳住小艇，你跃上船，割断缆绳，利落地落在甲板上。借着这股劲，船身滑进了水里。破浪镇的镇民有些局促，默默看着你们出发。几个人居然还抬起手，在空中画了些祈求好运的符号。这倒让你有些受宠若惊了。\\n\\n你们在小艇上忙来忙去，升起船帆，把能准备的都准备妥当。",
-  "reason": "重复：同一两句话在译文中连续出现两遍，删去重复"
+  "reason": "重复：同一两句话在译文中连续出现两遍，删去重复",
+  "reason_en": "Duplication: the same two sentences appeared twice in a row in the translation; removed the duplicate."
  },
  {
   "ctxt": "",
   "en": "The chamber's walls shift as the platform you stand upon descends. Talm's regal form slowly begins to bleed into the darkness as the ground shifts beneath you, descending lower and lower. You try to keep your eyes trained on him, but without moving he fades from your vision. Fatigue sets in as your tense body begins to give out without a target in front of you.\\n\\nAs the gloom begins to swallow you, you feel... warm. At peace. Mentally, you lash out, knowing that something is wrong, but you've pushed yourself beyond your limits. Your weapon slips from your grasp as you collapse sideways. You don't even feel the cold stone floor as you fall. Only warmth.\\n\\nYou dream.\\n\\nYou wear dark grey robe made of a material that dances and swirls chaotically whenever you take your eyes off of it. You stand amidst an endless sea of bodies. Your chest wracks with silent sobs as you gaze upon them, not at all comforted by their peaceful smiles. As you walk amongst them, you make it to your king and lift the pearly white bone crown from his cold brow.\\n\\nThe weight it holds is incomparable to that which still rests on your shoulders. There's still so much work to do.\\n\\nYou awaken with a start and find yourself warm... but not cloying so. You're wrapped in devilishly silken sheets and buried in a bed so plush you fear your worn body won't be able to rise. Era stands far on the opposite corner of the room, stoking a fireplace of smooth, black stone.\\n\\nYou try to move, but every inch of your body screams in protest, and your groan catches her attention. She looks at you with... what'd seem to be genuine concern had she and her husband not just tried to kill you. You involuntarily shudder as she drops her bundle of wood and rushes to your side. She tries to begin speaking several times, before sighing and offering a small chuckle.",
   "zh": "脚下的平台缓缓下降，四周的墙壁也随之移动。平台越降越深，塔尔姆那身华贵的装束也渐渐隐入黑暗。你竭力盯住他，可他明明站着没动，身影却从你眼前一点点消失了。眼前没了需要提防的敌人，疲惫顿时涌了上来，紧绷的身体再也支撑不住。\\n\\n黑暗渐渐将你吞没，你却感到……温暖。安宁。你知道不对劲，拼命想要抗拒，可身体早已撑过了极限。武器从手中滑落，你向一旁倒去。倒下时，你甚至感觉不到石地的冰冷。只有温暖。\\n\\n你做了一个梦。\\n\\n你穿着一件深灰色长袍。只要目光稍稍移开，袍子的布料便会疯狂地翻涌、旋动。你站在无数躺倒的人中间，一眼望不到尽头。望着他们，你无声地抽泣，胸口阵阵痉挛。他们脸上安详的笑容丝毫不能让你好受一些。你从他们之间走过，来到国王身边，从他冰冷的额上取下那顶珍珠般洁白的骨冠。\\n\\n骨冠的分量，远不及你肩上仍未卸下的重担。还有太多事等着你去做。\\n\\n你猛然惊醒，身上暖暖的……这次却没有那种令人不适的感觉。裹着你的床单滑软得不可思议，床铺柔软得让你整个人都陷了进去。你甚至担心，这副疲惫不堪的身体还能不能爬起来。艾拉站在房间另一头的角落，正在拨弄壁炉里的火。壁炉由光滑的黑石砌成。\\n\\n你试着动了动，浑身上下却无一处不疼。你呻吟了一声，引起了她的注意。她望向你，眼神里透着……关切。要不是她和丈夫刚刚还想杀了你，你几乎会相信那是真心的。她放下怀里的木柴，快步赶到床边。你不由自主地打了个寒战。她几次欲言又止，最后叹了口气，轻轻笑了一声。",
-  "reason": "恢复原文分段"
+  "reason": "恢复原文分段",
+  "reason_en": "Restored the original paragraph break."
  },
  {
   "ctxt": "",
   "en": "You feel... wrong. The body you inhabited was doubtlessly Talm's, though untold centuries past. What... how could someone be so driven to do something they know is so horrifically wrong. You felt his very being recoil as he carved into the gemstone, but... it didn't stop him.\\n\\nYou need to know.\\n\\nYou leave the room and [Companion Name] behind you, who still seems lost within her own mind.\\n\\nThe halls are lined with endless murals and depictions of the world, but you hardly see them as you're driven forward with righteous purpose. You find yourself outside. The monster you seek sits far out in the field of grey grass, in front of a set of two white flowers.\\n\\nThe path through the grass is well-worn, seemingly travelled countless times.",
   "zh": "你心里……很不是滋味。梦中你附身的那个人，无疑就是塔尔姆，只是不知道那是多少个世纪以前的他。怎么……怎么会有人明知一件事错得如此可怕，还执意去做？匕首刺入宝石时，你分明感到他从心底抗拒着这一切，可……他还是没有停手。\\n\\n你非弄清楚不可。\\n\\n你离开房间，留下[Companion Name]独自待着。她似乎仍沉浸在自己的思绪中。\\n\\n走廊两侧满是壁画，描绘着世间的种种景象，可你几乎无心去看，只一心想找他问个明白。不知不觉，你已走到了外面。你要找的那个怪物坐在远处的灰色草地里，面前是两朵白花。\\n\\n草间的小径已被踩得平整，显然有人在这里走过无数次。",
-  "reason": "恢复原文分段"
+  "reason": "恢复原文分段",
+  "reason_en": "Restored the original paragraph break."
  },
  {
   "ctxt": "",
   "en": "Seeing you prepared for it, the beast diverts its charge and instead runs past you, and darting back into the woods, outside of the light of your campfire.\\n\\nJust outside of the clearing you can see the firelight reflect off of eyes. Lots of eyes.",
   "zh": "见你已有防备，那野兽猛地转向，从你身边掠过，又窜回篝火照不到的树林里。\\n\\n空地边缘，一双双眼睛映着火光。多得惊人。",
-  "reason": "恢复原文分段"
+  "reason": "恢复原文分段",
+  "reason_en": "Restored the original paragraph break."
  },
  {
   "ctxt": "",
   "en": "If you have any other desires or aspirations while visiting Koganusan, they may be granted, should we deem you worthy of such requests.",
   "zh": "二位在科加努桑还有其他愿望或诉求，只要我们认为你们有此资格，也可酌情满足。",
-  "reason": "错字：科加努桑若→科加努桑（地名多了一个“若”）"
+  "reason": "错字：科加努桑若→科加努桑（地名多了一个“若”）",
+  "reason_en": "Typo: 科加努桑若 changed to 科加努桑 (place name had an extra 若)."
  },
  {
   "ctxt": "",
   "en": "As the word starts to leave your mouth, the Archivist's eyes go wide and he snaps his fingers, and you find the words silent as they leave your mouth. He chuckles and bids the guards farewell, then snaps again. You find yourselves in front of a grand throne that's equal parts imposing and gaudy. In it sits a dwarf you'd guess is middle aged, with a dark beard studded with gemstones and clasps of metal, similar to the crown atop his head.\\n\\nYou've been brought into what would seem to be a lavish banquet as table after table of divine looking food and immaculately dressed dwarves fill the throne room.\\n\\nThe guests look at your studden entrance with curiosity and excitement, which you consider to be better than suspicion and fear. The Archivist floats up to the king and whispers in his ear, and his eyes go from interest, to shock, and then... excitement. He claps his hands once and hands before the room, then announces to everyone that the entertainment has arrived.\\n\\nThe two of you are ushered into the center of the room, then, one by one, several of the more rugged nobles in the room, along with their guards, encircle you.\\n\\nThe king announces that you're not to be killed, only to be given a proper welcome to the kingdom, whatever that may mean. You don't know if it particularly matters based on how quickly you're swarmed by the nobles and their guards.",
   "zh": "你刚要说出那个词，典藏官便瞪大双眼，打了个响指。你嘴唇还在动，却发不出任何声音。他轻笑一声，向守卫告辞，又打了个响指。转眼间，你们已站在一座宏伟的王座前。那王座气势十足，也浮夸得毫不含糊。王座上坐着一名看起来正值中年的矮人。他深色的胡须间缀满宝石与金属饰扣，与头上的王冠颇为相配。\\n\\n你们似乎被直接带进了一场盛大的宴会。王座大厅里，一桌桌珍馐美食令人垂涎，衣着考究的矮人宾客满堂皆是。\\n\\n对于你们的突然出现，宾客们显得既好奇又兴奋。你觉得，这总比猜疑和恐惧要好。典藏官飘到国王身旁，在他耳边低语了几句。国王的眼神由好奇转为震惊，接着又变成了……兴奋。他拍了一下手，站起身，向满厅宾客宣布：助兴的节目来了。\\n\\n你们被领到大厅中央。随后，几位长相粗犷的贵族带着各自的护卫，陆续围了上来。\\n\\n国王宣布，不许伤及你们的性命，只须好好欢迎二位来到王国。至于这“欢迎”究竟是什么意思，你也不清楚。不过，贵族和守卫一拥而上，你已经没工夫琢磨这话管不管用了。",
-  "reason": "恢复原文分段"
+  "reason": "恢复原文分段",
+  "reason_en": "Restored the original paragraph break."
  },
  {
   "ctxt": "",
   "en": "You see several dwarves by the wall turn towards you, startled by the arrow whizzing in their direction and your shout. They disappear as the runes in the barrel and several others nearby explode with a burst of magical energy, swallowing them entirely in a flash of white light.\\n\\nThe whole world heaves upward. [Companion Name] grabs you as you're sent careening out of the alcove and down the tunnel, crashing to the ground with a sickening series of cracks then rolling several meters.\\n\\nThe two of you stagger towards your feet and rush back inside to see that half the cavity has been reduced to rubble, and many of those attending were killed instantly by the blast. The cleared out section is... far larger than it should be, as a large cavern is revealed by the blast. Soulsmiths adorned with gold trimmed robes and long, black metal weapons begin to flood out from the hole and descend on the Dwarves alongside their dark summoned monsters. \\n\\nThe sight is horrifyingly similar to that dark night in Azamire.\\n\\nBehind the cultists is a slug-like monster that pulls itself along the ground on countless sets of arms, pulling itself into the opening with sickening, twitchy movements. The creature is nearly as long as the Stoneglider, and twice as tall. A large black metal vessel protrudes from the beast's back, seemingly fused to it. You watch the device on its back begins to glow as it pulls itself towards the dead dwarves on the ground.\\n\\nA pulse of dark green light washes over the bombed-out alcove.\\n\\nThen the dead begin to move again. ",
   "zh": "墙边的几个矮人被飞来的箭和你的喊声惊动，转头望向你。下一刻，那只桶和附近几只桶里的符文同时炸开，魔力喷涌而出。白光一闪，他们便被彻底吞没了。\\n\\n整个世界猛地向上一掀。[Companion Name]一把抓住你，你们一起被抛出洞厅，飞进隧道，重重砸在地上。接连几声脆响令人心惊，你们又滚出了好几米。\\n\\n你们挣扎着站起来，赶紧冲回洞厅。里面已有一半被炸成废墟，不少宾客当场丧命。爆炸后露出的空间……大得不对劲。原来，岩壁后还藏着一座巨大的洞窟。身穿金边长袍、手持黑色金属长兵器的炼魂师从洞口蜂拥而出，带着他们召唤的黑暗怪物，一同扑向矮人。\\n\\n这一幕，与阿扎米尔遇袭的那个黑夜像得令人胆寒。\\n\\n那些邪教徒身后，一头蛞蝓般的怪物正用无数条手臂拖着身体前进，一抽一抽地挤进洞口，看得人直犯恶心。它几乎与石板滑行者一样长，高度却足有两倍。一个巨大的黑色金属容器从它背上凸出，看起来已经与它的身体长在了一起。它朝地上的矮人尸体爬去，背上的装置随之亮起。\\n\\n一道暗绿色光芒扫过被炸毁的洞厅。\\n\\n接着，亡者又动了起来。",
-  "reason": "误译/重复：末句误重复了上一段“一道暗绿色光芒扫过被炸毁的洞厅。”，英文为 Then the dead begin to move again，改为“接着，亡者又动了起来。”"
+  "reason": "误译/重复：末句误重复了上一段“一道暗绿色光芒扫过被炸毁的洞厅。”，英文为 Then the dead begin to move again，改为“接着，亡者又动了起来。”",
+  "reason_en": "Mistranslation/duplication: the last sentence wrongly repeated the previous paragraph's 一道暗绿色光芒扫过被炸毁的洞厅 (a dark green light swept across the blasted cavern hall); the English is \"Then the dead begin to move again\", changed to 接着，亡者又动了起来 (then the dead began to move again)."
  },
  {
   "ctxt": "",
   "en": "As [Companion Name] very delicately extracts the volatile runes and passed them off, you slowly wither away their power. It's a nerve-wrecking process, and you feel time moving by glacially slow as you crawl closer and closer towards the Soulsmith's camp.\\n\\nEventually, you find yourself just outside the camp. You look over the wretched summoners, and one stands out among the elites: An elderly woman whose robes are instead lined with light strips of blue and green instead of gold. Someone important, doubtlessly, though you don't remember seeing her during the attack on the Linking. Dozing by the fire, patrolling around the slug monster, and even cozying up with a few resting cultists are a dozen or so large wolf-like creatures the Soulsmiths seem fond of. These ones are a lot larger than those they attacked Azamire with, though. Watching one of them nuzzle one of the murderers and seemingly beg for a scrap of food... makes you feel strange. These creatures may be summoned beasts, but they are alive and maybe even close with those who brought them to life. \\n\\nBack in the tunnels, the monsters ended the lives of dozens of dwarves, but it's not like they had a choice. You know as much from the creatures you've summoned yourself. You will them to do something, and they obey. \\n\\nYou'll try to end them quickly.\\n\\nYou pry your eyes away and find Prince Cintak's corpse, still pinned to the slug creature by the black metal blade he was stabbed with. [Companion Name] scoots close and whispers to you.",
   "zh": "[Companion Name]小心翼翼地挖出符文，递给你，你则一点点消去其中的魔力。每一步都让人提心吊胆。你们缓缓爬向炼魂师的营地，只觉得时间慢得难熬。\\n\\n终于，你们来到了营地外围。你扫视着那些可憎的召唤师，发现精锐之中有个人格外显眼。那是个年老妇人，长袍上镶着浅蓝与浅绿色饰边，而非其他人的金边。她无疑是个重要人物，可你不记得在接轨庆典遇袭时见过她。营地里还有十几头硕大的狼形生物，看来炼魂师对它们颇为偏爱。有的在火堆旁打盹，有的绕着蛞蝓怪物巡行，还有几头亲昵地依偎在休息的教徒身边。不过，这些比当初袭击阿扎米尔的那些大得多。你看着其中一头蹭着一个杀人凶手，像是在讨食，心里……有种说不出的滋味。\\n\\n在隧道里，这些怪物杀死了几十个矮人，可它们也没有选择。你自己召唤过生物，清楚这一点。你要它们做什么，它们就会照办。\\n\\n你会尽量给它们一个痛快。\\n\\n你移开视线，找到了辛塔克王子的躯体。他仍被那把黑色金属利刃钉在蛞蝓怪物身上。[Companion Name]挪近了些，在你耳边低声问道。",
-  "reason": "恢复原文分段"
+  "reason": "恢复原文分段",
+  "reason_en": "Restored the original paragraph break."
  },
  {
   "ctxt": "",
   "en": "Before either you or [Companion Name] can finish cooking your first pots, both Nalidasi and many of the Flamberian survivors from the Linking start trickling into the cookhouse, asking how they can help - in exchange for a bit of food of course - and Zotty begins barking out orders like a trained general. Flamberians heat their bodies and are used as stoves, much to the amusement of both races of dwarves. Zotty moves through the kitchen with purpose, correcting well-intentioned helpers and directing them to watch you and [Companion Name] as examples.\\n\\nIt takes a while, but those in the cookhouse start to produce Cobblestone Soup that Zotty is willing to serve to the long line of hungry survivors of the market district disaster. The two of you do so well Zotty is reluctant to let you go, until King Ozadazminis himself offers himself and the Archivist as replacements during a visit to the building's opening night. Zotty grumbles and mentions that good help is hard to find, but allows to you go after making sure you've both eaten your fill.",
   "zh": "你和[Companion Name]连各自的第一锅汤都还没做好，就陆续有人走进食堂。既有纳里达西人，也有不少从接轨庆典上逃过一劫的弗拉姆贝里人，都是来问能不能帮忙换口饭吃的。佐蒂立刻指挥起来，架势活像个带惯了兵的将军。弗拉姆贝里人把身体烧热，直接充当炉子。这主意把两边的矮人都逗乐了。佐蒂在厨房里来回忙碌，见谁做得不对就上前指点，还不时让他们看看你和[Companion Name]是怎么做的。\\n\\n又忙活了一阵，帮手们终于煮出了让佐蒂满意的卵石汤，可以端给门外排着长队、饥肠辘辘的灾民了。你们干得太好，佐蒂实在舍不得放人。直到开张当晚，奥亚达兹米尼斯国王亲自过来，提出由他和典藏官接手你们的活儿，她才答应让你们走。她嘴里还念叨着“好帮手不好找”，又非要看着你们吃饱了饭，才肯放行。",
-  "reason": "专有名词不一致：国王名奥扎达兹米尼斯→奥亚达兹米尼斯（names.tsv）"
+  "reason": "专有名词不一致：国王名奥扎达兹米尼斯→奥亚达兹米尼斯（names.tsv）",
+  "reason_en": "Inconsistent proper noun: the king's name 奥扎达兹米尼斯 changed to 奥亚达兹米尼斯 (per names.tsv)."
  },
  {
   "ctxt": "",
   "en": "The queen seems to be at least partially assuaged by this and nods her head. The Flamberians that carried you out now pick your cots up and carry you back to the wagon, and you try to digest what just happened.\\n\\nAfter a couple more hours, the camp begins to shuffle once more. The dwarves break down camp and begin to move out once more. You and [Companion Name] mount your Rockwolves and lead the way, guiding the group across the more percarious bits of terrain and waiting for them to create paths to get wagons across large stretches of water when required. The castle looms in the distance, almost seemingly a source of the Misty Thicket's fog itself. The walls covered in corpses only shake the resolve of the dwarves for a moment, though you hear several utterances of how sick the people inside must be.\\n\\nSoulsmiths line the walls, along with summoned beasts that remind you of bats, with mouths that are far too large.\\n\\nWagons are pulled up to form an armored wall, and then, everyone bursts into motion. Several large balls of energy soar over the walls of Misty Keep, but are burned away by Flamberian mages, or sent far off course by Naladasi mages interferring with their course. Four of the wagons' walls fall away to reveal giant ballista, which are loaded with bolts created just last night. You and [Companion Name] move through the ranks and direct their fire, and the balista shots land true. When they sink into the wall, glowing runestones across their surface glow bright, then explode, ripping large sections of the ancient castle apart. You hear and see King Oyadazminis let out a battlecry as he hefts a large javilen towards the ramparts and snaps his fingers just before contact, causing the bolt to explode in a dazzling ball of light that blows twenty Soulsmiths apart. The Archivist twists his staff in the air and halts another ball of green energy above the army before sending it back over the wall towards whatever sent it in the first place, causing the entire castle to shake with the impact.\\n\\nSoulsmiths fire all manner of bolt, arrow, and magic towards the dwarves, and they return fire, but the evergrowing swarm of bat-like creatures harass the them. You watch as several dwarves are picked up by the beasts and are dropped into the moat around the castle, where large, dark shadows quickly pull the soliders under the water. Bats are burned away, and more balista shots are loosed at the walls, but with the force you're now taking, one of the balls of green energy makes it through your defenses and crashes into one of the wagons, leaving it a smoldering pile of scrap. The bats grow further in number, and your find a startling number of dwarves being carried away, while the Flamberian Queen seems to be frozen in shock. You grab a length of rope with a hook on the end, meant to scale the walls, and instead use it to fish out a dwarf from the water. Many others around you follow suit, while the back ranks cover you.",
   "zh": "女王听了这话，似乎总算安心了些，轻轻点了点头。刚才抬你们来的几个弗拉姆贝里人又抬起行军床，把你们原样送回车里。你躺在床上，还有些回不过神来。\\n\\n又过了几个小时，营地里重新有了动静。矮人们拔营，再次出发。你和[Companion Name]骑上石狼，在前头带路，领着队伍穿过几处难走的地段。碰上大片积水，你们便停下来，等后面的人搭好路，让车辆通过。远处，城堡的轮廓隐约浮现。迷雾丛林里的浓雾仿佛都是从那座城堡里涌出来的。望见挂满尸体的城墙，矮人们也只迟疑了片刻。你听见好几个人低声咒骂，干得出这种事，城里那帮家伙得有多丧心病狂。\\n\\n炼魂师沿着城头一字排开。他们身旁的召唤兽形似蝙蝠，一张张嘴却大得出奇。\\n\\n战车向前靠拢，连成一道铁壁。下一刻，所有人都动了起来。几个巨大的魔法光球从迷雾要塞的城头飞来。弗拉姆贝里法师用火将它们烧尽，纳里达西法师则施法改变它们的方向，让它们远远偏离了目标。四辆大车的侧板落下，露出里面的巨弩。昨晚刚做好的弩箭，此刻已架在弩上。你和[Companion Name]穿行在队伍间，指挥弩手瞄准。射出的弩箭支支命中城墙。箭身深深射入墙体，嵌在上面的符文石骤然亮起，随即炸开。古堡的城墙一下就被炸塌了好几段。一声战吼传来。你转头看去，只见奥亚达兹米尼斯国王举起一支大标枪，朝城垛掷去。标枪即将击中城头时，他打了个响指。一团耀眼的强光炸开，当场将二十名炼魂师炸得粉碎。典藏官凌空一转法杖，将又一颗绿色光球定在大军头顶，随即原路送了回去。光球越过城墙，正中发出攻击的地方，震得整座城堡都在摇晃。\\n\\n炼魂师朝矮人射来弩箭、羽箭和各式法术。矮人立即还击，可那群蝙蝠般的怪物越聚越多，不断俯冲下来，搅得他们难以招架。你眼看着几名矮人被野兽抓到半空，丢进城堡周围的护城河。几个硕大的黑影迅速游来，把落水的士兵拖进了水底。一群蝙蝠被烈火烧尽，又一轮重弩射向城墙。可敌人的攻势越发猛烈，一颗绿色光球穿过防线，正中一辆战车。转眼间，那辆车就只剩一堆冒烟的残骸。蝙蝠还在增加，被抓走的矮人越来越多，多得叫你心惊。弗拉姆贝里女王却站在原地一动不动，像是被眼前的惨状惊呆了。你抓起一条原本用来攀上城墙的钩索，甩进河里，把一名矮人拉了上来。周围许多人见状，也纷纷效仿。后排的士兵则掩护你们救人。",
-  "reason": "人称错乱：炼魂师是人，「它们」→「他们」"
+  "reason": "人称错乱：炼魂师是人，「它们」→「他们」",
+  "reason_en": "Wrong pronoun: the soul-weavers are people, so 它们 (they, things) changed to 他们 (they, people)."
  },
  {
   "ctxt": "",
   "en": "Ironsteel Enclosure Support",
   "zh": "钢铁围栏支架",
-  "reason": "术语不一致：Ironsteel 全游戏统一为「钢铁」（本批套装加成与配方均用钢铁），「铁钢」改为「钢铁」"
+  "reason": "术语不一致：Ironsteel 全游戏统一为「钢铁」（本批套装加成与配方均用钢铁），「铁钢」改为「钢铁」",
+  "reason_en": "Inconsistent terminology: Ironsteel is 钢铁 (steel-iron) throughout the game (the set bonus and recipes in this batch use 钢铁); 铁钢 (iron-steel) changed to 钢铁."
  },
  {
   "ctxt": "",
   "en": "Upgrades for the Ranching Skill",
   "zh": "畜牧技能升级",
-  "reason": "Ranching 应译畜牧，非农务"
+  "reason": "Ranching 应译畜牧，非农务",
+  "reason_en": "Ranching should be 畜牧 (animal husbandry), not 农务 (farming)."
  },
  {
   "ctxt": "",
   "en": "Upgrades the Axe for Woodcutting to Mithril",
   "zh": "将伐木用的斧头升级为秘银斧",
-  "reason": "误译：Mithril 误译为精金，改为秘银（与同组秘银砧台等一致）"
+  "reason": "误译：Mithril 误译为精金，改为秘银（与同组秘银砧台等一致）",
+  "reason_en": "Mistranslation: Mithril was translated as 精金 (Adamant); changed to 秘银 (Mithril), consistent with the Mithril Anvil in the same group."
  },
  {
   "ctxt": "",
   "en": "Copper Pickaxe",
   "zh": "铜镐",
-  "reason": "Pickaxe 与 Pickaxe Head 译名重复（均为「X镐头」）；统一为「X镐」，与 Axe=斧/Axe Head=斧头、Pickaxe Handle=镐柄 对应"
+  "reason": "Pickaxe 与 Pickaxe Head 译名重复（均为「X镐头」）；统一为「X镐」，与 Axe=斧/Axe Head=斧头、Pickaxe Handle=镐柄 对应",
+  "reason_en": "Pickaxe and Pickaxe Head had duplicate translations (both X镐头); unified as X镐 (pickaxe), matching Axe=斧 / Axe Head=斧头 and Pickaxe Handle=镐柄."
  },
  {
   "ctxt": "",
   "en": "Iron Pickaxe",
   "zh": "铁镐",
-  "reason": "Pickaxe 与 Pickaxe Head 译名重复（均为「X镐头」）；统一为「X镐」，与 Axe=斧/Axe Head=斧头、Pickaxe Handle=镐柄 对应"
+  "reason": "Pickaxe 与 Pickaxe Head 译名重复（均为「X镐头」）；统一为「X镐」，与 Axe=斧/Axe Head=斧头、Pickaxe Handle=镐柄 对应",
+  "reason_en": "Pickaxe and Pickaxe Head had duplicate translations (both X镐头); unified as X镐 (pickaxe), matching Axe=斧 / Axe Head=斧头 and Pickaxe Handle=镐柄."
  },
  {
   "ctxt": "",
   "en": "Steel Pickaxe",
   "zh": "钢镐",
-  "reason": "Pickaxe 与 Pickaxe Head 译名重复（均为「X镐头」）；统一为「X镐」，与 Axe=斧/Axe Head=斧头、Pickaxe Handle=镐柄 对应"
+  "reason": "Pickaxe 与 Pickaxe Head 译名重复（均为「X镐头」）；统一为「X镐」，与 Axe=斧/Axe Head=斧头、Pickaxe Handle=镐柄 对应",
+  "reason_en": "Pickaxe and Pickaxe Head had duplicate translations (both X镐头); unified as X镐 (pickaxe), matching Axe=斧 / Axe Head=斧头 and Pickaxe Handle=镐柄."
  },
  {
   "ctxt": "",
   "en": "Mithril Pickaxe",
   "zh": "秘银镐",
-  "reason": "Pickaxe 与 Pickaxe Head 译名重复（均为「X镐头」）；统一为「X镐」，与 Axe=斧/Axe Head=斧头、Pickaxe Handle=镐柄 对应"
+  "reason": "Pickaxe 与 Pickaxe Head 译名重复（均为「X镐头」）；统一为「X镐」，与 Axe=斧/Axe Head=斧头、Pickaxe Handle=镐柄 对应",
+  "reason_en": "Pickaxe and Pickaxe Head had duplicate translations (both X镐头); unified as X镐 (pickaxe), matching Axe=斧 / Axe Head=斧头 and Pickaxe Handle=镐柄."
  },
  {
   "ctxt": "",
   "en": "Adamant Pickaxe",
   "zh": "精金镐",
-  "reason": "Pickaxe 与 Pickaxe Head 译名重复（均为「X镐头」）；统一为「X镐」，与 Axe=斧/Axe Head=斧头、Pickaxe Handle=镐柄 对应"
+  "reason": "Pickaxe 与 Pickaxe Head 译名重复（均为「X镐头」）；统一为「X镐」，与 Axe=斧/Axe Head=斧头、Pickaxe Handle=镐柄 对应",
+  "reason_en": "Pickaxe and Pickaxe Head had duplicate translations (both X镐头); unified as X镐 (pickaxe), matching Axe=斧 / Axe Head=斧头 and Pickaxe Handle=镐柄."
  },
  {
   "ctxt": "",
   "en": "Rune Pickaxe",
   "zh": "符文镐",
-  "reason": "Pickaxe 与 Pickaxe Head 译名重复（均为「X镐头」）；统一为「X镐」，与 Axe=斧/Axe Head=斧头、Pickaxe Handle=镐柄 对应"
+  "reason": "Pickaxe 与 Pickaxe Head 译名重复（均为「X镐头」）；统一为「X镐」，与 Axe=斧/Axe Head=斧头、Pickaxe Handle=镐柄 对应",
+  "reason_en": "Pickaxe and Pickaxe Head had duplicate translations (both X镐头); unified as X镐 (pickaxe), matching Axe=斧 / Axe Head=斧头 and Pickaxe Handle=镐柄."
  },
  {
   "ctxt": "",
   "en": "Dawnsteel Pickaxe",
   "zh": "黎明钢镐",
-  "reason": "Pickaxe 与 Pickaxe Head 译名重复（均为「X镐头」）；统一为「X镐」，与 Axe=斧/Axe Head=斧头、Pickaxe Handle=镐柄 对应"
+  "reason": "Pickaxe 与 Pickaxe Head 译名重复（均为「X镐头」）；统一为「X镐」，与 Axe=斧/Axe Head=斧头、Pickaxe Handle=镐柄 对应",
+  "reason_en": "Pickaxe and Pickaxe Head had duplicate translations (both X镐头); unified as X镐 (pickaxe), matching Axe=斧 / Axe Head=斧头 and Pickaxe Handle=镐柄."
  },
  {
   "ctxt": "",
   "en": "Dragon Pickaxe",
   "zh": "龙岩镐",
-  "reason": "Pickaxe 与 Pickaxe Head 译名重复（均为「X镐头」）；统一为「X镐」，与 Axe=斧/Axe Head=斧头、Pickaxe Handle=镐柄 对应"
+  "reason": "Pickaxe 与 Pickaxe Head 译名重复（均为「X镐头」）；统一为「X镐」，与 Axe=斧/Axe Head=斧头、Pickaxe Handle=镐柄 对应",
+  "reason_en": "Pickaxe and Pickaxe Head had duplicate translations (both X镐头); unified as X镐 (pickaxe), matching Axe=斧 / Axe Head=斧头 and Pickaxe Handle=镐柄."
  },
  {
   "ctxt": "",
   "en": "Rune Fishing Rod",
   "zh": "符文钓竿",
-  "reason": "译文错乱（竿符文钓竿）"
+  "reason": "译文错乱（竿符文钓竿）",
+  "reason_en": "Garbled translation (the characters 竿符文钓竿 were scrambled)."
  },
  {
   "ctxt": "",
   "en": "Dawnsteel Fishing Rod",
   "zh": "黎明钢钓竿",
-  "reason": "漏字（钓竿）"
+  "reason": "漏字（钓竿）",
+  "reason_en": "Missing character (钓竿, fishing rod)."
  },
  {
   "ctxt": "",
   "en": "Copper Fire Pit",
   "zh": "铜火塘",
-  "reason": "同系列不一致：该系列其余金属（秘银/精金/符文/黎明钢/龙岩）均不带「制」，统一去掉「制」"
+  "reason": "同系列不一致：该系列其余金属（秘银/精金/符文/黎明钢/龙岩）均不带「制」，统一去掉「制」",
+  "reason_en": "Inconsistent within series: the other metals in this series (Mithril/Adamant/Rune/Dawnsteel/Dragonstone) have no 制 (made of); removed 制 for consistency."
  },
  {
   "ctxt": "",
   "en": "Copper Binoculars",
   "zh": "铜双筒望远镜",
-  "reason": "同系列不一致：该系列其余金属（秘银/精金/符文/黎明钢/龙岩）均不带「制」，统一去掉「制」"
+  "reason": "同系列不一致：该系列其余金属（秘银/精金/符文/黎明钢/龙岩）均不带「制」，统一去掉「制」",
+  "reason_en": "Inconsistent within series: the other metals in this series (Mithril/Adamant/Rune/Dawnsteel/Dragonstone) have no 制 (made of); removed 制 for consistency."
  },
  {
   "ctxt": "",
   "en": "Iron Binoculars",
   "zh": "铁双筒望远镜",
-  "reason": "同系列不一致：该系列其余金属（秘银/精金/符文/黎明钢/龙岩）均不带「制」，统一去掉「制」"
+  "reason": "同系列不一致：该系列其余金属（秘银/精金/符文/黎明钢/龙岩）均不带「制」，统一去掉「制」",
+  "reason_en": "Inconsistent within series: the other metals in this series (Mithril/Adamant/Rune/Dawnsteel/Dragonstone) have no 制 (made of); removed 制 for consistency."
  },
  {
   "ctxt": "",
   "en": "Steel Binoculars",
   "zh": "钢双筒望远镜",
-  "reason": "同系列不一致：该系列其余金属（秘银/精金/符文/黎明钢/龙岩）均不带「制」，统一去掉「制」"
+  "reason": "同系列不一致：该系列其余金属（秘银/精金/符文/黎明钢/龙岩）均不带「制」，统一去掉「制」",
+  "reason_en": "Inconsistent within series: the other metals in this series (Mithril/Adamant/Rune/Dawnsteel/Dragonstone) have no 制 (made of); removed 制 for consistency."
  },
  {
   "ctxt": "",
   "en": "Stinging Nest - Area Effect Removal",
   "zh": "刺痛之巢 - 区域效果抵消",
-  "reason": "统一为「刺痛之巢」（战斗区域名 Stinging Nest）"
+  "reason": "统一为「刺痛之巢」（战斗区域名 Stinging Nest）",
+  "reason_en": "Unified as 刺痛之巢 (Stinging Nest), the combat area name."
  },
  {
   "ctxt": "",
   "en": "Toxic Bog - Area Effect Removal",
   "zh": "剧毒泥沼 - 区域效果抵消",
-  "reason": "统一为「剧毒泥沼」（战斗区域名 Toxic Bog）"
+  "reason": "统一为「剧毒泥沼」（战斗区域名 Toxic Bog）",
+  "reason_en": "Unified as 剧毒泥沼 (Toxic Bog), the combat area name."
  },
  {
   "ctxt": "",
   "en": "Dragon's Pass - Area Effect Removal",
   "zh": "巨龙关口 - 区域效果抵消",
-  "reason": "统一为「巨龙关口」（战斗区域名 Dragon's Pass 译为巨龙关口）"
+  "reason": "统一为「巨龙关口」（战斗区域名 Dragon's Pass 译为巨龙关口）",
+  "reason_en": "Unified as 巨龙关口 (Dragon's Pass), the translated combat area name."
  },
  {
   "ctxt": "",
   "en": "Copper Reel",
   "zh": "铜渔轮",
-  "reason": "同系列不一致：该系列其余金属（秘银/精金/符文/黎明钢/龙岩）均不带「制」，统一去掉「制」"
+  "reason": "同系列不一致：该系列其余金属（秘银/精金/符文/黎明钢/龙岩）均不带「制」，统一去掉「制」",
+  "reason_en": "Inconsistent within series: the other metals in this series (Mithril/Adamant/Rune/Dawnsteel/Dragonstone) have no 制 (made of); removed 制 for consistency."
  },
  {
   "ctxt": "",
   "en": "Iron Reel",
   "zh": "铁渔轮",
-  "reason": "同系列不一致：该系列其余金属（秘银/精金/符文/黎明钢/龙岩）均不带「制」，统一去掉「制」"
+  "reason": "同系列不一致：该系列其余金属（秘银/精金/符文/黎明钢/龙岩）均不带「制」，统一去掉「制」",
+  "reason_en": "Inconsistent within series: the other metals in this series (Mithril/Adamant/Rune/Dawnsteel/Dragonstone) have no 制 (made of); removed 制 for consistency."
  },
  {
   "ctxt": "",
   "en": "Steel Reel",
   "zh": "钢渔轮",
-  "reason": "同系列不一致：该系列其余金属（秘银/精金/符文/黎明钢/龙岩）均不带「制」，统一去掉「制」"
+  "reason": "同系列不一致：该系列其余金属（秘银/精金/符文/黎明钢/龙岩）均不带「制」，统一去掉「制」",
+  "reason_en": "Inconsistent within series: the other metals in this series (Mithril/Adamant/Rune/Dawnsteel/Dragonstone) have no 制 (made of); removed 制 for consistency."
  },
  {
   "ctxt": "",
   "en": "Ironsteel Axe Head Coating",
   "zh": "斧头钢铁镀层",
-  "reason": "Ironsteel 统一为钢铁"
+  "reason": "Ironsteel 统一为钢铁",
+  "reason_en": "Ironsteel is unified as 钢铁 (steel-iron)."
  },
  {
   "ctxt": "",
   "en": "Ironsteel Pickaxe Head Coating",
   "zh": "镐头钢铁镀层",
-  "reason": "Ironsteel 统一为钢铁"
+  "reason": "Ironsteel 统一为钢铁",
+  "reason_en": "Ironsteel is unified as 钢铁 (steel-iron)."
  },
  {
   "ctxt": "",
   "en": "Ironsteel Reel Coating",
   "zh": "渔轮钢铁镀层",
-  "reason": "Ironsteel 统一为钢铁"
+  "reason": "Ironsteel 统一为钢铁",
+  "reason_en": "Ironsteel is unified as 钢铁 (steel-iron)."
  },
  {
   "ctxt": "",
   "en": "Copper Telescope",
   "zh": "铜望远镜",
-  "reason": "同系列不一致：该系列其余金属（秘银/精金/符文/黎明钢/龙岩）均不带「制」，统一去掉「制」"
+  "reason": "同系列不一致：该系列其余金属（秘银/精金/符文/黎明钢/龙岩）均不带「制」，统一去掉「制」",
+  "reason_en": "Inconsistent within series: the other metals in this series (Mithril/Adamant/Rune/Dawnsteel/Dragonstone) have no 制 (made of); removed 制 for consistency."
  },
  {
   "ctxt": "",
   "en": "Iron Telescope",
   "zh": "铁望远镜",
-  "reason": "同系列不一致：该系列其余金属（秘银/精金/符文/黎明钢/龙岩）均不带「制」，统一去掉「制」"
+  "reason": "同系列不一致：该系列其余金属（秘银/精金/符文/黎明钢/龙岩）均不带「制」，统一去掉「制」",
+  "reason_en": "Inconsistent within series: the other metals in this series (Mithril/Adamant/Rune/Dawnsteel/Dragonstone) have no 制 (made of); removed 制 for consistency."
  },
  {
   "ctxt": "",
   "en": "Steel Telescope",
   "zh": "钢望远镜",
-  "reason": "同系列不一致：该系列其余金属（秘银/精金/符文/黎明钢/龙岩）均不带「制」，统一去掉「制」"
+  "reason": "同系列不一致：该系列其余金属（秘银/精金/符文/黎明钢/龙岩）均不带「制」，统一去掉「制」",
+  "reason_en": "Inconsistent within series: the other metals in this series (Mithril/Adamant/Rune/Dawnsteel/Dragonstone) have no 制 (made of); removed 制 for consistency."
  },
  {
   "ctxt": "",
   "en": "Bandit Woodcutter",
   "zh": "强盗伐木工",
-  "reason": "误译：Woodcutter 是伐木工，不是木匠（Carpenter=木匠另有条目）"
+  "reason": "误译：Woodcutter 是伐木工，不是木匠（Carpenter=木匠另有条目）",
+  "reason_en": "Mistranslation: Woodcutter is 伐木工 (woodcutter), not 木匠 (carpenter; Carpenter has its own entry)."
  },
  {
   "ctxt": "",
   "en": "[color=#E9DFC1]Your [color=#FFD16D]Proficiency[/color]: {0:N0}[/color]",
   "zh": "[color=#E9DFC1]你的[color=#FFD16D]熟练度[/color]：{0:N0}[/color]",
-  "reason": "「精通」已用于Mastery，此处Proficiency改译熟练度避免混淆"
+  "reason": "「精通」已用于Mastery，此处Proficiency改译熟练度避免混淆",
+  "reason_en": "精通 (mastery) is already used for Mastery, so Proficiency is changed to 熟练度 (proficiency level) to avoid confusion."
  },
  {
   "ctxt": "",
   "en": "Perform a catch attempt. If you catch the Priority Fish, continue as normal.\\nIf not, immediately perform another standard catch attempt.\\nSpecial Item rolls only occur once during this whole process.",
   "zh": "尝试捕鱼。若捕获优先级鱼类，则按正常流程继续。\\n否则，立即再进行一次常规捕鱼尝试。\\n整个过程中，特殊物品的获取判定只进行一次。",
-  "reason": "恢复丢失的换行"
+  "reason": "恢复丢失的换行",
+  "reason_en": "Restored a lost line break."
  },
  {
   "ctxt": "",
   "en": "Tooltip interactability is enabled by toggling the interact key instead of holding it down.",
   "zh": "按一下交互键即可开启或关闭提示框交互，无需一直按住。",
-  "reason": "译文开头混入多余的「辅助功能」，语句不通"
+  "reason": "译文开头混入多余的「辅助功能」，语句不通",
+  "reason_en": "The translation began with a stray 辅助功能 (accessibility) and read awkwardly."
  },
  {
   "ctxt": "",
   "en": "[b]More Task types coming soon:[/b]\\n[ul] Locate/obtain Pets\\n Complete Quests\\n Find rare/hidden items[/ul]",
   "zh": "[b]更多任务类型即将推出：[/b]\\n[ul] 寻找/获得宠物\\n 完成任务\\n 寻找稀有/隐藏物品[/ul]",
-  "reason": "恢复丢失的换行，列表项被粘连成一句"
+  "reason": "恢复丢失的换行，列表项被粘连成一句",
+  "reason_en": "Restored lost line breaks; list items had been merged into one sentence."
  },
  {
   "ctxt": "",
   "en": "[color=#FFD16D]Ctrl + A[/color]\\n[color=#E9DFC1]Select all Items in Tab[/color]",
   "zh": "[color=#FFD16D]Ctrl + A[/color]\\n[color=#E9DFC1]选择面板中的所有物品[/color]",
-  "reason": "缺少换行 \n"
+  "reason": "缺少换行 \n",
+  "reason_en": "Missing line break."
  },
  {
   "ctxt": "",
   "en": "[color=#FFD16D]Shift + Left Click[/color]\\n[color=#E9DFC1]Select bulk Items[/color]",
   "zh": "[color=#FFD16D]Shift + 鼠标左键[/color]\\n[color=#E9DFC1]批量选择物品[/color]",
-  "reason": "缺少换行 \n"
+  "reason": "缺少换行 \n",
+  "reason_en": "Missing line break."
  },
  {
   "ctxt": "",
   "en": "[color=#FFD16D]Ctrl + Left Click[/color]\\n[color=#E9DFC1]Select additional Item[/color]",
   "zh": "[color=#FFD16D]Ctrl + 鼠标左键[/color]\\n[color=#E9DFC1]追加选择物品[/color]",
-  "reason": "缺少换行 \n"
+  "reason": "缺少换行 \n",
+  "reason_en": "Missing line break."
  },
  {
   "ctxt": "",
   "en": "[color=#FFD16D]Middle Mouse Click[/color] [color=light_gray]on Bank Tab[/color]\\n[color=#E9DFC1]Delete Bank Tab[color=light_gray]",
   "zh": "[color=#FFD16D]鼠标中键点击[/color] [color=light_gray]仓库面板[/color]\\n[color=#E9DFC1]删除仓库面板[color=light_gray]",
-  "reason": "恢复丢失的换行"
+  "reason": "恢复丢失的换行",
+  "reason_en": "Restored a lost line break."
  },
  {
   "ctxt": "",
   "en": "[color=#FFD16D]Double Click[/color] [color=light_gray]on Bank Tab[/color]\\n[color=#E9DFC1]Edit Bank Tab Label",
   "zh": "[color=#FFD16D]双击[/color] [color=light_gray]仓库面板[/color]\\n[color=#E9DFC1]编辑仓库面板名称",
-  "reason": "恢复丢失的换行"
+  "reason": "恢复丢失的换行",
+  "reason_en": "Restored a lost line break."
  },
  {
   "ctxt": "",
   "en": "Your Pest Protection / Product's Pest Attraction.\\n- Reduces final product quantity if not maintained.\\n- This can be maintained while the product is growing.",
   "zh": "你的害虫防治值/产品的害虫吸引值。\\n- 防治不足会降低最终产品数量。\\n- 可在产品生长期间进行防治。",
-  "reason": "恢复丢失的换行"
+  "reason": "恢复丢失的换行",
+  "reason_en": "Restored a lost line break."
  },
  {
   "ctxt": "",
   "en": "Your Disease Protection / Product's Disease Attraction.\\n- Reduces final product quantity if not maintained.\\n- This can be maintained while the product is growing.",
   "zh": "你的疾病防治值/产品的疾病吸引值。\\n- 防治不足会降低最终产品数量。\\n- 可在产品生长期间进行防治。",
-  "reason": "恢复丢失的换行"
+  "reason": "恢复丢失的换行",
+  "reason_en": "Restored a lost line break."
  },
  {
   "ctxt": "",
   "en": "The final adjustment to your product quantity based on\\nPests & Disease Maintenance.\\nOnly applied when product is [b]fully grown[/b], after all other bonuses.",
   "zh": "最终产品数量的调整取决于\\n害虫和疾病的防治状况。\\n仅在产品[b]完全成熟[/b]时生效，并在所有其他加成结算后计算。",
-  "reason": "恢复丢失的换行"
+  "reason": "恢复丢失的换行",
+  "reason_en": "Restored a lost line break."
  },
  {
   "ctxt": "",
   "en": "Clears this Plot by removing the Planted Product and Compost.\\nThis action will [b]not[/b] refund any Items.",
   "zh": "移除已种植的产品和肥料，清空这块田地。\\n此操作[b]不会[/b]返还任何物品。",
-  "reason": "恢复丢失的换行"
+  "reason": "恢复丢失的换行",
+  "reason_en": "Restored a lost line break."
  },
  {
   "ctxt": "",
   "en": "[b][color=orange_red][font_size=20]Warning![/font_size][/color][/b]\\nYou have Animals in this Enclosure.\\n\\nThese Animals will be [b][color=orange_red]removed[/color][/b] if you replace the Enclosure.\\n\\n[b]This cannot be undone.[/b]",
   "zh": "[b][color=orange_red][font_size=20]警告！[/font_size][/color][/b]\\n此围栏内还有动物。\\n\\n更换围栏将[b][color=orange_red]移除[/color][/b]这些动物。\\n\\n[b]此操作无法撤销。[/b]",
-  "reason": "恢复丢失的换行"
+  "reason": "恢复丢失的换行",
+  "reason_en": "Restored a lost line break."
  },
  {
   "ctxt": "",
   "en": "[b]First Pet[/b]\\n[img=88]res://Assets/Icons/SkillIcon.png[/img] [color=green]+10 XP[/color]",
   "zh": "[b]首次抚摸[/b]\\n[img=88]res://Assets/Icons/SkillIcon.png[/img] [color=green]+10经验[/color]",
-  "reason": "Pet 此处是动词（抚摸动物）；恢复换行"
+  "reason": "Pet 此处是动词（抚摸动物）；恢复换行",
+  "reason_en": "Pet is a verb here (to pet an animal); restored the line break."
  },
  {
   "ctxt": "",
   "en": "Happy Animals, happy farm.\\n[ul]Calculated based on the three other stats.\\n[b]Skill XP[/b] & [b]Produce[/b] is multiplied by the Animal's [b]Happiness[/b].\\nCannot go below [color=orange]0%[/color].[/ul]\\n\\n[i]Happiness = Hunger * 0.3 + Comfort * 0.3 + Satisfaction * 0.4[/i]\\nNote: [b]Comfort[/b] is [color=green]1[/color] if >= [color=orange]75%[/color]",
   "zh": "动物开心，牧场舒心。\\n[ul]根据另外三项属性计算。\\n[b]技能经验[/b]和[b]产出[/b]均乘以动物的[b]幸福度[/b]。\\n最低为[color=orange]0%[/color]。[/ul]\\n\\n[i]幸福度 = 饱食度 * 0.3 + 舒适度 * 0.3 + 满足度 * 0.4[/i]\\n注意：[b]舒适度[/b] >= [color=orange]75%[/color]时，按[color=green]1[/color]计算",
-  "reason": "恢复丢失的换行"
+  "reason": "恢复丢失的换行",
+  "reason_en": "Restored a lost line break."
  },
  {
   "ctxt": "",
   "en": "[ul]Keep your animals fed every hour.\\nReduces by [color=orange]10%[/color] every hour an animal is not fed :(\\nReplenish to [color=orange]100%[/color] when fed :D\\nSome animals don't need food (Like Sheep or Cows).\\nYour animal won't die at [color=orange]0%[/color] [b]Hunger[/b], but my goodness it will be STARVING.[/ul]",
   "zh": "[ul]记得每小时喂一次动物。\\n每有一小时没喂食，就降低[color=orange]10%[/color] :(\\n喂食后恢复至[color=orange]100%[/color] :D\\n有些动物不需要喂食，比如绵羊和奶牛。\\n[b]饱食度[/b]降到[color=orange]0%[/color]时，动物不会死，可怜的小家伙却要饿得前胸贴后背了。[/ul]",
-  "reason": "换行丢失且混入乱码字符「b」"
+  "reason": "换行丢失且混入乱码字符「b」",
+  "reason_en": "Line break was lost and a stray garbled character b was mixed in."
  },
  {
   "ctxt": "",
   "en": "Success! You will receive an email shortly to continue the process.",
   "zh": "成功！你很快会收到一封邮件，请按邮件中的指引继续操作。",
-  "reason": "此处只是请求已提交，并非密码已重置"
+  "reason": "此处只是请求已提交，并非密码已重置",
+  "reason_en": "Here the request has only been submitted; the password has not been reset."
  },
  {
   "ctxt": "",
   "en": "[color=#E9DFC1]Thank you for trying our Demo!\\n\\nMelvor Idle 2 is still in active development, and the version you're about to play is an [color=FFD16D]early limited look at the game[/color]. Many systems, features, visuals, and balance are still being developed and refined as we work towards an Early Access release.\\n\\nFor this demo, progression is limited to [color=FFD16D]Level 60[/color], with only a limited selection of Skills and content available to test out. The Early Access release will have far more content available!\\n\\nAs this is an early build, you may encounter unfinished content, balance that isn't quite right, missing features, or bugs.\\n\\nYour feedback during this Demo period is incredibly valuable to us. We'd love to hear about your experience, any bugs you may have encountered, or general discussions around the game.\\n\\nMost importantly, have fun, explore, experiment, and enjoy your first steps into Melvor Idle 2!\\n\\nAnd remember - [color=FFD16D]Melvor Idle 2 is an idle game![/color] You can set your character on a task, let them make progress in the background, and check out some of the other great games that have a Demo for you to try. Melvor will be here when you get back!\\n\\nThank you for being part of the journey![/color]\\n\\n- [i][color=light_gray]Malcs, Coolrox, Prat, Tapi & Ash[/color][/i]",
   "zh": "[color=#E9DFC1]感谢你体验我们的试玩版！\\n\\n《梅尔沃放置2》仍在开发中，你即将体验的版本仅展示了[color=FFD16D]游戏早期的一部分内容[/color]。为了迎接抢先体验版的推出，我们还在持续开发和完善各项系统、功能、画面及平衡性。\\n\\n本试玩版的等级上限为[color=FFD16D]60级[/color]，仅开放部分技能和内容供你体验。抢先体验版将带来丰富得多的内容！\\n\\n由于这还是早期版本，你可能会遇到尚未完成的内容、不够合理的平衡性、缺失的功能或程序错误。\\n\\n试玩期间，你的反馈对我们非常宝贵。欢迎分享游玩感受、反馈遇到的错误，也欢迎聊聊你对游戏的看法。\\n\\n最重要的是玩得开心！尽情探索，大胆尝试，好好享受你在《梅尔沃放置2》中迈出的第一步吧！\\n\\n别忘了，[color=FFD16D]《梅尔沃放置2》是一款放置游戏！[/color]你可以给角色安排一项任务，让角色在后台继续忙碌，自己去体验其他精彩游戏的试玩版。等你回来，梅尔沃还在这里等着你！\\n\\n感谢你一路相伴！[/color]\\n\\n- [i][color=light_gray]Malcs、Coolrox、Prat、Tapi 和Ash[/color][/i]",
-  "reason": "缺少换行 \n"
+  "reason": "缺少换行 \n",
+  "reason_en": "Missing line break."
  },
  {
   "ctxt": "",
   "en": "+4% chance to deal double damage in Woodcutting\\n+0.13% Bird/Eagle Nest chance in Woodcutting",
   "zh": "伐木时造成双倍伤害的几率+4%\\n伐木时获得鸟巢/鹰巢的几率+0.13%",
-  "reason": "原文有换行，译文被改成空格，恢复 \n"
+  "reason": "原文有换行，译文被改成空格，恢复 \n",
+  "reason_en": "The original has line breaks but the translation turned them into spaces; restored."
  },
  {
   "ctxt": "",
   "en": "+8% chance to deal double damage in Woodcutting\\n+0.13% Bird/Eagle Nest chance in Woodcutting",
   "zh": "伐木时造成双倍伤害的几率+8%\\n伐木时获得鸟巢/鹰巢的几率+0.13%",
-  "reason": "原文有换行，译文被改成空格，恢复 \n"
+  "reason": "原文有换行，译文被改成空格，恢复 \n",
+  "reason_en": "The original has line breaks but the translation turned them into spaces; restored."
  },
  {
   "ctxt": "",
   "en": "+15% chance to deal double damage in Woodcutting\\n+0.13% Bird/Eagle Nest chance in Woodcutting",
   "zh": "伐木时造成双倍伤害的几率+15%\\n伐木时获得鸟巢/鹰巢的几率+0.13%",
-  "reason": "原文有换行，译文被改成空格，恢复 \n"
+  "reason": "原文有换行，译文被改成空格，恢复 \n",
+  "reason_en": "The original has line breaks but the translation turned them into spaces; restored."
  },
  {
   "ctxt": "",
   "en": "+8% chance to deal double damage in Woodcutting\\n+0.13% Bird/Eagle Nest chance in Woodcutting\\n+0.1% \\\"On Cut\\\" Item chance in Woodcutting",
   "zh": "伐木时造成双倍伤害的几率+8%\\n伐木时获得鸟巢/鹰巢的几率+0.13%\\n伐木时获得“每次砍伐”物品的几率+0.1%",
-  "reason": "原文有换行，译文被改成空格，恢复 \n"
+  "reason": "原文有换行，译文被改成空格，恢复 \n",
+  "reason_en": "The original has line breaks but the translation turned them into spaces; restored."
  },
  {
   "ctxt": "",
   "en": "Requires Hunter",
   "zh": "需要狩猎",
-  "reason": "术语：Hunting=狩猎"
+  "reason": "术语：Hunting=狩猎",
+  "reason_en": "Terminology: Hunting is 狩猎 (hunting)."
  },
  {
   "ctxt": "",
   "en": "There are three Combat Styles: [color=#FFD16D]Melee, Ranged[/color] and [color=#FFD16D]Magic[/color]. Your equipped [color=#FFD16D]weapon[/color] determines which style you use.\\n\\n[color=#FFD16D]Melee[/color] beats [color=#FFD16D]Ranged[/color]\\n[color=#FFD16D]Ranged[/color] beats [color=#FFD16D]Magic[/color]\\n[color=#FFD16D]Magic[/color] beats [color=#FFD16D]Melee[/color]\\n\\nBeating a Combat Style [color=green]increases your Max Hit by 10%[/color], while losing [color=orange_red]decreases it by 10%[/color]. This is only applied to you, and never the Enemy.",
   "zh": "战斗风格分为三种：[color=#FFD16D]近战、远程[/color]和[color=#FFD16D]魔法[/color]。你使用哪种风格，取决于所装备的[color=#FFD16D]武器[/color]。\\n\\n[color=#FFD16D]近战[/color]克制[color=#FFD16D]远程[/color]\\n[color=#FFD16D]远程[/color]克制[color=#FFD16D]魔法[/color]\\n[color=#FFD16D]魔法[/color]克制[color=#FFD16D]近战[/color]\\n\\n克制敌人的战斗风格时，你的[color=green]最大伤害提高10%[/color]；被克制时则[color=orange_red]降低10%[/color]。此效果仅对你生效，不对敌人生效。",
-  "reason": "换行位置与原文不一致（克制关系三行被并成一行）"
+  "reason": "换行位置与原文不一致（克制关系三行被并成一行）",
+  "reason_en": "Line break positions did not match the original (the three counter-relationship lines were merged into one)."
  },
  {
   "ctxt": "",
   "en": "Your [color=#FFD16D]chance to hit[/color] depends on your [color=#FFD16D]Stance's Accuracy[/color] compared to the [color=#FFD16D]Enemy's Evasion[/color] against that same [color=#FFD16D]Stance[/color].\\n\\nWhen fighting an Enemy, aim to have a higher [color=#FFD16D]Accuracy Rating[/color] than their [color=#FFD16D]Evasion Rating[/color].",
   "zh": "你的[color=#FFD16D]命中几率[/color]取决于你当前[color=#FFD16D]姿态的精准值[/color]，以及[color=#FFD16D]敌人的躲避值[/color]（针对同一[color=#FFD16D]姿态[/color]）。\\n\\n与敌人战斗时，尽量让你的[color=#FFD16D]精准值[/color]高于对方的[color=#FFD16D]躲避值[/color]。",
-  "reason": "缺失原文的 \n\n，并让标签数量与原文一致"
+  "reason": "缺失原文的 \n\n，并让标签数量与原文一致",
+  "reason_en": "Missing line break from the original; also made the tag count match the original."
  },
  {
   "ctxt": "",
   "en": "Damage from attacks is reduced by a percentage depending on [color=#FFD16D]Power[/color] and [color=#FFD16D]Protection[/color].\\n\\nYour [color=#FFD16D]Power[/color] compared to the [color=#FFD16D]Enemy's Protection[/color] determines how much of your damage is reduced. Higher [color=#FFD16D]Power[/color] helps overcome enemy [color=#FFD16D]Protection[/color].\\n\\n[color=#FFD16D]Power[/color] is primarily obtained from [color=#FFD16D]weapons[/color].\\n[color=#FFD16D]Protection[/color] is primarily obtained from other gear.\\n\\nYou can reduce an Enemy's damage dealt to you by increasing your [color=#FFD16D]Protection[/color].",
   "zh": "攻击伤害会按一定比例减免，减免幅度取决于[color=#FFD16D]战力[/color]和[color=#FFD16D]防护[/color]。\\n\\n你的[color=#FFD16D]战力[/color]和[color=#FFD16D]敌人防护[/color]的对比，决定你造成的伤害会被减免多少。提高[color=#FFD16D]战力[/color]有助于突破敌人的[color=#FFD16D]防护[/color]。\\n\\n[color=#FFD16D]战力[/color]主要来自[color=#FFD16D]武器[/color]。\\n[color=#FFD16D]防护[/color]主要来自其他装备。\\n\\n提高[color=#FFD16D]防护[/color]可以减少敌人对你造成的伤害。",
-  "reason": "换行位置与原文不一致"
+  "reason": "换行位置与原文不一致",
+  "reason_en": "Line break positions did not match the original."
  },
  {
   "ctxt": "",
   "en": "Hunting is automatic and involves three stages: Surveying an area, Tracking an animal, and attempting to Trap it.\\n\\nIf trapping fails, the animal flees and must be tracked again.",
   "zh": "狩猎会自动进行，分为三个阶段：调查区域、追踪动物，以及布置陷阱尝试捕捉。\\n\\n若捕捉失败，动物就会逃走，需要重新追踪。",
-  "reason": "缺失原文的 \n\n"
+  "reason": "缺失原文的 \n\n",
+  "reason_en": "Missing line breaks from the original."
  },
  {
   "ctxt": "",
   "en": "Ward:",
   "zh": "守护值：",
-  "reason": "Ward 术语应译为守护值（原为守卫/看守）"
+  "reason": "Ward 术语应译为守护值（原为守卫/看守）",
+  "reason_en": "Terminology: Ward should be 守护值 (ward value); the old translation used 守卫/看守 (guard/watch)."
  },
  {
   "ctxt": "",
   "en": "Total Value:",
   "zh": "总价值：",
-  "reason": "Total Value 应为总价值，非“总数值”"
+  "reason": "Total Value 应为总价值，非“总数值”",
+  "reason_en": "Total Value should be 总价值 (total worth), not 总数值 (total numeric value)."
  },
  {
   "ctxt": "",
   "en": "Generates a base64 string based on your current Bank Configuration, which can be shared or uploaded to the Cloud.\\nBank Configurations include all Bank tabs & custom labels, Bank tab affinities, default Item tab & placement order, and Item locked & placeholder status.",
   "zh": "根据当前仓库配置生成base64字符串，可供分享或上传至云端。\\n仓库配置包含所有仓库面板及其自定义名称、面板自动归类规则、物品的默认所属面板和摆放顺序，以及物品的锁定和占位状态。",
-  "reason": "缺少换行 \n"
+  "reason": "缺少换行 \n",
+  "reason_en": "Missing line break."
  },
  {
   "ctxt": "",
   "en": "Locking your Bank Configuration will remove the ability to manually rearrange Items, manage Bank tabs, and manage affinities.\\nThis is useful if you create or import a specific Bank Configuration and don't want to edit it.",
   "zh": "锁定仓库配置后，将无法手动调整物品位置、管理仓库面板或修改自动归类规则。\\n如果你想保留创建或导入的仓库配置，不再修改，可开启此功能。",
-  "reason": "缺失原文的 \n"
+  "reason": "缺失原文的 \n",
+  "reason_en": "Missing line break from the original."
  },
  {
   "ctxt": "",
   "en": "Your [b]Accuracy Rating[/b] & [b]Evasion Rating[/b] is reduced\\\\n by [b][color=orange]5%[/color][/b] per Light value below the Darkness value.",
   "zh": "你的[b]精准值[/b]和[b]躲避值[/b]会降低\\\\n每当光明值比黑暗值低1点，降幅为[b][color=orange]5%[/color][/b]。",
-  "reason": "转义与英文一致（英文是字面 \n）"
+  "reason": "转义与英文一致（英文是字面 \n）",
+  "reason_en": "Escape sequence now matches the English (the English contains a literal line-break escape)."
  },
  {
   "ctxt": "",
   "en": "Luck was on your side today.\\nDespite your defeat, all your items remain safe.",
   "zh": "今天运气站在你这边。\\n虽然战败了，但你的物品一件也没丢。",
-  "reason": "缺失原文的 \n"
+  "reason": "缺失原文的 \n",
+  "reason_en": "Missing line break from the original."
  },
  {
   "ctxt": "",
   "en": "There is a small chance to locate a [b]Rare Species[/b] of an animal while Hunting. Some rare species may drop rare or plentiful items.",
   "zh": "狩猎时发现动物[b]稀有品种[/b]的几率很小。部分稀有品种可能掉落稀有物品，或提供大量物品。",
-  "reason": "误译：掉落“稀有品种”应为稀有物品"
+  "reason": "误译：掉落“稀有品种”应为稀有物品",
+  "reason_en": "Mistranslation: the drop \"Rare Specie\" was translated as 稀有品种 (rare breed); it should be rare items."
  },
  {
   "ctxt": "",
   "en": "[color=#FFD16D]Alt (Hold)[/color]: [color=#E9DFC1]Interact[/color]",
   "zh": "[color=#FFD16D]Alt（按住）[/color]：[color=#E9DFC1]交互[/color]",
-  "reason": "残留英文"
+  "reason": "残留英文",
+  "reason_en": "Leftover untranslated English."
  },
  {
   "ctxt": "",
   "en": "Have [color=#FFD16D]{MinWardValue}-{MaxWardValue} maximum [img height=1.25em]res://Assets/Items/WardingShield.png[/img] Ward[/color]",
   "zh": "[color=#FFD16D]最大[img height=1.25em]res://Assets/Items/WardingShield.png[/img]守护值为{MinWardValue}-{MaxWardValue}[/color]",
-  "reason": "Ward 术语应译为守护值/最大守护值"
+  "reason": "Ward 术语应译为守护值/最大守护值",
+  "reason_en": "Terminology: Ward should be 守护值 (ward value) / 最大守护值 (max ward value)."
  },
  {
   "ctxt": "",
   "en": "Have [color=#FFD16D]{MinWardValue} or higher maximum [img height=1.25em]res://Assets/Items/WardingShield.png[/img] Ward[/color]",
   "zh": "[color=#FFD16D]最大[img height=1.25em]res://Assets/Items/WardingShield.png[/img]守护值为{MinWardValue}或以上[/color]",
-  "reason": "Ward 术语应译为守护值/最大守护值"
+  "reason": "Ward 术语应译为守护值/最大守护值",
+  "reason_en": "Terminology: Ward should be 守护值 (ward value) / 最大守护值 (max ward value)."
  },
  {
   "ctxt": "",
   "en": "Have [color=#FFD16D]{MaxWardValue} or lower maximum [img height=1.25em]res://Assets/Items/WardingShield.png[/img] Ward[/color]",
   "zh": "[color=#FFD16D]最大[img height=1.25em]res://Assets/Items/WardingShield.png[/img]守护值为{MaxWardValue}或以下[/color]",
-  "reason": "Ward 术语应译为守护值/最大守护值"
+  "reason": "Ward 术语应译为守护值/最大守护值",
+  "reason_en": "Terminology: Ward should be 守护值 (ward value) / 最大守护值 (max ward value)."
  },
  {
   "ctxt": "",
   "en": "Have [img height=1.25em]res://Assets/Items/WardingShield.png[/img] [color=#FFD16D]Ward[/color]",
   "zh": "拥有[img height=1.25em]res://Assets/Items/WardingShield.png[/img] [color=#FFD16D]守护值[/color]",
-  "reason": "Ward 术语应译为守护值/最大守护值"
+  "reason": "Ward 术语应译为守护值/最大守护值",
+  "reason_en": "Terminology: Ward should be 守护值 (ward value) / 最大守护值 (max ward value)."
  },
  {
   "ctxt": "",
   "en": "Enemy has [color=#FFD16D]{MinWardValue}-{MaxWardValue} maximum [img height=1.25em]res://Assets/Items/WardingShield.png[/img] Ward[/color]",
   "zh": "敌人的[color=#FFD16D]最大[img height=1.25em]res://Assets/Items/WardingShield.png[/img]守护值为{MinWardValue}-{MaxWardValue}[/color]",
-  "reason": "Ward 术语应译为守护值/最大守护值"
+  "reason": "Ward 术语应译为守护值/最大守护值",
+  "reason_en": "Terminology: Ward should be 守护值 (ward value) / 最大守护值 (max ward value)."
  },
  {
   "ctxt": "",
   "en": "Enemy has [color=#FFD16D]{MinWardValue} or higher maximum [img height=1.25em]res://Assets/Items/WardingShield.png[/img] Ward[/color]",
   "zh": "敌人的[color=#FFD16D]最大[img height=1.25em]res://Assets/Items/WardingShield.png[/img]守护值为{MinWardValue}或以上[/color]",
-  "reason": "Ward 术语应译为守护值/最大守护值"
+  "reason": "Ward 术语应译为守护值/最大守护值",
+  "reason_en": "Terminology: Ward should be 守护值 (ward value) / 最大守护值 (max ward value)."
  },
  {
   "ctxt": "",
   "en": "Enemy has [color=#FFD16D]{MaxWardValue} or lower maximum [img height=1.25em]res://Assets/Items/WardingShield.png[/img] Ward[/color]",
   "zh": "敌人的[color=#FFD16D]最大[img height=1.25em]res://Assets/Items/WardingShield.png[/img]守护值为{MaxWardValue}或以下[/color]",
-  "reason": "Ward 术语应译为守护值/最大守护值"
+  "reason": "Ward 术语应译为守护值/最大守护值",
+  "reason_en": "Terminology: Ward should be 守护值 (ward value) / 最大守护值 (max ward value)."
  },
  {
   "ctxt": "",
   "en": "Enemy has [img height=1.25em]res://Assets/Items/WardingShield.png[/img] [color=#FFD16D]Ward[/color]",
   "zh": "敌人拥有[img height=1.25em]res://Assets/Items/WardingShield.png[/img] [color=#FFD16D]守护值[/color]",
-  "reason": "Ward 术语应译为守护值/最大守护值"
+  "reason": "Ward 术语应译为守护值/最大守护值",
+  "reason_en": "Terminology: Ward should be 守护值 (ward value) / 最大守护值 (max ward value)."
  },
  {
   "ctxt": "",
   "en": "Have [b][color=#{ProgressColor}]{Current:N0} / {Max:N0}[/color][/b] damage be negated by an Enemy's [img height=1em]res://Assets/Items/WardingShield.png[/img] [color=white]Ward[/color]",
   "zh": "使敌人的[img height=1em]res://Assets/Items/WardingShield.png[/img] [color=white]守护值[/color]抵消[b][color=#{ProgressColor}]{Current:N0} / {Max:N0}[/color][/b]点伤害",
-  "reason": "Ward 术语应译为守护值（原为守卫/看守）"
+  "reason": "Ward 术语应译为守护值（原为守卫/看守）",
+  "reason_en": "Terminology: Ward should be 守护值 (ward value); the old translation used 守卫/看守 (guard/watch)."
  },
  {
   "ctxt": "",
   "en": "Have [b][color=#{ProgressColor}]{Current:N0} / {Max:N0}[/color][/b] damage be negated by an Enemy's [img height=1em]res://Assets/Items/WardingShield.png[/img] [color=white]Ward[/color] in [img height=1.25em]{EntityIcon}[/img] [b]{EntityName}[/b]",
   "zh": "在[img height=1.25em]{EntityIcon}[/img] [b]{EntityName}[/b]中使敌人的[img height=1em]res://Assets/Items/WardingShield.png[/img] [color=white]守护值[/color]抵消[b][color=#{ProgressColor}]{Current:N0} / {Max:N0}[/color][/b]点伤害",
-  "reason": "Ward 术语应译为守护值（原为守卫/看守）"
+  "reason": "Ward 术语应译为守护值（原为守卫/看守）",
+  "reason_en": "Terminology: Ward should be 守护值 (ward value); the old translation used 守卫/看守 (guard/watch)."
  },
  {
   "ctxt": "",
   "en": "Damage negated by Ward",
   "zh": "守护值抵消的伤害",
-  "reason": "Ward 术语应译为守护值（原为守卫/看守）"
+  "reason": "Ward 术语应译为守护值（原为守卫/看守）",
+  "reason_en": "Terminology: Ward should be 守护值 (ward value); the old translation used 守卫/看守 (guard/watch)."
  },
  {
   "ctxt": "",
   "en": "Have {EnemyName} negate {Current:N0} / {Max:N0} damage with ward in Combat",
   "zh": "在战斗中使{EnemyName}的守护值抵消 {Current:N0} / {Max:N0}点伤害",
-  "reason": "Ward 术语应为守护值，而非守卫值"
+  "reason": "Ward 术语应为守护值，而非守卫值",
+  "reason_en": "Terminology: Ward should be 守护值 (ward value); the old translation used 守卫/看守 (guard/watch)."
  },
  {
   "ctxt": "",
   "en": "Total Damage Negated by Enemy Ward",
   "zh": "敌方守护值抵消的伤害总量",
-  "reason": "Ward 术语应译为守护值（原为守卫/看守）"
+  "reason": "Ward 术语应译为守护值（原为守卫/看守）",
+  "reason_en": "Terminology: Ward should be 守护值 (ward value); the old translation used 守卫/看守 (guard/watch)."
  },
  {
   "ctxt": "",
   "en": "Have {0:N0} / {1:N0} damage negated by enemy ward in Combat",
   "zh": "在战斗中使敌方守护值抵消{0:N0} / {1:N0}点伤害",
-  "reason": "术语：Ward 应译为守护值，而非守卫值"
+  "reason": "术语：Ward 应译为守护值，而非守卫值",
+  "reason_en": "Terminology: Ward should be 守护值 (ward value); the old translation used 守卫/看守 (guard/watch)."
  },
  {
   "ctxt": "",
   "en": "Total Ward Damage Dealt",
   "zh": "对守护值造成的伤害总量",
-  "reason": "Ward 术语应译为守护值（原为守卫/看守）"
+  "reason": "Ward 术语应译为守护值（原为守卫/看守）",
+  "reason_en": "Terminology: Ward should be 守护值 (ward value); the old translation used 守卫/看守 (guard/watch)."
  },
  {
   "ctxt": "",
   "en": "Deal {0:N0} / {1:N0} damage to Ward in Combat",
   "zh": "在战斗中累计对守护值造成{0:N0} / {1:N0}点伤害",
-  "reason": "Ward 术语应译为守护值（原为守卫/看守）"
+  "reason": "Ward 术语应译为守护值（原为守卫/看守）",
+  "reason_en": "Terminology: Ward should be 守护值 (ward value); the old translation used 守卫/看守 (guard/watch)."
  },
  {
   "ctxt": "",
   "en": "Ward Damage Dealt to",
   "zh": "对目标守护值造成的伤害",
-  "reason": "Ward 术语应译为守护值（原为守卫/看守）"
+  "reason": "Ward 术语应译为守护值（原为守卫/看守）",
+  "reason_en": "Terminology: Ward should be 守护值 (ward value); the old translation used 守卫/看守 (guard/watch)."
  },
  {
   "ctxt": "",
   "en": "Deal {Current:N0} / {Max:N0} Ward damage to {EnemyName} in Combat",
   "zh": "在战斗中累计对{EnemyName}的守护值造成{Current:N0} / {Max:N0}点伤害",
-  "reason": "Ward 术语应译为守护值（原为守卫/看守）"
+  "reason": "Ward 术语应译为守护值（原为守卫/看守）",
+  "reason_en": "Terminology: Ward should be 守护值 (ward value); the old translation used 守卫/看守 (guard/watch)."
  },
  {
   "ctxt": "",
   "en": "<{0:P2}",
   "zh": "<{0:P2}",
-  "reason": "译文多出反引号，与原文不一致"
+  "reason": "译文多出反引号，与原文不一致",
+  "reason_en": "The translation had an extra backtick, which does not match the original."
  },
  {
   "ctxt": "",
   "en": "[color=#E9DFC1]Reduces [color=#FFD16D]all[/color] damage taken by the percent (%) difference of [color=#FFD16D]Current Ward / Maximum Ward[/color].[/color]\\n\\n[color=#E9DFC1]Ward is reduced by 1 [color=#FFD16D]per Hit[/color] (Weapon only).[/color]",
   "zh": "[color=#E9DFC1]受到的[color=#FFD16D]所有[/color]伤害均按比例减免，减免比例为[color=#FFD16D]当前守护值/最大守护值[/color]。[/color]\\n\\n[color=#E9DFC1]受到武器攻击时，[color=#FFD16D]每被命中一次[/color]，守护值减少1点。[/color]",
-  "reason": "Ward 术语应译为守护值（原为守卫/看守）"
+  "reason": "Ward 术语应译为守护值（原为守卫/看守）",
+  "reason_en": "Terminology: Ward should be 守护值 (ward value); the old translation used 守卫/看守 (guard/watch)."
  },
  {
   "ctxt": "",
   "en": "[color=#E9DFC1]Reduces [color=#FFD16D]all[/color] damage taken by the percent (%) difference of [color=#FFD16D]Current Ward / Maximum Ward[/color] ([color=#26D345]{0:P2}[/color]).[/color]\\n\\n[color=#E9DFC1]Ward is reduced by 1 [color=#FFD16D]per Hit[/color] (Weapon only).[/color]",
   "zh": "[color=#E9DFC1]受到的[color=#FFD16D]所有[/color]伤害均按比例减免，减免比例为[color=#FFD16D]当前守护值/最大守护值[/color]（[color=#26D345]{0:P2}[/color]）。[/color]\\n\\n[color=#E9DFC1]受到武器攻击时，[color=#FFD16D]每被命中一次[/color]，守护值减少1点。[/color]",
-  "reason": "Ward 术语应译为守护值（原为守卫/看守）"
+  "reason": "Ward 术语应译为守护值（原为守卫/看守）",
+  "reason_en": "Terminology: Ward should be 守护值 (ward value); the old translation used 守卫/看守 (guard/watch)."
  }
 ]

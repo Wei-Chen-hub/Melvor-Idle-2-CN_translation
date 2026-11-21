@@ -64,7 +64,7 @@ Melvor Idle 2 的游戏文件里，其实已经带了一份官方还没正式启
 所有修正都在 `translation/overrides.json`，每条格式如下：
 
 ```json
-{"ctxt": "", "en": "英文原文（必须与游戏完全一致）", "zh": "修正后的译文", "reason": "修改理由"}
+{"ctxt": "", "en": "英文原文（必须与游戏完全一致）", "zh": "修正后的译文", "reason": "修改理由", "reason_en": "英文版修改理由"}
 ```
 
 - 占位符（`{Value}`、`[Player Name]` 等）、BBCode 标签（`[b]`、`[color=...]`）和 `\n` 的数量必须与英文一致。
@@ -131,7 +131,7 @@ Other commands: `status` (show state), `restore` (uninstall: put the original dr
 
 ## Contributing
 
-All corrections live in `translation/overrides.json` as `{"ctxt", "en", "zh", "reason"}`. Placeholders, BBCode tags and `\n` counts must match the English text. Issues and pull requests are welcome.
+All corrections live in `translation/overrides.json` as `{"ctxt", "en", "zh", "reason", "reason_en"}`; `reason_en` is an English explanation of each change. Placeholders, BBCode tags and `\n` counts must match the English text. Issues and pull requests are welcome.
 
 ## License
 
