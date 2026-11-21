@@ -25,6 +25,8 @@ Melvor Idle 2 的游戏文件里，其实已经带了一份官方还没正式启
 
 翻译主体仍然是官方草稿，本仓库只保存**修正和补充的部分**（`translation/`），安装时脚本从你自己的游戏里读取官方草稿，在本地合并后写回游戏。
 
+![游戏内效果：设置 → 语言 → Chinese, China](docs/screenshot.webp)
+
 ## 安装
 
 1. 安装 [Python 3.8+](https://www.python.org/downloads/)（安装时勾选 “Add Python to PATH”）。
@@ -41,7 +43,7 @@ Melvor Idle 2 的游戏文件里，其实已经带了一份官方还没正式启
    python melvor2_zh.py install "D:\SteamLibrary\steamapps\common\Melvor Idle 2"
    ```
 
-4. 启动游戏，在语言选项里选择中文。
+4. 启动游戏，打开 **设置 → 语言（Language）**，选择 **Chinese, China**。
 
 其他命令：
 
@@ -106,6 +108,8 @@ The game already ships an unreleased official Simplified Chinese (`zh_CN.po`) dr
 
 The bulk of the translation is still the official draft. This repository only holds the **corrections and additions** (`translation/`). At install time the script reads the draft from your own game files, merges the changes locally, and writes the result back into the game.
 
+![In-game: Settings → Language → Chinese, China](docs/screenshot.webp)
+
 ## Install
 
 1. Install [Python 3.8+](https://www.python.org/downloads/).
@@ -119,7 +123,7 @@ The bulk of the translation is still the official draft. This repository only ho
    The game is located through your Steam libraries. If it is not found, pass the game folder:
    `python melvor2_zh.py install "D:\SteamLibrary\steamapps\common\Melvor Idle 2"`
 
-4. Start the game and choose Chinese in the language options.
+4. Start the game, open **Settings → Language** and choose **Chinese, China**.
 
 Other commands: `status` (show state), `restore` (uninstall: put the original draft back and remove `override.cfg`), `build` (only write the merged file to `_work/zh_CN.po`).
 
