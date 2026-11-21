@@ -20,7 +20,7 @@ Melvor Idle 2 的游戏文件里，其实已经带了一份官方还没正式启
 1. **启用**这份官方草稿，让游戏的语言列表里出现中文；
 2. 在草稿基础上**补全和校对**：
    - 补全 1872 条缺失条目。大部分是物品名的复数形式，缺了它们，日志和掉落提示里会显示英文。
-   - 对照英文原文逐条检查了全部 10407 条文本，修正 270 处：错译、错别字、漏译、术语不统一、换行格式错误等。
+   - 对照英文原文逐条检查了全部 10407 条文本，修正 300 处：错译、错别字、漏译、术语不统一、换行格式错误等。
    - 部分译名（祝祭、法术等）与一代 Melvor Idle 的官方中文保持一致。
 
 翻译主体仍然是官方草稿，本仓库只保存**修正和补充的部分**（`translation/`），安装时脚本从你自己的游戏里读取官方草稿，在本地合并后写回游戏。
@@ -103,7 +103,7 @@ The game already ships an unreleased official Simplified Chinese (`zh_CN.po`) dr
 1. **enables** that draft so Chinese appears in the game's language list, and
 2. **completes and proofreads** it:
    - adds 1,872 missing entries (mostly `PluralName`-context item names, without which logs and drop messages show English);
-   - checks all 10,407 strings against the English source and fixes 270 issues (mistranslations, typos, missing information, inconsistent terminology, broken line breaks);
+   - checks all 10,407 strings against the English source and fixes 300 issues (mistranslations, typos, missing information, inconsistent terminology, broken line breaks);
    - aligns some names (prayers, spells) with Melvor Idle 1's official Chinese.
 
 The bulk of the translation is still the official draft. This repository only holds the **corrections and additions** (`translation/`). At install time the script reads the draft from your own game files, merges the changes locally, and writes the result back into the game.

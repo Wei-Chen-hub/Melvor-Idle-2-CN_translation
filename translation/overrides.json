@@ -1,6 +1,34 @@
 [
  {
   "ctxt": "",
+  "en": "{Value:cond:<0?|>=0?+}{Value:intervaltime:} {LocalContext.Recipe.DisplayName} interval",
+  "zh": "{Value:cond:<0?|>=0?+}{Value:intervaltime:} {LocalContext.Recipe.DisplayName}间隔",
+  "reason": "读不通：「+0.5秒铁矿石的间隔」数值与名称粘连",
+  "reason_en": "Hard to read: value and name run together after the unit (秒 + item name)"
+ },
+ {
+  "ctxt": "",
+  "en": "{Value:+0;-#} XP gained from {FromContext.Recipe.DisplayName}",
+  "zh": "{Value:+0;-#} {FromContext.Recipe.DisplayName}获得的经验",
+  "reason": "读不通：「+3来自 X的经验」倒装生硬",
+  "reason_en": "Awkward: '+3来自 X的经验' is a stiff inverted structure"
+ },
+ {
+  "ctxt": "",
+  "en": "{Value:+0.##%;-#.##%} chance to deal double damage to Trees & Bushes in {LocalContext.Component.Entity.DisplayName}",
+  "zh": "{Value:+0.##%;-#.##%} {LocalContext.Component.Entity.DisplayName}时对树木和灌木造成双倍伤害的几率",
+  "reason": "「伐木对树木…」主语不清，改为「X时对…」",
+  "reason_en": "'伐木对树木…' reads like the skill itself deals damage; use 'X时对…' (when doing X)"
+ },
+ {
+  "ctxt": "",
+  "en": "{Value:+0.##%;-#.##%} chance to fell Trees & Bushes in {LocalContext.Component.Entity.DisplayName}",
+  "zh": "{Value:+0.##%;-#.##%} {LocalContext.Component.Entity.DisplayName}时砍倒树木和灌木的几率",
+  "reason": "「X砍倒…几率」不通顺",
+  "reason_en": "'X砍倒…几率' is ungrammatical; use 'X时…的几率'"
+ },
+ {
+  "ctxt": "",
   "en": "{Value:0.##%} {Value:cond:<0?Decreased|>=0?Increased} Rock Break chance in {LocalContext.Component.Entity.DisplayName}",
   "zh": "{Value:cond:<0?减少|>=0?增加} {Value:0.##%} {LocalContext.Component.Entity.DisplayName}的矿石碎裂几率",
   "reason": "条件分支英文未翻译",
@@ -16,9 +44,9 @@
  {
   "ctxt": "",
   "en": "Convert Junk to GP for {Value:+0,0.##%;-#.##%} of its sale price in {LocalContext.Component.Entity.DisplayName}",
-  "zh": "在{LocalContext.Component.Entity.DisplayName}中，将垃圾转换为金币的金额为其售价的{Value:+0,0.##%;-#.##%}",
-  "reason": "主宾颠倒，语义不清",
-  "reason_en": "Subject and object were reversed, making the meaning unclear."
+  "zh": "{LocalContext.Component.Entity.DisplayName}时，垃圾可按售价兑换为金币（兑换比例{Value:+0,0.##%;-#.##%}）",
+  "reason": "主宾颠倒且「售价的+50%」符号怪异，改为括注兑换比例",
+  "reason_en": "Subject/object reversed and the signed value read oddly (售价的+50%); the conversion rate is now given in parentheses."
  },
  {
   "ctxt": "",
@@ -33,6 +61,48 @@
   "zh": "{Value:cond:<0?减少|>=0?增加} {Value:0%} {LocalContext.Component.Entity.DisplayName}的{LocalContext.Category.DisplayName}矿石碎裂几率",
   "reason": "条件分支英文未翻译；语序调整为\"增加/减少 数值\"",
   "reason_en": "Untranslated English in the conditional branch (Decreased/Increased). Word order changed to \"increase/decrease + value\"."
+ },
+ {
+  "ctxt": "",
+  "en": "{Value:+0;-#} base quantity of {LocalContext.Category.DisplayName} gained from {LocalContext.Component.Entity.DisplayName}",
+  "zh": "{Value:+0;-#} {LocalContext.Component.Entity.DisplayName}中获得的{LocalContext.Category.DisplayName}基础数量",
+  "reason": "「+1从X中获得…」值后直接接介词，读不通",
+  "reason_en": "'+1从X中获得…' puts a preposition right after the value; use a relative clause"
+ },
+ {
+  "ctxt": "",
+  "en": "{Value:+0.##%;-#.##%} base quantity of {LocalContext.Category.DisplayName} gained from {LocalContext.Component.Entity.DisplayName}",
+  "zh": "{Value:+0.##%;-#.##%} {LocalContext.Component.Entity.DisplayName}中获得的{LocalContext.Category.DisplayName}基础数量",
+  "reason": "同上",
+  "reason_en": "Same as above"
+ },
+ {
+  "ctxt": "",
+  "en": "{Value:+0;-#} base quantity of {LocalContext.Subcategory.DisplayName} gained from {LocalContext.Component.Entity.DisplayName}",
+  "zh": "{Value:+0;-#} {LocalContext.Component.Entity.DisplayName}中获得的{LocalContext.Subcategory.DisplayName}基础数量",
+  "reason": "同上",
+  "reason_en": "Same as above"
+ },
+ {
+  "ctxt": "",
+  "en": "{Value:+0.##%;-#.##%} base quantity of {LocalContext.Subcategory.DisplayName} gained from {LocalContext.Component.Entity.DisplayName}",
+  "zh": "{Value:+0.##%;-#.##%} {LocalContext.Component.Entity.DisplayName}中获得的{LocalContext.Subcategory.DisplayName}基础数量",
+  "reason": "同上",
+  "reason_en": "Same as above"
+ },
+ {
+  "ctxt": "",
+  "en": "{Value:+0;-#} base quantity of {LocalContext.Recipe.DisplayName} gained from {LocalContext.Component.Entity.DisplayName}",
+  "zh": "{Value:+0;-#} {LocalContext.Component.Entity.DisplayName}中获得的{LocalContext.Recipe.DisplayName}基础数量",
+  "reason": "同上",
+  "reason_en": "Same as above"
+ },
+ {
+  "ctxt": "",
+  "en": "{Value:+0.##%;-#.##%} base quantity of {LocalContext.Recipe.DisplayName} gained from {LocalContext.Component.Entity.DisplayName}",
+  "zh": "{Value:+0.##%;-#.##%} {LocalContext.Component.Entity.DisplayName}中获得的{LocalContext.Recipe.DisplayName}基础数量",
+  "reason": "同上",
+  "reason_en": "Same as above"
  },
  {
   "ctxt": "",
@@ -61,6 +131,27 @@
   "zh": "{Value:+0.##%;-#.##%}畜牧围栏不损坏的几率",
   "reason": "Ranching 术语为畜牧",
   "reason_en": "Terminology: Ranching is translated as 畜牧 (animal husbandry)."
+ },
+ {
+  "ctxt": "",
+  "en": "{Value:+0.##%;-#.##%} interval for Category: {LocalContext.Category.DisplayName}",
+  "zh": "{Value:+0.##%;-#.##%} {LocalContext.Category.DisplayName}类别的间隔",
+  "reason": "「类别：X的间隔」标签式写法读不通",
+  "reason_en": "Label-style '类别：X的间隔' reads badly"
+ },
+ {
+  "ctxt": "",
+  "en": "{Value:+0.##%;-#.##%} chance to skip a tracking step using Tool: {LocalContext.Tool.DisplayName} in {LocalContext.Component.Entity.DisplayName}",
+  "zh": "{Value:+0.##%;-#.##%} {LocalContext.Component.Entity.DisplayName}时使用工具{LocalContext.Tool.DisplayName}跳过追踪步骤的几率",
+  "reason": "「使用X中的工具：Y以跳过…」语法破碎",
+  "reason_en": "'使用X中的工具：Y以跳过…' is grammatically broken"
+ },
+ {
+  "ctxt": "",
+  "en": "{Value:+0%;-#%} increased chance to locate a Rare Species in {LocalContext.Component.Entity.DisplayName}",
+  "zh": "{Value:+0%;-#%} {LocalContext.Component.Entity.DisplayName}时找到稀有品种的几率",
+  "reason": "「+5%…几率增加」符号与「增加」重复，负值时变成「-5%…增加」",
+  "reason_en": "'+5%…几率增加' doubles the sign with '增加'; a negative value would read '-5% … increased'"
  },
  {
   "ctxt": "",
@@ -99,6 +190,48 @@
  },
  {
   "ctxt": "",
+  "en": "{Value:+0.##%;-#.##%} of max hit as min hit",
+  "zh": "{Value:+0.##%;-#.##%} 最小伤害（按最大伤害计）",
+  "reason": "「最小伤害为最大伤害的+5%」符号怪异",
+  "reason_en": "The signed value read oddly (最小伤害为最大伤害的+5%); rephrased as min hit (based on max hit)."
+ },
+ {
+  "ctxt": "",
+  "en": "{Value:+0.##%;-#.##%} Input Preservation chance for Category: {LocalContext.Category.DisplayName} in {LocalContext.Component.Entity.DisplayName}",
+  "zh": "{Value:+0.##%;-#.##%} {LocalContext.Component.Entity.DisplayName}时{LocalContext.Category.DisplayName}类别的输入留存几率",
+  "reason": "「类别：X在 Y时」读不通",
+  "reason_en": "'类别：X在 Y时' reads badly"
+ },
+ {
+  "ctxt": "",
+  "en": "{Value:+0.##%;-#.##%} Heating interval for Category: {LocalContext.Category.DisplayName} in {LocalContext.Component.Entity.DisplayName}",
+  "zh": "{Value:+0.##%;-#.##%} {LocalContext.Component.Entity.DisplayName}时{LocalContext.Category.DisplayName}类别的加热间隔",
+  "reason": "同上",
+  "reason_en": "Same as above"
+ },
+ {
+  "ctxt": "",
+  "en": "{Value:+0.##%;-#.##%} Output Doubling chance for Category: {LocalContext.Category.DisplayName} in {LocalContext.Component.Entity.DisplayName}",
+  "zh": "{Value:+0.##%;-#.##%} {LocalContext.Component.Entity.DisplayName}时{LocalContext.Category.DisplayName}类别的输出翻倍几率",
+  "reason": "同上",
+  "reason_en": "Same as above"
+ },
+ {
+  "ctxt": "",
+  "en": "{Value:+0;-#} Cooking Proficiency for Category: {LocalContext.Category.DisplayName}",
+  "zh": "{Value:+0;-#} {LocalContext.Category.DisplayName}类别的烹饪精通",
+  "reason": "「类别：X的烹饪精通」标签式写法",
+  "reason_en": "Label-style '类别：X的…'"
+ },
+ {
+  "ctxt": "",
+  "en": "{Value:+0.##%;-#.##%} chance to avoid being Stunned in {LocalContext.Component.Entity.DisplayName} (Does not avoid damage)",
+  "zh": "{LocalContext.Component.Entity.DisplayName}时，{Value:+0.##%;-#.##%}免受晕眩的几率（不免疫伤害）",
+  "reason": "漏译「几率」，「+5%免于晕眩」不通",
+  "reason_en": "'chance' is missing; '+5%免于晕眩' is incomplete"
+ },
+ {
+  "ctxt": "",
   "en": "{Value:0%} {Value:cond:<0?Decreased|>=0?Increased} Rare Loot chance in {LocalContext.Component.Entity.DisplayName}",
   "zh": "{Value:cond:<0?减少|>=0?增加} {Value:0%} {LocalContext.Component.Entity.DisplayName}的稀有战利品掉落几率",
   "reason": "条件分支英文未翻译；语序调整为\"增加/减少 数值\"",
@@ -121,9 +254,9 @@
  {
   "ctxt": "",
   "en": "{Value:+0.##%;-#.##%} chance to gain Rune Essence or Pure Essence when hitting any Rock in {LocalContext.Component.Entity.DisplayName}",
-  "zh": "{Value:+0.##%;-#.##%}在{LocalContext.Component.Entity.DisplayName}中攻击任何岩石时获得符文精华或纯净精华的几率",
-  "reason": "修正“在X并攻击”语病",
-  "reason_en": "Fixed an ungrammatical \"in X and attack\" phrasing."
+  "zh": "{Value:+0.##%;-#.##%} {LocalContext.Component.Entity.DisplayName}时攻击任何岩石获得符文精华或纯净精华的几率",
+  "reason": "值被夹在「在X中」之后，渲染成「+5%在采矿中…」不顺",
+  "reason_en": "Rendered '+5%在采矿中…' is clumsy; use 'X时…' after the value"
  },
  {
   "ctxt": "",
@@ -148,17 +281,52 @@
  },
  {
   "ctxt": "",
+  "en": "{Value:+0.##%;-#.##%} Max Tracking Interval for Trap Type: {LocalContext.TrapType.DisplayName} in {LocalContext.Component.Entity.DisplayName}",
+  "zh": "{Value:+0.##%;-#.##%} {LocalContext.Component.Entity.DisplayName}时陷阱类别：{LocalContext.TrapType.DisplayName}的最大追踪间隔",
+  "reason": "「针对」悬空",
+  "reason_en": "Dangling '针对'"
+ },
+ {
+  "ctxt": "",
+  "en": "{Value:+0.##%;-#.##%} chance to hit a weakspot when cutting {LocalContext.Category.DisplayName} in {LocalContext.Component.Entity.DisplayName}",
+  "zh": "{Value:+0.##%;-#.##%} {LocalContext.Component.Entity.DisplayName}中砍伐{LocalContext.Category.DisplayName}时命中弱点的几率",
+  "reason": "语序：「击中弱点」统一为「命中弱点」",
+  "reason_en": "Word order; 击中弱点 unified to 命中弱点 (hit a weak spot)."
+ },
+ {
+  "ctxt": "",
   "en": " {Value:0.##%;-#.##%} of {LocalContext.Category.DisplayName} bonuses provided while growing in {LocalContext.Component.Entity.DisplayName}",
-  "zh": "在{LocalContext.Component.Entity.DisplayName}中种植时，提供{LocalContext.Category.DisplayName}加成的{Value:0.##%;-#.##%}",
-  "reason": "语序/语义不清",
-  "reason_en": "Word order/meaning was unclear."
+  "zh": "{LocalContext.Component.Entity.DisplayName}中的{LocalContext.Category.DisplayName}在生长期间即可提供{Value:0.##%;-#.##%}的加成",
+  "reason": "误译/读不通：意思是生长期间就能提供该比例的加成",
+  "reason_en": "Mistranslation/hard to read: it means the given share of the bonus is already provided while growing."
+ },
+ {
+  "ctxt": "",
+  "en": "{Value:+0.##%;-#.##%} chance for +1 on break product quantity for {LocalContext.Category.DisplayName} only in {LocalContext.Component.Entity.DisplayName}",
+  "zh": "{Value:+0.##%;-#.##%} {LocalContext.Category.DisplayName}击碎时产品数量+1的几率（仅限{LocalContext.Component.Entity.DisplayName}）",
+  "reason": "「针对…的」悬空结构",
+  "reason_en": "Dangling '针对…的' structure"
+ },
+ {
+  "ctxt": "",
+  "en": "{Value:+0.##%;-#.##%} Knowledge gained in {LocalContext.Component.Entity.DisplayName}",
+  "zh": "{Value:+0.##%;-#.##%} {LocalContext.Component.Entity.DisplayName}知识获取量",
+  "reason": "读不通：「X时获得的知识」改为「X知识获取量」",
+  "reason_en": "Hard to read: X时获得的知识 (knowledge obtained when X) changed to X知识获取量 (X knowledge gain)."
  },
  {
   "ctxt": "",
   "en": "{Value:+0.##%;-#.##%} chance to pickpocket all unlocked {LocalContext.RecipeType.DisplayName} in the same location when successfully pickpocketing {LocalContext.RecipeType.DisplayName} (No damage is taken upon a failed attempt).",
-  "zh": "成功扒窃{LocalContext.RecipeType.DisplayName}时，有{Value:+0.##%;-#.##%}的几率将同一地点内所有已解锁的{LocalContext.RecipeType.DisplayName}一并带走（扒窃失败时不会受到伤害）。",
-  "reason": "\"未上锁\"应为\"已解锁\"，数值前缺少\"有...几率\"",
-  "reason_en": "Mistranslation: \"unlocked\" was rendered as 未上锁 (not locked) where 已解锁 (unlocked/available) is meant; also the value lacked \"has ... chance\" wording."
+  "zh": "{Value:+0.##%;-#.##%} 成功扒窃{LocalContext.RecipeType.DisplayName}时，将同一地点内所有已解锁的{LocalContext.RecipeType.DisplayName}一并带走的几率（扒窃失败时不会受到伤害）。",
+  "reason": "「有+5%的几率」符号怪异",
+  "reason_en": "'有+5%的几率' has an odd sign"
+ },
+ {
+  "ctxt": "",
+  "en": "{Value:+0.##%;-#.##%} chance to apply a stack of {LocalContext.Effect.DisplayName} to all unlocked {LocalContext.Effect.AppliesToCategory.DisplayName} when hitting {LocalContext.Category.DisplayName} in {LocalContext.Component.Entity.DisplayName}",
+  "zh": "在{LocalContext.Component.Entity.DisplayName}中命中{LocalContext.Category.DisplayName}时，有{Value:+0.##%;-#.##%}几率为所有已解锁的{LocalContext.Effect.AppliesToCategory.DisplayName}叠加1层{LocalContext.Effect.DisplayName}",
+  "reason": "读不通：「将一组X应用于」改为「叠加1层X」",
+  "reason_en": "Hard to read: 将一组X应用于 (apply a group of X to) changed to 叠加1层X (add 1 stack of X)."
  },
  {
   "ctxt": "",
@@ -166,6 +334,20 @@
   "zh": "{Value:+0.##%;-#.##%}守护伤害翻倍几率",
   "reason": "Ward 术语应译为守护值（原为守卫/看守）",
   "reason_en": "Terminology: Ward should be 守护值 (ward value); the old translation used 守卫/看守 (guard/watch)."
+ },
+ {
+  "ctxt": "",
+  "en": "{Value:+0.##%;-#.##%} Knowledge gained for {LocalContext.Constellation.DisplayName} Constellation",
+  "zh": "{Value:+0.##%;-#.##%} {LocalContext.Constellation.DisplayName}星座知识获取量",
+  "reason": "读不通：「针对X星座的知识」改为「X星座知识获取量」",
+  "reason_en": "Hard to read: 针对X星座的知识 (knowledge regarding X constellation) changed to X星座知识获取量 (X constellation knowledge gain)."
+ },
+ {
+  "ctxt": "",
+  "en": "{Value:+0.##%;-#.##%} of max hit as min hit for {LocalContext.CombatStyle.DisplayName} only",
+  "zh": "{Value:+0.##%;-#.##%} 最小伤害（按最大伤害计，仅限{LocalContext.CombatStyle.DisplayName}）",
+  "reason": "同上",
+  "reason_en": "Same as the previous min hit entry."
  },
  {
   "ctxt": "",
@@ -736,6 +918,13 @@
  },
  {
   "ctxt": "",
+  "en": "Overgrowth grants +1 On Hit & On Cut quantity. One stack is consumed per full Cut. ",
+  "zh": "茂密植被：命中时和砍倒时的产出数量各+1，每完成一次完整砍伐消耗1层。",
+  "reason": "Overgrowth 与效果名「茂密植被」统一；句子更通顺",
+  "reason_en": "Overgrowth unified with the effect name 茂密植被; smoother sentence."
+ },
+ {
+  "ctxt": "",
   "en": "Crescent Lake of Iridan",
   "zh": "艾丽丹的月牙湖",
   "reason": "名称不一致：Crescent Lake 官方战斗区域译名为月牙湖",
@@ -747,6 +936,13 @@
   "zh": "[color=green]此次观测解锁了月牙湖战斗区域。[/color]",
   "reason": "名称不一致：Crescent Lake 官方译名为月牙湖",
   "reason_en": "Inconsistent name: Crescent Lake is officially 月牙湖 (crescent lake)."
+ },
+ {
+  "ctxt": "",
+  "en": "Haemir Observation",
+  "zh": "海密尔观测",
+  "reason": "Haemir 按一代译名「海密尔」",
+  "reason_en": "Haemir follows the Melvor Idle 1 name 海密尔."
  },
  {
   "ctxt": "",
@@ -1702,6 +1898,13 @@
  },
  {
   "ctxt": "",
+  "en": "Additional bonuses per Minor Node unlocked:",
+  "zh": "每解锁一个次要节点，额外获得：",
+  "reason": "语序更自然",
+  "reason_en": "More natural word order."
+ },
+ {
+  "ctxt": "",
   "en": "Generates a base64 string based on your current Bank Configuration, which can be shared or uploaded to the Cloud.\\nBank Configurations include all Bank tabs & custom labels, Bank tab affinities, default Item tab & placement order, and Item locked & placeholder status.",
   "zh": "根据当前仓库配置生成base64字符串，可供分享或上传至云端。\\n仓库配置包含所有仓库面板及其自定义名称、面板自动归类规则、物品的默认所属面板和摆放顺序，以及物品的锁定和占位状态。",
   "reason": "缺少换行 \n",
@@ -1797,6 +2000,13 @@
   "zh": "敌人拥有[img height=1.25em]res://Assets/Items/WardingShield.png[/img] [color=#FFD16D]守护值[/color]",
   "reason": "Ward 术语应译为守护值/最大守护值",
   "reason_en": "Terminology: Ward should be 守护值 (ward value) / 最大守护值 (max ward value)."
+ },
+ {
+  "ctxt": "",
+  "en": "[color=#b5b5b5]Next unlock after [/color][b]{0:N0} Minor Node Unlock[/b]",
+  "zh": "[color=#b5b5b5]下次解锁需要再解锁[/color][b]{0:N0}个次要节点[/b]",
+  "reason": "读不通：与同类提示「下次解锁需要先解锁N个次要节点」统一",
+  "reason_en": "Hard to read; unified with the similar hint 下次解锁需要先解锁N个次要节点 (next unlock requires N minor nodes)."
  },
  {
   "ctxt": "",
