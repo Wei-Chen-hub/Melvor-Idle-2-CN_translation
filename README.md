@@ -6,6 +6,13 @@
 >
 > 本项目是玩家社区的非官方作品，与 Games by Malcs、Jagex 没有任何关联。
 
+## 致开发者
+
+做这个项目，只是因为我们等不及想玩中文版的 Melvor Idle 2。感谢你们做出这么好的游戏，也感谢你们已经在准备中文翻译。
+
+- **欢迎在未来的官方更新中直接采用这些修正。**`translation/` 中的内容均以 CC0 发布，无需署名或授权。如果需要附带修改理由的完整清单，请随时联系。
+- **如果你们不希望这个项目存在**（例如因为它启用了尚未发布的草稿），请[提 Issue](../../issues) 联系我，我会立即删除本仓库。
+
 ## 这是什么
 
 Melvor Idle 2 的游戏文件里，其实已经带了一份官方还没正式启用的简体中文翻译草稿。本项目做两件事：
@@ -79,6 +86,13 @@ Melvor Idle 2 的游戏文件里，其实已经带了一份官方还没正式启
 > ⚠️ **This project contains no game files. You must own and install Melvor Idle 2 on Steam. Please support the developers.**
 >
 > This is an unofficial community project and is not affiliated with Games by Malcs or Jagex.
+
+## A note to the developers
+
+This project exists only because we couldn't wait to play Melvor Idle 2 in Chinese. Thank you for making such a great game, and for already working on a Chinese translation.
+
+- **Feel free to use any of these corrections** in a future official update. Everything in `translation/` is released under CC0, so no credit or permission is needed. If a full list with the reason for each change would help, just ask.
+- **If you would prefer this project not to exist** (for example, because it enables an unreleased draft), please [open an issue](../../issues) and I will take the repository down right away, no questions asked.
 
 ## What it does
 
