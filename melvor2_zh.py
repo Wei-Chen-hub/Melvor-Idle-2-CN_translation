@@ -6,13 +6,15 @@ The game ships an unreleased official zh_CN.po draft inside Melvor2.exe. This sc
   3. writes the result back into the same slot inside Melvor2.exe (backup kept),
   4. replaces the English source text of a few UI elements the game never translates
      (shop descriptions, combat area names, some astrology/combat labels), and
-  5. writes override.cfg next to the exe so the game lists Chinese as a language.
+  5. writes override.cfg next to the exe so the game lists Chinese as a language, and
+  6. downloads Godot's ICU line-break data (icudt_godot.dat) from the Godot repository
+     next to the exe, so Chinese text wraps instead of running off one line.
 No game files are stored in this repository.
 
 usage (close the game first; Python 3.8+, standard library only):
   python melvor2_zh.py install [game_dir]   install / update the patch
   python melvor2_zh.py status  [game_dir]   show current state
-  python melvor2_zh.py restore [game_dir]   put all original files back and remove override.cfg
+  python melvor2_zh.py restore [game_dir]   put all original files back, remove our override.cfg entry and icudt_godot.dat
   python melvor2_zh.py build   [game_dir]   only write the merged files to _work/, do not touch the game
 """
 import sys, os, re, json, struct, hashlib
@@ -29,6 +31,53 @@ OVERRIDE_CFG = ('[internationalization]\n\n'
 def cfg_without_ours(text):
     """override.cfg minus our [internationalization] block; other sections (e.g. mods' autoloads) are kept."""
     return text.replace(OVERRIDE_CFG, '', 1)
+
+# The game does not ship Godot's ICU line-break data, so text only wraps at spaces and a
+# Chinese paragraph stays on one clipped line. Godot loads res://icudt_godot.dat at startup;
+# a loose file next to the exe is found there. We fetch the copy from Godot's own repository
+# for the engine version the game was built with (Unicode/ICU license, freely redistributable).
+ICU_NAME = 'icudt_godot.dat'
+ICU_URL = 'https://raw.githubusercontent.com/godotengine/godot/{tag}/thirdparty/icu4c/icudt_godot.dat'
+
+
+def icu_version(path):
+    """The ICU data name (e.g. b'icudt78l') referenced in a file, or None."""
+    pat = re.compile(rb'icudt\d\d[lb]')
+    with open(path, 'rb') as f:
+        tail = b''
+        while True:
+            chunk = f.read(1 << 24)
+            if not chunk:
+                return None
+            m = pat.search(tail + chunk)
+            if m:
+                return m.group()
+            tail = chunk[-16:]
+
+
+def install_icu(game, godot_version):
+    dst = os.path.join(game, ICU_NAME)
+    if os.path.exists(dst):
+        return
+    maj, mi, pa = godot_version.split('.')
+    tag = f'{maj}.{mi}-stable' if pa == '0' else f'{godot_version}-stable'
+    url = ICU_URL.format(tag=tag)
+    hint = (f'  请手动下载 {url}\n  放到 {game}\n'
+            f'  Download it manually and put it next to {EXE_NAME}.')
+    try:
+        import urllib.request
+        data = urllib.request.urlopen(url, timeout=60).read()
+    except Exception as ex:
+        print(f'未能下载中文换行数据 / could not download line-break data ({ex}).\n'
+              f'中文长句将不会自动换行 / Chinese text will not wrap.\n{hint}')
+        return
+    want = icu_version(os.path.join(game, EXE_NAME))   # e.g. b'icudt78l'
+    want_s = want.decode() if want else '?'
+    if not data.startswith(b'\x90\x00\xda\x27') or (want and want not in data):
+        print(f'下载的换行数据与游戏版本不符，已跳过 / downloaded line-break data does not match the game ({want_s}).\n{hint}')
+        return
+    open(dst, 'wb').write(data)
+    print(f'已安装中文换行数据 / installed line-break data: {ICU_NAME} (Godot {tag})')
 
 
 try:
@@ -347,7 +396,9 @@ def main():
     exe = os.path.join(game, EXE_NAME); cfg = os.path.join(game, 'override.cfg')
     d = pck_dir(exe); e = d[ZH]
     st = slot_state(exe, e)
-    print(f'game: {game}\ngodot {d["godot"]} | zh_CN.po: {st} | override.cfg: {"yes" if os.path.exists(cfg) else "no"}')
+    icu = os.path.join(game, ICU_NAME)
+    print(f'game: {game}\ngodot {d["godot"]} | zh_CN.po: {st} | override.cfg: {"yes" if os.path.exists(cfg) else "no"}'
+          f' | {ICU_NAME}: {"yes" if os.path.exists(icu) else "no"}')
     others = source_text_entries(d)
     states = [slot_state(exe, x) for x in others]
     print('source text files: ' + ', '.join(f'{states.count(s)} {s}' for s in ('original', 'patched', 'unknown') if s in states))
@@ -366,6 +417,8 @@ def main():
                 open(cfg, 'w', encoding='utf-8', newline='\n').write(rest)   # keep other people's settings
             else:
                 os.remove(cfg)
+        if os.path.exists(icu):   # the game never ships this file loose; it is ours
+            os.remove(icu)
         print('已还原 / restored')
         return
     draft = original(exe, e)
@@ -401,6 +454,7 @@ def main():
         os.replace(cfg, cfg + '.bak'); print('existing override.cfg moved to override.cfg.bak')
         rest = ''
     open(cfg, 'w', encoding='utf-8', newline='\n').write(OVERRIDE_CFG + ('\n' + rest.lstrip('\n') if rest.strip() else ''))
+    install_icu(game, d['godot'])
     print('安装完成：启动游戏后在语言选项里选择中文。/ Done: start the game and choose Chinese in the language options.')
 
 

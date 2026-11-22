@@ -10,12 +10,14 @@
 
 做这个项目，只是因为我们等不及想玩中文版的 Melvor Idle 2。感谢你们做出这么好的游戏，也感谢你们已经在准备中文翻译。
 
+- **上线中文前请留意**：导出时需要在项目设置里开启 `internationalization/locale/include_text_server_data`，否则中文无法自动换行（见下方第 4 项）。
+
 - **欢迎在未来的官方更新中直接采用这些修正。**`translation/` 中的内容均以 CC0 发布，无需署名或授权。如果需要附带修改理由的完整清单，请随时联系。
 - **如果你们不希望这个项目存在**（例如因为它启用了尚未发布的草稿），请[提 Issue](../../issues) 联系我，我会立即删除本仓库。
 
 ## 这是什么
 
-Melvor Idle 2 的游戏文件里，其实已经带了一份官方还没正式启用的简体中文翻译草稿。本项目做两件事：
+Melvor Idle 2 的游戏文件里，其实已经带了一份官方还没正式启用的简体中文翻译草稿。本项目做这几件事：
 
 1. **启用**这份官方草稿，让游戏的语言列表里出现中文；
 2. 在草稿基础上**补全和校对**：
@@ -23,6 +25,7 @@ Melvor Idle 2 的游戏文件里，其实已经带了一份官方还没正式启
    - 对照英文原文逐条检查了全部 10407 条文本，修正 354 处：错译、错别字、漏译、术语不统一、换行格式错误等。
    - 部分译名（祝祭、法术等）与一代 Melvor Idle 的官方中文保持一致。
 3. **替换游戏没有翻译的界面文字**：游戏数据里的名称和描述（物品、商店、战斗区域/地下城、攻击姿态、精通公会、灵巧地点等），「任务类别」标题，以及约 40 处由代码填数字的界面文字（烹饪难度、星象学「per Study」、「in Bank」、底栏「Level」等）。游戏显示这些文字时不调用翻译，补丁直接把英文原文换成中文（只改文字，不改游戏代码）。
+4. **让中文自动换行**：游戏没有附带 Godot 的断行数据，文字只在空格处换行，所以中文长句（任务概要、对话等）会挤成一行被截断。安装时脚本会从 [Godot 官方仓库](https://github.com/godotengine/godot/tree/master/thirdparty/icu4c)下载与游戏引擎版本对应的 `icudt_godot.dat`（约 4.8 MB）放到游戏目录。
 
 翻译主体仍然是官方草稿，本仓库只保存**修正和补充的部分**（`translation/`），安装时脚本从你自己的游戏里读取官方草稿，在本地合并后写回游戏。
 
@@ -51,7 +54,7 @@ Melvor Idle 2 的游戏文件里，其实已经带了一份官方还没正式启
 | 命令 | 作用 |
 |---|---|
 | `python melvor2_zh.py status` | 查看当前是否已安装 |
-| `python melvor2_zh.py restore` | 卸载：还原所有被修改的原始文件，从 `override.cfg` 中移除汉化设置（其他设置保留） |
+| `python melvor2_zh.py restore` | 卸载：还原所有被修改的原始文件，从 `override.cfg` 中移除汉化设置（其他设置保留），删除 `icudt_godot.dat` |
 | `python melvor2_zh.py build` | 只生成合并后的文件到 `_work/`，不改动游戏 |
 
 ## 注意事项
@@ -60,6 +63,7 @@ Melvor Idle 2 的游戏文件里，其实已经带了一份官方还没正式启
 - 如果更新后部分修正提示“未匹配”，说明官方改动了对应的英文原文，这些条目会保留官方译文，其余修正照常生效。
 - 本补丁会直接修改 `Melvor2.exe` 内的翻译文件，exe 的数字签名会因此失效，但不影响运行；原始数据备份在 `_backup/`。
 - 想彻底还原，在 Steam 里对游戏「验证游戏文件完整性」即可。
+- 安装需要联网下载 `icudt_godot.dat`；下载失败时脚本会给出下载地址，手动下载后放到 `Melvor2.exe` 旁边即可（不放也能用，只是中文长句不换行）。
 - 第 3 项是直接替换原文，所以**切换回英文后，这些位置仍显示中文**；需要英文时运行 `restore` 即可。
 - 官方草稿尚未完成，个别文本可能仍是英文或有不准确之处，欢迎反馈。
 
@@ -102,6 +106,8 @@ Melvor Idle 2 的游戏文件里，其实已经带了一份官方还没正式启
 
 This project exists only because we couldn't wait to play Melvor Idle 2 in Chinese. Thank you for making such a great game, and for already working on a Chinese translation.
 
+- **Before shipping Chinese**: enable `internationalization/locale/include_text_server_data` in the project settings when exporting. Without the ICU data, Chinese (and Japanese/Thai) text cannot wrap (see item 4 below).
+
 - **Feel free to use any of these corrections** in a future official update. Everything in `translation/` is released under CC0, so no credit or permission is needed. If a full list with the reason for each change would help, just ask.
 - **If you would prefer this project not to exist** (for example, because it enables an unreleased draft), please [open an issue](../../issues) and I will take the repository down right away, no questions asked.
 
@@ -114,7 +120,8 @@ The game already ships an unreleased official Simplified Chinese (`zh_CN.po`) dr
    - adds 1,872 missing entries (mostly `PluralName`-context item names, without which logs and drop messages show English);
    - checks all 10,407 strings against the English source and fixes 354 issues (mistranslations, typos, missing information, inconsistent terminology, broken line breaks);
    - aligns some names (prayers, spells) with Melvor Idle 1's official Chinese;
-3. **replaces the English source text of UI the game never translates**: names and descriptions in the game data (items, shop, combat areas and dungeons, attack stances, mastery guild, agility locations, ...), the "Task Categories" heading, and about 40 code-formatted labels (cooking difficulty, astrology "per Study", "in Bank", bottom-bar "Level", ...). Only text is changed, never game code.
+3. **replaces the English source text of UI the game never translates**: names and descriptions in the game data (items, shop, combat areas and dungeons, attack stances, mastery guild, agility locations, ...), the "Task Categories" heading, and about 40 code-formatted labels (cooking difficulty, astrology "per Study", "in Bank", bottom-bar "Level", ...). Only text is changed, never game code;
+4. **makes Chinese text wrap**: the game does not ship Godot's ICU line-break data, so text only wraps at spaces and long Chinese lines (quest summaries, dialogue) run off a single clipped line. The installer downloads the matching `icudt_godot.dat` (about 4.8 MB) from the [Godot repository](https://github.com/godotengine/godot/tree/master/thirdparty/icu4c) into the game folder.
 
 The bulk of the translation is still the official draft. This repository only holds the **corrections and additions** (`translation/`). At install time the script reads the draft from your own game files, merges the changes locally, and writes the result back into the game.
 
@@ -135,13 +142,14 @@ The bulk of the translation is still the official draft. This repository only ho
 
 4. Start the game, open **Settings → Language** and choose **Chinese, China**.
 
-Other commands: `status` (show state), `restore` (uninstall: put every modified file back and remove our entry from `override.cfg`, keeping any other settings), `build` (only write the merged files to `_work/`).
+Other commands: `status` (show state), `restore` (uninstall: put every modified file back and remove our entry from `override.cfg`, keeping any other settings, and delete `icudt_godot.dat`), `build` (only write the merged files to `_work/`).
 
 ## Notes
 
 - A Steam update or "Verify integrity of game files" restores `Melvor2.exe`; just run `install` again (with the game closed).
 - Corrections whose English text changed in an update are reported as unmatched and skipped; the rest still apply.
 - The patch edits the translation file inside `Melvor2.exe`, which invalidates the exe's code signature (the game still runs). The original data is backed up in `_backup/`.
+- Installing needs internet access for `icudt_godot.dat`. If the download fails, the script prints the URL; put the file next to `Melvor2.exe` yourself (the patch still works without it, but long Chinese lines will not wrap).
 - Because step 3 replaces the source text itself, those spots stay in Chinese even if you switch the game back to English. Run `restore` to get English back.
 
 ## Known issues (need a fix from the developers)
