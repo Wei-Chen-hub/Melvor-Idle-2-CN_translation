@@ -212,28 +212,40 @@ def build(zh_text, en_text):
     if unmatched:
         print(f'{len(unmatched)} 条修正未匹配（游戏文本已更新）/ corrections no longer match the game text:')
         for u in unmatched[:10]: print('   ', u[:70])
-    # plain msgid -> msgstr table, used for the game-data replacements
-    table = {po_unescape(e['msgid']): po_unescape(e.get('msgstr', e.get('msgstr[0]', '')))
-             for e in entries if not e.get('msgctxt')}
+    # (msgctxt, msgid) -> msgstr table, used for the game-data replacements
+    table = {(e.get('msgctxt', ''), po_unescape(e['msgid'])): po_unescape(e.get('msgstr', e.get('msgstr[0]', '')))
+             for e in entries}
     return data, table
 
 
 # ---------------------------------------------------------------- source-text replacement
 def patch_data(orig, size, table, cfg):
-    """Replace English DisplayName/Description values of the configured object types with Chinese.
+    """Replace English display-text values of the configured object types with Chinese.
     Edits the JSON text in place (no re-serialisation), so everything else stays byte-identical."""
     text = orig.decode('utf-8')
     objs = json.loads(text).get('Objects', {})
     extra = cfg.get('data_extra', {})
     targets = {}; missing = []
     for t, field in cfg['data_fields']:
-        for o in objs.get(t, []):
+        for o in (sum((v for v in objs.values() if isinstance(v, list)), []) if t == '*' else objs.get(t, [])):
             v = o.get(field)
             if isinstance(v, str) and v:
-                zh = extra.get(v) or table.get(v)
+                zh = extra.get(v) or table.get(('', v))
                 if zh: targets[(field, v)] = zh
                 else: missing.append(v)
-    fields = sorted({f for _, f in cfg['data_fields']})
+    # names stored as {"Singular": ..., "Plural": ...}; Chinese has no plural, both get the same text
+    for t in cfg.get('data_plural_names', []):
+        for o in objs.get(t, []):
+            v = o.get('DisplayName')
+            if isinstance(v, dict) and isinstance(v.get('Singular'), str):
+                zh = (extra.get(v['Singular']) or table.get(('PluralName', v['Singular']))
+                      or table.get(('', v['Singular'])))
+                if not zh:
+                    missing.append(v['Singular']); continue
+                for k in ('Singular', 'Plural'):
+                    if isinstance(v.get(k), str) and targets.setdefault((k, v[k]), zh) != zh:
+                        targets[(k, v[k])] = None   # same English, different Chinese: leave it alone
+    fields = sorted({f for _, f in cfg['data_fields']} | ({'Singular', 'Plural'} if cfg.get('data_plural_names') else set()))
     count = [0]
 
     def rep(m):
@@ -323,7 +335,8 @@ def main():
     st = slot_state(exe, e)
     print(f'game: {game}\ngodot {d["godot"]} | zh_CN.po: {st} | override.cfg: {"yes" if os.path.exists(cfg) else "no"}')
     others = source_text_entries(d)
-    print('source text: ' + ', '.join(f"{os.path.basename(x['path']).split('-')[-1]} {slot_state(exe, x)}" for x in others))
+    states = [slot_state(exe, x) for x in others]
+    print('source text files: ' + ', '.join(f'{states.count(s)} {s}' for s in ('original', 'patched', 'unknown') if s in states))
     if cmd == 'status':
         return
     if cmd == 'restore':

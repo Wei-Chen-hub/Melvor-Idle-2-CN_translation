@@ -22,7 +22,7 @@ Melvor Idle 2 的游戏文件里，其实已经带了一份官方还没正式启
    - 补全 1872 条缺失条目。大部分是物品名的复数形式，缺了它们，日志和掉落提示里会显示英文。
    - 对照英文原文逐条检查了全部 10407 条文本，修正 354 处：错译、错别字、漏译、术语不统一、换行格式错误等。
    - 部分译名（祝祭、法术等）与一代 Melvor Idle 的官方中文保持一致。
-3. **替换游戏没有翻译的界面文字**：商店物品描述、战斗区域/地下城名称、星象学面板的「per Study」「Next unlock at」等，游戏显示时不会调用翻译，补丁直接把这些英文原文换成中文（只改文字，不改游戏代码）。
+3. **替换游戏没有翻译的界面文字**：游戏数据里的名称和描述（物品、商店、战斗区域/地下城、攻击姿态、精通公会、灵巧地点等），「任务类别」标题，以及约 40 处由代码填数字的界面文字（烹饪难度、星象学「per Study」、「in Bank」、底栏「Level」等）。游戏显示这些文字时不调用翻译，补丁直接把英文原文换成中文（只改文字，不改游戏代码）。
 
 翻译主体仍然是官方草稿，本仓库只保存**修正和补充的部分**（`translation/`），安装时脚本从你自己的游戏里读取官方草稿，在本地合并后写回游戏。
 
@@ -65,10 +65,10 @@ Melvor Idle 2 的游戏文件里，其实已经带了一份官方还没正式启
 
 ## 已知问题（需要开发者修复）
 
-以下界面的文字由游戏代码直接生成，没有调用翻译，补丁无法修复（商店描述、战斗区域名、星象学面板已通过替换原文解决）：
+以下文字由游戏代码直接生成，补丁无法修复：
 
-- 获得物品提示里的「13 in Bank」、底栏等级进度里的「Level」
-- 底栏时间下拉框的「10 minutes」（翻译文件里没有这条）
+- 底栏时间下拉框的「10 minutes」
+- 受长度限制，个别位置保留了英文缩写（如「+15 HP」「3.00s」）
 
 ## 参与修正
 
@@ -114,7 +114,7 @@ The game already ships an unreleased official Simplified Chinese (`zh_CN.po`) dr
    - adds 1,872 missing entries (mostly `PluralName`-context item names, without which logs and drop messages show English);
    - checks all 10,407 strings against the English source and fixes 354 issues (mistranslations, typos, missing information, inconsistent terminology, broken line breaks);
    - aligns some names (prayers, spells) with Melvor Idle 1's official Chinese;
-3. **replaces the English source text of UI the game never translates** (shop item descriptions, combat area and dungeon names, the astrology panel's "per Study" / "Next unlock at" labels). Only text is changed, never game code.
+3. **replaces the English source text of UI the game never translates**: names and descriptions in the game data (items, shop, combat areas and dungeons, attack stances, mastery guild, agility locations, ...), the "Task Categories" heading, and about 40 code-formatted labels (cooking difficulty, astrology "per Study", "in Bank", bottom-bar "Level", ...). Only text is changed, never game code.
 
 The bulk of the translation is still the official draft. This repository only holds the **corrections and additions** (`translation/`). At install time the script reads the draft from your own game files, merges the changes locally, and writes the result back into the game.
 
@@ -146,10 +146,10 @@ Other commands: `status` (show state), `restore` (uninstall: put every modified 
 
 ## Known issues (need a fix from the developers)
 
-The following UI text is built in game code without going through translation, so the patch cannot fix it (shop descriptions, combat area names and the astrology panel are now handled by replacing the source text):
+The following text is generated in game code, so the patch cannot fix it:
 
-- Item notification "{0:N0} in Bank"; "Level" in the bottom-bar level progress
-- "10 minutes" in the bottom-bar time dropdown (not present in the translation file at all)
+- "10 minutes" in the bottom-bar time dropdown
+- a few labels keep short English units because the Chinese would not fit (e.g. "+15 HP", "3.00s")
 
 ## Contributing
 
