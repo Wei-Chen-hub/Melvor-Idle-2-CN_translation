@@ -26,6 +26,11 @@ WORK_DIR = os.path.join(HERE, '_work')
 OVERRIDE_CFG = ('[internationalization]\n\n'
                 'locale/translations=PackedStringArray("res://Locale/en_GB.po", "res://Locale/zh_CN.po")\n')
 
+def cfg_without_ours(text):
+    """override.cfg minus our [internationalization] block; other sections (e.g. mods' autoloads) are kept."""
+    return text.replace(OVERRIDE_CFG, '', 1)
+
+
 try:
     sys.stdout.reconfigure(encoding="utf-8"); sys.stderr.reconfigure(encoding="utf-8")
 except Exception:
@@ -165,6 +170,10 @@ def parse(text):
     return [e for e in ents if e.get('msgid')]
 
 
+def po_escape(s):
+    return s.replace('\\', '\\\\').replace('"', '\\"').replace('\n', '\\n').replace('\t', '\\t')
+
+
 def po_unescape(s):
     return re.sub(r'\\(.)', lambda m: {'n': '\n', 't': '\t'}.get(m.group(1), m.group(1)), s)
 
@@ -195,6 +204,11 @@ def build(zh_text, en_text):
         else:
             continue
         added += 1
+    # game text edited after the po was made (typo fixes, new lines): new English -> Chinese, plain (unescaped) text
+    have = {key(e) for e in entries}
+    for en_s, zh_s in load_json('new_text.json').items():
+        if ('', po_escape(en_s)) not in have:
+            entries.append({'msgid': po_escape(en_s), 'msgstr': po_escape(zh_s)}); added += 1
     q = lambda s: '"' + s + '"'
     out = [header]
     for e in entries:
@@ -346,8 +360,12 @@ def main():
                 if not os.path.exists(bp):
                     sys.exit('找不到备份，请用 Steam「验证游戏文件完整性」还原 / No backup; verify game files in Steam instead.')
                 write_slot(exe, x, open(bp, 'rb').read())
-        if os.path.exists(cfg) and open(cfg, encoding='utf-8').read() == OVERRIDE_CFG:
-            os.remove(cfg)
+        if os.path.exists(cfg):
+            rest = cfg_without_ours(open(cfg, encoding='utf-8').read())
+            if rest.strip():
+                open(cfg, 'w', encoding='utf-8', newline='\n').write(rest)   # keep other people's settings
+            else:
+                os.remove(cfg)
         print('已还原 / restored')
         return
     draft = original(exe, e)
@@ -378,9 +396,11 @@ def main():
             write_slot(exe, x, new)
             if read(exe, x) != new:
                 sys.exit(f"verification failed: {x['path']}")
-    if os.path.exists(cfg) and open(cfg, encoding='utf-8').read() != OVERRIDE_CFG:
+    rest = cfg_without_ours(open(cfg, encoding='utf-8').read()) if os.path.exists(cfg) else ''
+    if 'locale/translations' in rest:   # someone else's translation list would clash with ours
         os.replace(cfg, cfg + '.bak'); print('existing override.cfg moved to override.cfg.bak')
-    open(cfg, 'w', encoding='utf-8', newline='\n').write(OVERRIDE_CFG)
+        rest = ''
+    open(cfg, 'w', encoding='utf-8', newline='\n').write(OVERRIDE_CFG + ('\n' + rest.lstrip('\n') if rest.strip() else ''))
     print('安装完成：启动游戏后在语言选项里选择中文。/ Done: start the game and choose Chinese in the language options.')
 
 

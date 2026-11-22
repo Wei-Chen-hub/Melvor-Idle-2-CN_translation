@@ -51,7 +51,7 @@ Melvor Idle 2 的游戏文件里，其实已经带了一份官方还没正式启
 | 命令 | 作用 |
 |---|---|
 | `python melvor2_zh.py status` | 查看当前是否已安装 |
-| `python melvor2_zh.py restore` | 卸载：还原所有被修改的原始文件，删除 `override.cfg` |
+| `python melvor2_zh.py restore` | 卸载：还原所有被修改的原始文件，从 `override.cfg` 中移除汉化设置（其他设置保留） |
 | `python melvor2_zh.py build` | 只生成合并后的文件到 `_work/`，不改动游戏 |
 
 ## 注意事项
@@ -72,7 +72,7 @@ Melvor Idle 2 的游戏文件里，其实已经带了一份官方还没正式启
 
 ## 参与修正
 
-翻译修正在 `translation/overrides.json`（游戏不翻译的原文替换在 `translation/source_text.json`），每条修正格式如下：
+翻译修正在 `translation/overrides.json`（游戏不翻译的原文替换在 `translation/source_text.json`；游戏后来改了英文、导致官方译文对不上的文本在 `translation/new_text.json`），每条修正格式如下：
 
 ```json
 {"ctxt": "", "en": "英文原文（必须与游戏完全一致）", "zh": "修正后的译文", "reason": "修改理由", "reason_en": "英文版修改理由"}
@@ -135,7 +135,7 @@ The bulk of the translation is still the official draft. This repository only ho
 
 4. Start the game, open **Settings → Language** and choose **Chinese, China**.
 
-Other commands: `status` (show state), `restore` (uninstall: put every modified file back and remove `override.cfg`), `build` (only write the merged files to `_work/`).
+Other commands: `status` (show state), `restore` (uninstall: put every modified file back and remove our entry from `override.cfg`, keeping any other settings), `build` (only write the merged files to `_work/`).
 
 ## Notes
 
@@ -153,7 +153,7 @@ The following text is generated in game code, so the patch cannot fix it:
 
 ## Contributing
 
-All corrections live in `translation/overrides.json` as `{"ctxt", "en", "zh", "reason", "reason_en"}`; `reason_en` is an English explanation of each change. Placeholders, BBCode tags and `\n` counts must match the English text. Issues and pull requests are welcome.
+Text the game changed after the draft was made (so the official translation no longer matches) is in `translation/new_text.json` as plain `{"new English": "Chinese"}`. All corrections live in `translation/overrides.json` as `{"ctxt", "en", "zh", "reason", "reason_en"}`; `reason_en` is an English explanation of each change. Placeholders, BBCode tags and `\n` counts must match the English text. Issues and pull requests are welcome.
 
 ## License
 
