@@ -122,7 +122,27 @@
     "10% chance to consume when used in Herblore Catalyst Toolbelt slot.": "放入草药催化剂工具带栏位使用时，有10%几率被消耗。",
     "Bonus coming soon. Keep this item.": "加成即将推出，请保留此物品。",
     "Relics of the Past": "往昔遗物",
-    "The stars guide you to a secluded stream within the Shrapnel River.": "星辰指引你来到溪泾中一条僻静的溪流。"
+    "The stars guide you to a secluded stream within the Shrapnel River.": "星辰指引你来到溪泾中一条僻静的溪流。",
+    "Flesh Healing": "血肉治愈",
+    "Quest - Sand in the Wind": "任务 - 风中的沙",
+    "Abyssal Vault Door": "深渊宝库大门",
+    "Equip this in Mining to mine Meteorite Ore": "在采矿中装备此物品，即可开采陨石矿石",
+    "Equip this in Mining to mine Fallen Stars": "在采矿中装备此物品，即可开采坠星",
+    "Equip this in Mining to mine Golden Fallen Stars": "在采矿中装备此物品，即可开采黄金坠星",
+    "Combat Charms": "战斗护身符",
+    "Agility Cheat Sheets": "灵巧速查指南",
+    "Woodcutting Gear": "伐木装备",
+    "Fishing Gear": "钓鱼装备",
+    "Mining Gear": "采矿装备",
+    "Smithing Gear": "锻造装备",
+    "Crafting Gear": "制造装备",
+    "Fletching Gear": "弓匠装备",
+    "Runecrafting Gear": "符文锻造装备",
+    "Beastcrafting Gear": "兽工造物装备",
+    "Herblore Gear": "草药学装备",
+    "Tough courses with speed-based rewards.": "高难度路线，奖励取决于完成速度。",
+    "Major": "主要",
+    "Minor": "次要"
   },
   "scenes": {
     "-current_constellation_view.scn": [
